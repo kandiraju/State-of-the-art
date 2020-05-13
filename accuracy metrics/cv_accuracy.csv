@@ -1,0 +1,60 @@
+Area,Parent Task,Task,Dataset,Best method name,,earliest,latest,earliest scaled,earliest  Percentile ( low/ high),latest scaled,latest  Percentile ( low/ high),Bucket
+Computer Vision,Image Retrieval,Image Retrieval,Par106k,DELF+FT+ATT+DIR+QE,,91,93,0.48,Low,0.38,Low,1
+Computer Vision,Image Retrieval,Image Retrieval,Par6k,DELF+FT+ATT+DIR+QE,,94,96,0.51,Low,0.42,Low,1
+Computer Vision,Image Retrieval,Image Retrieval,street2shop - topwear,Ranknet,,9498,9498,95.63,High,95.63,High,4
+Computer Vision,Action Recognition,Action Recognition,UCF101,Two-Stream I3D,,9340,9340,94.03,High,94.03,High,4
+Computer Vision,Action Recognition,Action Recognition,HMDB51,Two-Stream I3D,,8090,8090,81.39,High,81.37,High,4
+Computer Vision,Visual Question Answering,Visual Question Answering,VQA v2,"Image features from bottom-up attention, adaptive K, ensemble",,62,70,0.18,Low,0.15,Low,1
+Computer Vision,Facial Recognition and Modelling,Face Recognition,Olivetti Faces 5 Image,RMDL,,9500,9500,95.65,High,95.65,High,4
+Computer Vision,Facial Recognition and Modelling,Face Verification,Labeled Faces in the Wild,"ArcFace + MS1MV2 + R100, ",,99,100,0.56,Low,0.46,Low,1
+Computer Vision,Facial Recognition and Modelling,Face Verification,YouTube Faces DB,"SeqFace, 1 ResNet-64",,93,9812,0.50,Low,98.81,High,2
+Computer Vision,Facial Recognition and Modelling,Face Verification,MegaFace,ArcFace + MS1MV2 + R100 + R,,86,98,0.42,Low,0.44,Low,1
+Computer Vision,Facial Recognition and Modelling,Facial Expression Recognition, Static Facial Expressions in the Wild,Covariance Pooling,,58,58,0.14,Low,0.03,Low,1
+Computer Vision,Facial Recognition and Modelling,Facial Expression Recognition,Real-World Affective Faces,Covariance Pooling,,87,87,0.43,Low,0.32,Low,1
+Computer Vision,Facial Recognition and Modelling,Facial Expression Recognition,Cohn-Kanade,Sequential forward selection,,89,89,0.46,Low,0.34,Low,1
+Computer Vision,Facial Recognition and Modelling,Facial Expression Recognition,MMI,DeXpression,,99,99,0.56,Low,0.45,Low,1
+Computer Vision,Facial Recognition and Modelling,Face Identification,MegaFace,ArcFace + MS1MV2 + R100 + R,,70,98,0.26,Low,0.44,Low,1
+Computer Vision,Facial Recognition and Modelling,Face Identification,IJB-A,Deep Residual Equivariant Mapping,,91,95,0.48,Low,0.41,Low,1
+Computer Vision,Facial Recognition and Modelling,Face Identification,IJB-B,FPN,,91,91,0.48,Low,0.36,Low,1
+Computer Vision,Image Classification,Few-Shot Image Classification,Mini-ImageNet - 5-Shot Learning,MetaOptNet-SVM,,55,79,0.11,Low,0.24,Low,1
+Computer Vision,Image Classification,Few-Shot Image Classification,Mini-ImageNet - 1-Shot Learning,MetaOptNet-SVM,,44,63,0.00,Low,0.08,Low,1
+Computer Vision,Image Classification,Few-Shot Image Classification,OMNIGLOT - 1-Shot Learning,Prototypical-Nets,,98,99,0.55,Low,0.45,Low,1
+Computer Vision,Image Classification,Few-Shot Image Classification,OMNIGLOT - 5-Shot Learning,MAML,,100,100,0.57,Low,0.46,Low,1
+Computer Vision,Image Classification,Few-Shot Image Classification,CUB-200 - 0-Shot Learning,Prototypical-Nets,,50,55,0.06,Low,0.00,Low,1
+Computer Vision,Pose Estimation,6D Pose Estimation,LineMOD,PoseCNN + DeepIM,,84,98,0.40,Low,0.44,Low,1
+Computer Vision,Pose Estimation,6D Pose Estimation,OccludedLINEMOD,PoseCNN + ICP,,77,78,0.33,Low,0.23,Low,1
+Computer Vision,Pose Estimation,6D Pose Estimation,T-LESS,RetinaNet+Augmented Autoencoders+ICP,,5714,5714,57.35,High,57.31,High,4
+Computer Vision,Image Classification,Semi-Supervised Image Classification,"CIFAR-10, 4000 Labels",SWSA,,7960,9500,80.07,High,95.65,High,4
+Computer Vision,Image Classification,Semi-Supervised Image Classification,"SVHN, 1000 labels",VAT+EntMin,,9189,9614,92.50,High,96.80,High,4
+Computer Vision,Image Classification,Semi-Supervised Image Classification,STL-10,IIC,,8880,8880,89.38,High,89.37,High,4
+Computer Vision,Emotion Recognition,Multimodal Emotion Recognition,Monologue,bc-LSTM,,74,74,0.30,Low,0.19,Low,1
+Computer Vision,Image Classification,Fine-Grained Image Classification, CUB-200-2011,Inception-V3,,76,8960,0.32,Low,90.18,High,2
+Computer Vision,Image Classification,Fine-Grained Image Classification,Stanford Cars,WS-DAN,,93,95,0.50,Low,0.41,Low,1
+Computer Vision,Image Classification,Fine-Grained Image Classification,FGVC Aircraft,WS-DAN,,91,93,0.48,Low,0.38,Low,1
+Computer Vision,Image Classification,Fine-Grained Image Classification,CompCars,A3M,,91,95,0.48,Low,0.41,Low,1
+Computer Vision,Image Classification,Fine-Grained Image Classification,Stanford Dogs,WS-DAN,,84,9210,0.40,Low,92.71,High,2
+Computer Vision,Image Classification,Fine-Grained Image Classification,Oxford 102 Flowers,PC Bilinear CNN,,94,94,0.51,Low,0.39,Low,1
+Computer Vision,Image Classification,Fine-Grained Image Classification,NABirds,PC-DenseNet-161,,83,83,0.39,Low,0.28,Low,1
+Computer Vision,Autonomous Vehicles,Lane Detection,TuSimple,Spatial CNN,,96,97,0.53,Low,0.43,Low,1
+Computer Vision,Autonomous Vehicles,Traffic Sign Recognition,GTSRB,MCDNN,,100,100,0.57,Low,0.46,Low,1
+Computer Vision,Trajectory Prediction,Trajectory Prediction,GPS,Support Vector Machines,,88,88,0.45,Low,0.33,Low,1
+Computer Vision,Object Recognition,3D Object Recognition,ModelNet40,MVCNN-MultiRes,,94,94,0.51,Low,0.39,Low,1
+Computer Vision,Facial Recognition and Modelling,Age-Invariant Face Recognition,CACDVS,AIM + CAFR,,98,100,0.55,Low,0.46,Low,1
+Computer Vision,Facial Recognition and Modelling,Age-Invariant Face Recognition,CAFR,AIM,,74,85,0.30,Low,0.30,Low,1
+Computer Vision,Facial Recognition and Modelling,Age-Invariant Face Recognition,FG-NET,AIM,,93,93,0.50,Low,0.38,Low,1
+Computer Vision,Autonomous Vehicles,Pedestrian Attribute Recognition,PA-100K,HP-net,,72,72,0.28,Low,0.17,Low,1
+Computer Vision,Autonomous Vehicles,Pedestrian Attribute Recognition,PETA,HP-net,,76,76,0.32,Low,0.21,Low,1
+Computer Vision,Autonomous Vehicles,Pedestrian Attribute Recognition,RAP,HP-net,,65,65,0.21,Low,0.10,Low,1
+Computer Vision,Safety Perception Recognition,Safety Perception Recognition,Google Street Images,CNN,,81,81,0.37,Low,0.26,Low,1
+Computer Vision,Image Classification,Unsupervised image classification,STL-10,IIC,,61,61,0.17,Low,0.06,Low,1
+Computer Vision,Image Classification,Unsupervised image classification,CIFAR-10,IIC,,6170,6170,61.97,High,61.92,High,4
+Computer Vision,Image Classification,Unsupervised image classification,CIFAR-20,IIC,,2570,2570,25.55,High,25.47,High,4
+Computer Vision,Image Classification,Unsupervised image classification,MNIST,IIC,,9930,9930,100.00,High,100.00,High,4
+Computer Vision,Semantic Segmentation,Unsupervised semantic segmentation,COCO-Stuff-15,IIC,,2770,2770,27.57,High,27.49,High,4
+Computer Vision,Semantic Segmentation,Unsupervised semantic segmentation,COCO-Stuff-3,IIC,,7230,7230,72.69,High,72.66,High,4
+Computer Vision,Semantic Segmentation,Unsupervised semantic segmentation,Potsdam,IIC,,6510,6510,65.41,High,65.37,High,4
+Computer Vision,Semantic Segmentation,Unsupervised semantic segmentation,Potsdam-3,IIC,,4540,4540,45.48,High,45.42,High,4
+Computer Vision,Image Recognition,License Plate Recognition,Chinese License Plates,LPRNet basic,,95,95,0.52,Low,0.41,Low,1
+Computer Vision,3D,3D Part Segmentation,ShapeNet-Part,3D-PointCapsNet,,8600,8600,86.55,High,86.53,High,4
+Computer Vision,Facial Recognition and Modelling,Smile Recognition,DISFA,Deep CNN,,99,99,0.56,Low,0.45,Low,1
+Computer Vision,Image Classification,Document Image Classification,RVL-CDIP,Transfer Learning from VGG16 trained on Imagenet,,90,92,0.47,Low,0.37,Low,1

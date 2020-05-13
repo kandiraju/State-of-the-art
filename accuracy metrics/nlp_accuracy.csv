@@ -1,0 +1,56 @@
+Area,Parent Task,Task,Dataset,Best method name,,earliest,latest,earliest scaled,earliest  Percentile ( low/ high),latest scaled,earliest  Percentile ( low/ high)
+Natural Language Processing,Language Modelling,Language Modelling,Sequential MNIST,Trellis Network,,9920,9920,100.00,High,100.00,High
+Natural Language Processing,Question Answering,Question Answering,Story Cloze Test,Finetuned Transformer LM,,7870,7870,79.33,High,79.33,High
+Natural Language Processing,Question Answering,Question Answering,Reverb,Weakly Supervised Embeddings,,73,73,0.74,Low,0.74,Low
+Natural Language Processing,Question Answering,Question Answering,MCTest-500,Parallel-Hierarchical,,71,71,0.72,Low,0.72,Low
+Natural Language Processing,Question Answering,Question Answering,Quora Question Pairs,BERT (single model),,72,72,0.73,Low,0.73,Low
+Natural Language Processing,Question Answering,Question Answering,MCTest-160,"syntax, frame, coreference, and word embedding features",,75,75,0.76,Low,0.76,Low
+Natural Language Processing,Sentiment Analysis,Sentiment Analysis,SST-2 Binary classification,MT-DNN,,8540,9560,86.09,High,96.37,High
+Natural Language Processing,Sentiment Analysis,Sentiment Analysis,SST-5 Fine-grained classification,EDD-LG (shared),,4570,6440,46.07,Low,64.92,High
+Natural Language Processing,Sentiment Analysis,Sentiment Analysis,IMDb,ULMFiT,,9233,9540,93.07,High,96.17,High
+Natural Language Processing,Sentiment Analysis,Sentiment Analysis,MR,MEAN,,7826,8450,78.89,High,85.18,High
+Natural Language Processing,Sentiment Analysis,Sentiment Analysis,Amazon Review Full,DRNN,,6020,6443,60.69,High,64.95,High
+Natural Language Processing,Sentiment Analysis,Sentiment Analysis,Amazon Review Polarity,DRNN,,9460,9649,95.36,High,97.27,High
+Natural Language Processing,Sentiment Analysis,Sentiment Analysis,CR,Block-sparse LSTM,,9220,9220,92.94,High,92.94,High
+Natural Language Processing,Sentiment Analysis,Sentiment Analysis,MPQA,USE_T+DAN (w2v w.e.) ,,8814,8814,88.85,High,88.85,High
+Natural Language Processing,Sentiment Analysis,Sentiment Analysis,Sogou News,fastText,,9680,9680,97.58,High,97.58,High
+Natural Language Processing,Text Classification,Text Classification,Yahoo! Answers,DRNN,,7230,7626,72.88,High,76.88,High
+Natural Language Processing,Text Classification,Text Classification,Ohsumed,SGCN,,3620,6850,36.49,Low,69.05,High
+Natural Language Processing,Text Classification,Text Classification,R52,SGCN,,9356,9400,94.31,High,94.76,High
+Natural Language Processing,Text Classification,Text Classification,20NEWS,SGCN,,8634,8850,87.04,High,89.21,High
+Natural Language Processing,Text Classification,Text Classification,R8,SGCN,,9707,9720,97.85,High,97.98,High
+Natural Language Processing,Text Classification,Text Classification,Sogou News,CCCapsNet,,9725,9725,98.03,High,98.03,High
+Natural Language Processing,Text Classification,Text Classification,IMDb,L MIXED,,9568,9568,96.45,High,96.45,High
+Natural Language Processing,Natural Language Inference,Natural Language Inference,SciTail,MT-DNN,,8330,9410,83.97,High,94.86,High
+Natural Language Processing,Natural Language Inference,Natural Language Inference,V-SNLI,V-BiMPM,,8699,8699,87.69,High,87.69,High
+Natural Language Processing,Natural Language Inference,Natural Language Inference,Quora Question Pairs,aESIM,,8801,8801,88.72,High,88.72,High
+Natural Language Processing,Part-Of-Speech Tagging,Part-Of-Speech Tagging,Penn Treebank,Meta BiLSTM,,9778,9796,98.57,High,98.75,High
+Natural Language Processing,Part-Of-Speech Tagging,Part-Of-Speech Tagging,Social media,GATE,,0,0,0.00,Low,0.00,Low
+Natural Language Processing,Semantic Parsing,Semantic Parsing,spider,Exact Set Matching,,1970,1970,19.86,Low,19.86,Low
+Natural Language Processing,Text Classification,Document Classification,WOS-11967,RMDL,,8607,9159,86.76,High,92.33,High
+Natural Language Processing,Text Classification,Document Classification,WOS-46985,RMDL,,7658,9069,77.20,High,91.42,High
+Natural Language Processing,Text Classification,Document Classification,WOS-5736,RMDL,,9093,9357,91.66,High,94.32,High
+Natural Language Processing,Text Classification,Document Classification,Reuters-21578,RMDL,,9069,9069,91.42,High,91.42,High
+Natural Language Processing,Text Classification,Document Classification,IMDb,RMDL,,9079,9079,91.52,High,91.52,High
+Natural Language Processing,Text Classification,Document Classification,20NEWS,RMDL,,8791,8791,88.62,High,88.62,High
+Natural Language Processing,Dialogue,Dialogue Generation,Ubuntu Dialogue (Tense),MrRNN Act.-Ent.,,29,29,0.29,Low,0.29,Low
+Natural Language Processing,Dialogue,Dialogue Generation,Ubuntu Dialogue (Cmd),MrRNN Act.-Ent.,,95,95,0.96,Low,0.96,Low
+Natural Language Processing,Dialogue,Dialogue Generation,Twitter Dialogue (Tense),MrRNN Act.-Ent.,,34,34,0.34,Low,0.34,Low
+Natural Language Processing,Paraphrase Identification,Paraphrase Identification,Quora Question Pairs,MT-DNN,,8817,8960,88.88,High,90.32,High
+Natural Language Processing,Sentiment Analysis,Multimodal Sentiment Analysis,MOSI,MMMU-BA,,80,82,0.81,Low,0.83,Low
+Natural Language Processing,Subjectivity Analysis,Subjectivity Analysis,SUBJ,AdaSent,,9550,9550,96.27,High,96.27,High
+Natural Language Processing,Sarcasm Detection,Sarcasm Detection,SARC (all-bal),CASCADE,,7580,7700,76.41,High,77.62,High
+Natural Language Processing,Sarcasm Detection,Sarcasm Detection,SARC (pol-bal),Bag-of-Bigrams,,7650,7650,77.12,High,77.12,High
+Natural Language Processing,Stance Detection,Stance Detection,RumourEval,Kochkina et al. 2017,,78,78,0.79,Low,0.79,Low
+Natural Language Processing,Cross-Lingual,Cross-Lingual Document Classification,MLDoc Zero-Shot English-to-Spanish,Massively Multilingual Sentence Embeddings,,73,77,0.74,Low,0.78,Low
+Natural Language Processing,Cross-Lingual,Cross-Lingual Document Classification,MLDoc Zero-Shot English-to-French,Massively Multilingual Sentence Embeddings,,75,78,0.76,Low,0.79,Low
+Natural Language Processing,Cross-Lingual,Cross-Lingual Document Classification,MLDoc Zero-Shot English-to-German,Massively Multilingual Sentence Embeddings,,81,85,0.82,Low,0.86,Low
+Natural Language Processing,Natural Language Inference,Cross-Lingual Natural Language Inference,XNLI Zero-Shot English-to-Spanish,BERT,,69,74,0.70,Low,0.75,Low
+Natural Language Processing,Natural Language Inference,Cross-Lingual Natural Language Inference,XNLI Zero-Shot English-to-German,BiLSTM,,68,73,0.69,Low,0.74,Low
+Natural Language Processing,Natural Language Inference,Cross-Lingual Natural Language Inference,XNLI Zero-Shot English-to-French,BiLSTM,,68,72,0.69,Low,0.73,Low
+Natural Language Processing,CCG Supertagging,CCG Supertagging,CCGBank,Clark et al.,,9470,9610,95.46,High,96.88,High
+Natural Language Processing,Dialogue,Dialogue Act Classification,Switchboard corpus,CRF-ASN,,7920,8130,79.84,High,81.96,High
+Natural Language Processing,Dialogue,Dialogue Act Classification,ICSI Meeting Recorder Dialog Act (MRDA) corpus,CRF-ASN,,9090,9170,91.63,High,92.44,High
+Natural Language Processing,Entity Resolution,Entity Resolution,CoNLL 2003 (English),deep joint entity disambiguation w/ neural attention,,9222,9222,92.96,High,92.96,High
+Natural Language Processing,Query Wellformedness,Query Wellformedness,Query Wellformedness,"word-1, 2 POS-1, 2, 3",,7070,7070,71.27,High,71.27,High
+Natural Language Processing,Lexical Normalization,Lexical Normalization,LexNorm,MoNoise,,8763,8763,88.34,High,88.34,High
