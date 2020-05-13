@@ -1,0 +1,246 @@
+﻿Area,Parent Task,Task,Dataset,Best method name,Primary metric,Primary metric - is higher better?,Metric first reported value,2013,2014,2015,2016,2017,2018,2019
+Computer Vision,Semantic Segmentation,Semantic Segmentation,PASCAL VOC 2012,DeepLabv3+ (Xception-JFT),Mean IoU,TRUE,0.70,,,0.70,0.85,0.87,0.89,0.89
+Computer Vision,Semantic Segmentation,Semantic Segmentation,Cityscapes,DeepLabv3+ (Xception-JFT),Mean IoU,TRUE,0.63,,0.63,0.67,0.81,0.82,0.82,0.82
+Computer Vision,Semantic Segmentation,Semantic Segmentation,PASCAL Context,Joint Pyramid Upsampling + EncNet,mIoU,TRUE,37.80,,37.80,43.30,47.30,47.30,51.70,53.10
+Computer Vision,Semantic Segmentation,Semantic Segmentation,ADE20K,PSPNet,Validation mIoU,TRUE,29.39,,29.39,32.31,44.94,44.94,44.94,44.94
+Computer Vision,Semantic Segmentation,Semantic Segmentation,CamVid,PSPNet,Mean IoU,TRUE,0.62,,0.62,0.65,0.69,0.69,0.69,0.69
+Computer Vision,Semantic Segmentation,Semantic Segmentation,ShapeNet,SGPN,Mean IoU,TRUE,0.85,,,,,0.86,0.86,0.86
+Computer Vision,Semantic Segmentation,Semantic Segmentation,NYU Depth v2,Dilated FCN-2s RGB,Mean IoU,TRUE,0.32,,,,,0.32,0.32,0.32
+Computer Vision,Image Classification,Image Classification,CIFAR-10,GPIPE + transfer learning,Percentage correct,TRUE,88.80,91.20,96.50,96.50,96.69,97.88,99.00,99.00
+Computer Vision,Image Classification,Image Classification,CIFAR-100,GPIPE,Percentage correct,TRUE,57.50,64.30,75.70,75.70,82.62,84.59,91.30,91.30
+Computer Vision,Image Classification,Image Classification,ImageNet,GPIPE,Top 1 Accuracy,TRUE,0.70,,0.70,0.79,0.81,0.83,0.84,0.84
+Computer Vision,Image Classification,Image Classification,STL-10,IIC,Percentage correct,TRUE,70.10,70.10,72.80,74.33,77.79,87.26,87.26,88.80
+Computer Vision,Image Classification,Image Classification,MSRC-21 (per-class),Large FC CRF,Percentage correct,TRUE,,,,,,,,
+Computer Vision,Image Classification,Image Classification,MSRC-21 (per-pixel),HCRF+CO,Percentage correct,TRUE,,,,,,,,
+Computer Vision,Image Classification,Image Classification,iNaturalist,IncResNetV2 SE,Top 1 Accuracy,TRUE,0.67,,,,,0.67,0.67,0.67
+Computer Vision,Object Detection,Object Detection,COCO,SNIPER,Bounding Box AP,TRUE,34.90,,,34.90,36.80,45.70,47.60,47.60
+Computer Vision,Object Detection,Object Detection,PASCAL VOC 2007,SNIPER,MAP,TRUE,0.82,,0.82,0.82,0.82,0.84,0.87,0.87
+Computer Vision,Object Detection,Object Detection,ImageNet Detection,Inception V1,MAP,TRUE,0.24,0.24,0.44,0.44,0.44,0.44,0.44,0.44
+Computer Vision,Image Generation,Image Generation,CIFAR-10,PGGAN,Inception score,TRUE,5.34,,,,6.86,8.80,8.80,8.80
+Computer Vision,Pose Estimation,Pose Estimation,MPII Human Pose,HRNet-32,PCKh-0.5,TRUE,0.82,,,0.82,0.91,0.92,0.92,0.92
+Computer Vision,Pose Estimation,Pose Estimation,Leeds Sports Poses,Pyramid Residual Modules (PRMs),PCK,TRUE,0.91,,,,0.91,0.94,0.94,0.94
+Computer Vision,Pose Estimation,Pose Estimation,FLIC Elbows,Stacked Hourglass Networks,PCK@0.2,TRUE,0.98,,,,0.99,0.99,0.99,0.99
+Computer Vision,Pose Estimation,Pose Estimation,FLIC Wrists,Stacked Hourglass Networks,PCK@0.2,TRUE,0.95,,,,0.97,0.97,0.97,0.97
+Computer Vision,Pose Estimation,Pose Estimation,DensePose-COCO,Parsing R-CNN + ResNext101,AP,TRUE,55.80,,,,,,61.60,61.60
+Computer Vision,Pose Estimation,Pose Estimation,ITOP top-view,V2V-PoseNet,Mean mAP,TRUE,75.50,,,,75.50,83.44,83.44,83.44
+Computer Vision,Pose Estimation,Pose Estimation,COCO,HRNet-48,Mean mAP,TRUE,73.70,,,,,,73.70,77.00
+Computer Vision,Pose Estimation,Pose Estimation, ITOP front-view,V2V-PoseNet,Mean mAP,TRUE,77.40,,,,77.40,88.74,88.74,88.74
+Computer Vision,Super Resolution,Super Resolution,Set5-2x,FALSR-A ,PSNR,TRUE,37.82,,,,,,,37.82
+Computer Vision,Image Retrieval,Image Retrieval,Par106k,DELF+FT+ATT+DIR+QE,Accuracy,TRUE,0.91,,,,0.93,0.93,0.93,0.93
+Computer Vision,Image Retrieval,Image Retrieval,Oxf105k,DELF+FT+ATT+DIR+QE,MAP,TRUE,0.88,,,,0.89,0.89,0.89,0.89
+Computer Vision,Image Retrieval,Image Retrieval,Par6k,DELF+FT+ATT+DIR+QE,Accuracy,TRUE,0.94,,,,0.96,0.96,0.96,0.96
+Computer Vision,Image Retrieval,Image Retrieval,Oxf5k,DELF+FT+ATT+DIR+QE,MAP,TRUE,0.89,,,,0.90,0.90,0.90,0.90
+Computer Vision,Image Retrieval,Image Retrieval,street2shop - topwear,Ranknet,Accuracy,TRUE,94.98,,,,,,,94.98
+Computer Vision,Image Retrieval,Image Retrieval,INRIA Holidays,MultiGrain R50 @ 800,Mean mAP,TRUE,0.93,,,,,,,0.93
+Computer Vision,Image Retrieval,Image Retrieval,Stanford Cars,ABE-8-512,Recall@8,TRUE,96.10,,,,,,96.10,96.10
+Computer Vision,Action Recognition,Action Recognition,UCF101,Two-Stream I3D,Accuracy,TRUE,93.40,,,,,93.40,93.40,93.40
+Computer Vision,Action Recognition,Action Recognition,HMDB51,Two-Stream I3D,Accuracy,TRUE,80.90,,,,,80.90,80.90,80.90
+Computer Vision,Visual Question Answering,Visual Question Answering,COCO Visual Question Answering (VQA) real images 1.0 open ended,MCB 7 att.,Percentage correct,TRUE,58.20,,,58.90,66.50,66.50,66.50,66.50
+Computer Vision,Visual Question Answering,Visual Question Answering,VQA v2,"Image features from bottom-up attention, adaptive K, ensemble",Accuracy,TRUE,0.62,,,,0.62,0.70,0.70,0.70
+Computer Vision,Visual Question Answering,Visual Question Answering,COCO Visual Question Answering (VQA) real images 1.0 multiple choice,MCB 7 att.,Percentage correct,TRUE,63.10,,,63.10,70.10,70.10,70.10,70.10
+Computer Vision,Visual Question Answering,Visual Question Answering,COCO Visual Question Answering (VQA) real images 2.0 open ended,Up-Down,Percentage correct,TRUE,68.16,,,68.16,68.16,70.34,70.34,70.34
+Computer Vision,Visual Question Answering,Visual Question Answering,COCO Visual Question Answering (VQA) abstract 1.0 multiple choice,Graph VQA,Percentage correct,TRUE,71.18,,,71.18,74.37,74.37,74.37,74.37
+Computer Vision,Visual Question Answering,Visual Question Answering,COCO Visual Question Answering (VQA) abstract images 1.0 open ended,Graph VQA,Percentage correct,TRUE,69.73,,,69.73,70.42,70.42,70.42,70.42
+Computer Vision,Visual Question Answering,Visual Question Answering,Visual7W,CMN,Percentage correct,TRUE,62.20,,,,72.53,72.53,72.53,72.53
+Computer Vision,Visual Question Answering,Visual Question Answering,Visual Genome (subjects),CMN,Percentage correct,TRUE,44.24,,,,44.24,44.24,44.24,44.24
+Computer Vision,Visual Question Answering,Visual Question Answering,Visual Genome (pairs),CMN,Percentage correct,TRUE,28.52,,,,28.52,28.52,28.52,28.52
+Computer Vision,Super Resolution,Image Super-Resolution,Set5 - 4x upscaling,PFF,PSNR,TRUE,30.49,,30.49,31.52,32.23,32.46,32.74,32.74
+Computer Vision,Super Resolution,Image Super-Resolution,Set14 - 4x upscaling,SRGAN + Residual-in-Residual Dense Block,PSNR,TRUE,27.50,,27.50,28.02,28.80,28.80,28.99,28.99
+Computer Vision,Super Resolution,Image Super-Resolution,BSD100 - 4x upscaling,SRGAN + Residual-in-Residual Dense Block,PSNR,TRUE,26.90,,26.90,27.21,27.66,27.71,27.85,27.85
+Computer Vision,Super Resolution,Image Super-Resolution,Urban100 - 4x upscaling,SRGAN + Residual-in-Residual Dense Block,PSNR,TRUE,24.52,,24.52,24.52,26.42,26.64,27.03,27.03
+Computer Vision,Super Resolution,Image Super-Resolution,Manga109 - 4x upscaling,SRGAN + Residual-in-Residual Dense Block,SSIM,TRUE,0.86,,0.86,0.86,0.86,0.91,0.92,0.92
+Computer Vision,Person Re-Identification,Person Re-Identification,Market-1501,Parameter-Free Spatial Attention,MAP,TRUE,22.22,,22.22,22.22,59.90,81.60,91.70,91.70
+Computer Vision,Person Re-Identification,Person Re-Identification,DukeMTMC-reID,Parameter-Free Spatial Attention,MAP,TRUE,17.04,,17.04,17.04,47.40,69.20,85.90,85.90
+Computer Vision,Instance Segmentation,Instance Segmentation,COCO,PANet,Average Precision,TRUE,0.25,,,,0.25,0.40,0.42,0.42
+Computer Vision,Instance Segmentation,Instance Segmentation,NYU Depth v2,SGPN-CNN,MAP,TRUE,43.50,,,,,43.50,43.50,43.50
+Computer Vision,Facial Recognition and Modelling,Face Recognition,Olivetti Faces 5 Image,RMDL,Accuracy,TRUE,95.00,,,,,,95.00,95.00
+Computer Vision,Facial Recognition and Modelling,Face Recognition,IJB-A,SE-GV-3,TAR @ FAR=0.01,TRUE,0.97,,,,,,0.97,0.97
+Computer Vision,Facial Recognition and Modelling,Face Recognition,IJB-B,"GhostVLAD, SE-GV-3",TAR @ FAR=0.01,TRUE,0.96,,,,,,0.96,0.96
+Computer Vision,Image Generation,Image-to-Image Translation,Cityscapes Labels-to-Photo,pix2pix,Class IOU,TRUE,0.02,,,,0.18,0.18,0.18,0.18
+Computer Vision,Image Generation,Image-to-Image Translation,Cityscapes Photo-to-Labels,pix2pix,Class IOU,TRUE,0.07,,,,0.32,0.32,0.32,0.32
+Computer Vision,Image Generation,Image-to-Image Translation,ADE20K-Outdoor Labels-to-Photos,SPADE,mIoU,TRUE,16.50,,,,,17.40,17.40,30.80
+Computer Vision,Image Generation,Image-to-Image Translation,COCO-Stuff Labels-to-Photos,SPADE,mIoU,TRUE,23.70,,,,,23.70,23.70,37.40
+Computer Vision,Image Generation,Image-to-Image Translation,ADE20K Labels-to-Photos,SPADE,mIoU,TRUE,22.40,,,,,22.40,22.40,38.50
+Computer Vision,Image Generation,Image-to-Image Translation,Aerial-to-Map,cGAN,Class IOU,TRUE,0.26,,,,0.26,0.26,0.26,0.26
+Computer Vision,Image Generation,Image-to-Image Translation,SYNTHIA-to-Cityscapes,superpixel + color constancy,mIoU,TRUE,20.20,,,,20.20,20.20,29.70,29.70
+Computer Vision,Image Generation,Image-to-Image Translation,SYNTHIA Fall-to-Winter,CyCADA,mIoU,TRUE,59.60,,,,59.60,63.30,63.30,63.30
+Computer Vision,Denoising,Image Denoising,BSD68 sigma50,MWCNN,PSNR,TRUE,26.23,,,,26.23,26.29,26.53,26.53
+Computer Vision,Denoising,Image Denoising,BSD68 sigma25,NLRN,PSNR,TRUE,29.23,,,,29.23,29.23,29.41,29.41
+Computer Vision,Denoising,Image Denoising,Urban100 sigma50,Residual Dense Network +,PSNR,TRUE,26.32,,,,26.32,26.32,29.38,29.38
+Computer Vision,Denoising,Image Denoising,BSD68 sigma15,NLRN,PSNR,TRUE,31.73,,,,31.73,31.73,31.88,31.88
+Computer Vision,Denoising,Image Denoising,Urban100 sigma70,Residual Dense Network +,PSNR,TRUE,24.63,,,,24.63,24.63,27.74,27.74
+Computer Vision,Denoising,Image Denoising,BSD68 sigma70,Residual Dense Network +,PSNR,TRUE,26.56,,,,26.56,26.56,26.88,26.88
+Computer Vision,Denoising,Image Denoising,BSD68 sigma30,Residual Dense Network +,PSNR,TRUE,30.40,,,,30.40,30.40,30.70,30.70
+Computer Vision,Denoising,Image Denoising,Urban100 sigma30,Residual Dense Network +,PSNR,TRUE,30.19,,,,,,31.78,31.78
+Computer Vision,Denoising,Image Denoising,BSD68 sigma10,Residual Dense Network +,PSNR,TRUE,36.31,,,,36.31,36.31,36.49,36.49
+Computer Vision,Denoising,Image Denoising,BSD200 sigma50,RED30,PSNR,TRUE,25.75,,,,25.75,25.75,25.75,25.75
+Computer Vision,Denoising,Image Denoising,BSD200 sigma30,RED30,PSNR,TRUE,27.95,,,,27.95,27.95,27.95,27.95
+Computer Vision,Denoising,Image Denoising,BSD200 sigma70,RED30,PSNR,TRUE,24.37,,,,24.37,24.37,24.37,24.37
+Computer Vision,Denoising,Image Denoising,BSD200 sigma10,RED30,PSNR,TRUE,33.63,,,,33.63,33.63,33.63,33.63
+Computer Vision,Facial Recognition and Modelling,Face Detection,WIDER Face (Hard),DSFD,AP,TRUE,0.29,,0.29,0.40,0.82,0.88,0.90,0.90
+Computer Vision,Facial Recognition and Modelling,Face Detection,WIDER Face (Easy),DSFD,AP,TRUE,0.70,,0.70,0.72,0.92,0.94,0.96,0.96
+Computer Vision,Facial Recognition and Modelling,Face Detection,WIDER Face (Medium),DSFD,AP,TRUE,0.59,,0.59,0.64,0.91,0.93,0.95,0.95
+Computer Vision,Facial Recognition and Modelling,Face Detection,Annotated Faces in the Wild,SRN,AP,TRUE,0.97,,0.97,0.97,0.99,1.00,1.00,1.00
+Computer Vision,Facial Recognition and Modelling,Face Detection,FDDB,DSFD,AP,TRUE,0.86,,0.86,0.86,0.90,0.99,0.99,0.99
+Computer Vision,Facial Recognition and Modelling,Face Detection,PASCAL Face,SRN,AP,TRUE,0.90,,0.90,0.90,0.96,0.98,0.99,0.99
+Computer Vision,Object Localization,Object Localization,KITTI Cyclists Easy,Frustum PointNets,AP,TRUE,0.67,,,,,0.75,0.75,0.75
+Computer Vision,Object Localization,Object Localization,KITTI Pedestrians Easy,Frustum PointNets,AP,TRUE,0.46,,,,,0.58,0.58,0.58
+Computer Vision,Object Localization,Object Localization,KITTI Cars Moderate,Frustum PointNets,AP,TRUE,0.79,,,,,0.84,0.84,0.84
+Computer Vision,Object Localization,Object Localization,KITTI Cyclists Hard,Frustum PointNets,AP,TRUE,0.51,,,,,0.55,0.55,0.55
+Computer Vision,Object Localization,Object Localization,KITTI Cyclists Moderate,Frustum PointNets,AP,TRUE,0.55,,,,,0.62,0.62,0.62
+Computer Vision,Object Localization,Object Localization,KITTI Cars Hard,VoxelNet,AP,TRUE,0.77,,,,,0.77,0.77,0.77
+Computer Vision,Object Localization,Object Localization,KITTI Cars Easy,VoxelNet,AP,TRUE,0.89,,,,,0.89,0.89,0.89
+Computer Vision,Object Localization,Object Localization,KITTI Pedestrians Hard,Frustum PointNets,AP,TRUE,0.38,,,,,0.47,0.47,0.47
+Computer Vision,Object Localization,Object Localization,KITTI Pedestrians Moderate,Frustum PointNets,AP,TRUE,0.41,,,,,0.50,0.50,0.50
+Computer Vision,3D,3D Reconstruction,Scan2CAD,Scan2CAD,Average Accuracy,TRUE,0.10,,,,0.10,0.10,0.32,0.32
+Computer Vision,Facial Recognition and Modelling,Face Verification,Labeled Faces in the Wild,"ArcFace + MS1MV2 + R100, ",Accuracy,TRUE,0.99,,0.99,1.00,1.00,1.00,1.00,1.00
+Computer Vision,Facial Recognition and Modelling,Face Verification,IJB-A,Dual-Agent GANs,TAR @ FAR=0.01,TRUE,0.73,,,0.84,0.94,0.98,0.98,0.98
+Computer Vision,Facial Recognition and Modelling,Face Verification,YouTube Faces DB,"SeqFace, 1 ResNet-64",Accuracy,TRUE,0.93,,0.93,0.96,0.96,0.96,98.12,98.12
+Computer Vision,Facial Recognition and Modelling,Face Verification,MegaFace,ArcFace + MS1MV2 + R100 + R,Accuracy,TRUE,0.86,,,0.86,0.86,0.89,0.98,0.98
+Computer Vision,Facial Recognition and Modelling,Face Verification,IJB-C,AIM,TAR @ FAR=0.01,TRUE,0.67,,,0.67,0.67,0.67,0.94,0.94
+Computer Vision,Facial Recognition and Modelling,Face Verification,IJB-B,FPN,TAR @ FAR=0.01,TRUE,0.97,,,,,0.97,0.97,0.97
+Computer Vision,Image Generation,Conditional Image Generation,CIFAR-10,Splitting GAN,Inception score,TRUE,6.58,,,6.58,8.59,8.87,8.87,8.87
+Computer Vision,Image Generation,Conditional Image Generation,ImageNet 128x128,BigGAN-deep,Inception score,TRUE,28.50,,,,28.50,28.50,166.50,166.50
+Computer Vision,Scene Text Detection,Scene Text Detection,IC15,FOTS,F-Measure,TRUE,0.76,,,,,0.84,0.88,0.88
+Computer Vision,Scene Text Detection,Scene Text Detection,IC17-MLT,PSENet-1s,F-Measure,TRUE,0.67,,,,,,0.72,0.72
+Computer Vision,Object Detection,3D Object Detection,KITTI Cars Moderate,PointRCNN,AP,TRUE,0.65,,,,,0.72,0.75,0.75
+Computer Vision,Object Detection,3D Object Detection,KITTI Cars Hard,PointRCNN,AP,TRUE,0.58,,,,,0.66,0.68,0.68
+Computer Vision,Object Detection,3D Object Detection,KITTI Cars Easy,PC-CNN-V2,AP,TRUE,0.77,,,,,0.82,0.84,0.84
+Computer Vision,Object Detection,3D Object Detection,KITTI Pedestrians Moderate,Frustum PointNets,AP,TRUE,0.34,,,,,0.45,0.45,0.45
+Computer Vision,Object Detection,3D Object Detection,KITTI Cyclists Moderate,PointPillars,AP,TRUE,0.48,,,,,0.57,0.59,0.59
+Computer Vision,Object Detection,3D Object Detection,KITTI Cyclists Easy,Frustum PointNets,AP,TRUE,0.61,,,,,0.72,0.72,0.72
+Computer Vision,Object Detection,3D Object Detection,KITTI Pedestrians Hard,IPOD,AP,TRUE,0.32,,,,,0.41,0.42,0.42
+Computer Vision,Object Detection,3D Object Detection,KITTI Pedestrians Easy,IPOD,AP,TRUE,0.39,,,,,0.51,0.57,0.57
+Computer Vision,Object Detection,3D Object Detection,KITTI Cyclists Hard,Frustum PointNets,AP,TRUE,0.44,,,,,0.50,0.50,0.50
+Computer Vision,Object Detection,3D Object Detection,SUN-RGBD,Frustum PointNets,MAP,TRUE,0.54,,,,,0.54,0.54,0.54
+Computer Vision,Object Detection,3D Object Detection,NYU Depth v2,SGPN-CNN,MAP,TRUE,41.30,,,,,41.30,41.30,41.30
+Computer Vision,Semantic Segmentation,Real-Time Semantic Segmentation,Cityscapes,PSPNet,mIoU,TRUE,0.63,,0.63,0.67,0.81,0.81,0.81,0.81
+Computer Vision,Semantic Segmentation,Real-Time Semantic Segmentation,CamVid,PSPNet,mIoU,TRUE,0.62,,0.62,0.65,0.69,0.69,0.69,0.69
+Computer Vision,Image-to-Image Translation,Unsupervised Image-To-Image Translation,SVNH-to-MNIST,CyCADA pixel+feat,Classification Accuracy,TRUE,0.74,,0.74,0.74,0.84,0.90,0.90,0.90
+Computer Vision,Object Detection,Real-Time Object Detection,PASCAL VOC 2007,YOLO,FPS,TRUE,7.00,,,46.00,46.00,46.00,46.00,46.00
+Computer Vision,Object Detection,Real-Time Object Detection,COCO,YOLOv3-tiny,FPS,TRUE,40.00,,,,40.00,40.00,220.00,220.00
+Computer Vision,Facial Recognition and Modelling,Facial Expression Recognition, Static Facial Expressions in the Wild,Covariance Pooling,Accuracy,TRUE,0.58,,,,,,0.58,0.58
+Computer Vision,Facial Recognition and Modelling,Facial Expression Recognition,Real-World Affective Faces,Covariance Pooling,Accuracy,TRUE,0.87,,,,,,0.87,0.87
+Computer Vision,Facial Recognition and Modelling,Facial Expression Recognition,Cohn-Kanade,Sequential forward selection,Accuracy,TRUE,0.89,,,,,0.89,0.89,0.89
+Computer Vision,Facial Recognition and Modelling,Facial Expression Recognition,MMI,DeXpression,Accuracy,TRUE,0.99,,,0.99,0.99,0.99,0.99,0.99
+Computer Vision,Pose Estimation,Multi-Person Pose Estimation,MPII Multi-Person,Regional Multi-Person Pose Estimation,AP,TRUE,0.59,,,,0.82,0.82,0.82,0.82
+Computer Vision,Pose Estimation,Multi-Person Pose Estimation,WAF,DeeperCut,AOP,TRUE,0.87,,,0.87,0.88,0.88,0.88,0.88
+Computer Vision,Pose Estimation,Multi-Person Pose Estimation,COCO,HRNet-48,AP,TRUE,0.70,,,,,,0.70,0.77
+Computer Vision,Edge Detection,Edge Detection,SBD,CASENet,Maximum F-measure,TRUE,0.71,,,,,0.71,0.71,0.71
+Computer Vision,Edge Detection,Edge Detection,Cityscapes,CASENet,AP,TRUE,0.71,,,,,0.71,0.71,0.71
+Computer Vision,Video,Visual Object Tracking,VOT2017/18,SiamMask,Expected Average Overlap (EAO),TRUE,0.26,,,,0.28,0.32,0.38,0.38
+Computer Vision,Pose Estimation,Keypoint Detection,COCO,HRNet-48,Validation AP,TRUE,60.50,,,,60.50,69.20,72.20,76.30
+Computer Vision,Pose Estimation,Keypoint Detection, Pascal3D+,ConvNet + deformable shape model,Mean PCK,TRUE,48.50,,68.80,68.80,68.80,82.50,82.50,82.50
+Computer Vision,Facial Recognition and Modelling,Face Identification,MegaFace,ArcFace + MS1MV2 + R100 + R,Accuracy,TRUE,0.70,,,0.74,0.74,0.76,0.98,0.98
+Computer Vision,Facial Recognition and Modelling,Face Identification,IJB-A,Deep Residual Equivariant Mapping,Accuracy,TRUE,0.91,,,,,0.91,0.95,0.95
+Computer Vision,Facial Recognition and Modelling,Face Identification,IJB-B,FPN,Accuracy,TRUE,0.91,,,,,0.91,0.91,0.91
+Computer Vision,Object Reconstruction,3D Object Reconstruction,Data3D‚àíR2N2,MVD,Avg F1,TRUE,39.01,,,,48.58,48.58,66.39,66.39
+Computer Vision,Image Classification,Few-Shot Image Classification,Mini-ImageNet - 5-Shot Learning,MetaOptNet-SVM,Accuracy,TRUE,0.55,,,,0.55,0.68,0.76,0.79
+Computer Vision,Image Classification,Few-Shot Image Classification,Mini-ImageNet - 1-Shot Learning,MetaOptNet-SVM,Accuracy,TRUE,0.44,,,,0.44,0.49,0.61,0.63
+Computer Vision,Image Classification,Few-Shot Image Classification,OMNIGLOT - 1-Shot Learning,Prototypical-Nets,Accuracy,TRUE,0.98,,,,0.98,0.99,0.99,0.99
+Computer Vision,Image Classification,Few-Shot Image Classification,OMNIGLOT - 5-Shot Learning,MAML,Accuracy,TRUE,1.00,,,,1.00,1.00,1.00,1.00
+Computer Vision,Image Classification,Few-Shot Image Classification,CUB-200 - 0-Shot Learning,Prototypical-Nets,Accuracy,TRUE,0.50,,0.50,0.50,0.50,0.55,0.55,0.55
+Computer Vision,Video,Video Super-Resolution,Vid4 - 4x upscaling,VSR-DUF,PSNR,TRUE,24.68,,24.68,24.68,25.35,25.88,27.31,27.31
+Computer Vision,Video,Video Super-Resolution,Xiph HD - 4x upscaling,ESPCN,Average PSNR,TRUE,31.47,,31.47,31.47,31.67,31.67,31.67,31.67
+Computer Vision,Video,Video Super-Resolution,Ultra Video Group HD - 4x upscaling,ESPCN,Average PSNR,TRUE,37.52,,37.52,37.52,37.91,37.91,37.91,37.91
+Computer Vision,Video,Action Recognition In Videos,Charades,LFB NL,MAP,TRUE,24.10,,,,,25.20,42.50,42.50
+Computer Vision,Object Detection,Weakly Supervised Object Detection,PASCAL VOC 2007,pipeline method,MAP,TRUE,39.30,,,39.30,42.80,47.00,51.20,51.20
+Computer Vision,Object Detection,Weakly Supervised Object Detection,PASCAL VOC 2012,PCL-OB-G-Ens + FRCNN,MAP,TRUE,35.30,,,,37.90,42.50,44.20,44.20
+Computer Vision,Object Detection,Weakly Supervised Object Detection,ImageNet,PCL-OB-G-Ens + FRCNN,MAP,TRUE,16.30,,,,16.30,16.30,19.60,19.60
+Computer Vision,Object Detection,Weakly Supervised Object Detection,COCO,MSLPD,MAP,TRUE,43.50,,,43.50,47.90,56.60,56.60,56.60
+Computer Vision,Semantic Segmentation,Scene Segmentation,SUN-RGBD,DeepLab-LargeFOV,Mean IoU,TRUE,32.08,,32.08,32.08,32.08,32.08,32.08,32.08
+Computer Vision,Semantic Segmentation,Scene Segmentation,ScanNet,3DMV,Average Accuracy,TRUE,0.60,,,,0.60,0.60,0.75,0.75
+Computer Vision,Pose Estimation,6D Pose Estimation,LineMOD,PoseCNN + DeepIM,Accuracy,TRUE,0.84,,,,,0.90,0.98,0.98
+Computer Vision,Pose Estimation,6D Pose Estimation,OccludedLINEMOD,PoseCNN + ICP,Accuracy,TRUE,0.77,,,,0.77,0.78,0.78,0.78
+Computer Vision,Pose Estimation,6D Pose Estimation,YCB-Video,DenseFusion,Mean AUC,TRUE,0.93,,,,,0.93,0.93,0.93
+Computer Vision,Pose Estimation,6D Pose Estimation,OCCLUSION,Single-shot deep CNN,MAP,TRUE,0.48,,,,,0.48,0.48,0.48
+Computer Vision,Pose Estimation,6D Pose Estimation,T-LESS,RetinaNet+Augmented Autoencoders+ICP,Accuracy,TRUE,57.14,,,,,,,57.14
+Computer Vision,Image Classification,Semi-Supervised Image Classification,"CIFAR-10, 4000 Labels",SWSA,Accuracy,TRUE,79.60,,,79.60,87.84,93.72,95.00,95.00
+Computer Vision,Image Classification,Semi-Supervised Image Classification,"SVHN, 1000 labels",VAT+EntMin,Accuracy,TRUE,91.89,,,,95.58,96.14,96.14,96.14
+Computer Vision,Image Classification,Semi-Supervised Image Classification,STL-10,IIC,Accuracy,TRUE,88.80,,,,,,,88.80
+Computer Vision,Emotion Recognition,Multimodal Emotion Recognition,IEMOCAP,CHFusion,F1,TRUE,0.55,,,,,,0.55,0.55
+Computer Vision,Emotion Recognition,Multimodal Emotion Recognition,Monologue,bc-LSTM,Accuracy,TRUE,0.74,,,,,0.74,0.74,0.74
+Computer Vision,Image-to-Image Translation,Synthetic-to-Real Translation,GTAV-to-Cityscapes Labels,Domain adaptation + ResNet-101,mIoU,TRUE,27.10,,,,27.10,39.50,43.20,43.20
+Computer Vision,Image Classification,Fine-Grained Image Classification, CUB-200-2011,Inception-V3,Accuracy,TRUE,0.76,,0.76,0.85,0.85,0.89,89.60,89.60
+Computer Vision,Image Classification,Fine-Grained Image Classification,Stanford Cars,WS-DAN,Accuracy,TRUE,0.93,,,,,0.93,0.93,0.95
+Computer Vision,Image Classification,Fine-Grained Image Classification,FGVC Aircraft,WS-DAN,Accuracy,TRUE,0.91,,,,,0.91,0.91,0.93
+Computer Vision,Image Classification,Fine-Grained Image Classification,CompCars,A3M,Accuracy,TRUE,0.91,,,0.91,0.91,0.91,0.91,0.95
+Computer Vision,Image Classification,Fine-Grained Image Classification,Stanford Dogs,WS-DAN,Accuracy,TRUE,0.84,,,,,0.84,0.84,92.10
+Computer Vision,Image Classification,Fine-Grained Image Classification,Oxford 102 Flowers,PC Bilinear CNN,Accuracy,TRUE,0.94,,,,,0.94,0.94,0.94
+Computer Vision,Image Classification,Fine-Grained Image Classification,NABirds,PC-DenseNet-161,Accuracy,TRUE,0.83,,,,,0.83,0.83,0.83
+Computer Vision,Hyperspectral,Hyperspectral Image Classification,Indian Pines,BASSNet,Overall Accuracy,TRUE,0.97,,,,0.97,0.97,0.97,0.97
+Computer Vision,Hyperspectral,Hyperspectral Image Classification,Pavia University,St-SS-pGRU,Overall Accuracy,TRUE,0.97,,,,0.97,0.97,0.98,0.98
+Computer Vision,Autonomous Vehicles,Lane Detection,TuSimple,Spatial CNN,Accuracy,TRUE,0.96,,,,,0.97,0.97,0.97
+Computer Vision,Autonomous Vehicles,Lane Detection,Caltech Lanes Washington,VPGNet,F1,TRUE,0.86,,,0.86,0.86,0.87,0.87,0.87
+Computer Vision,Autonomous Vehicles,Lane Detection,Caltech Lanes Cordova,VPGNet,F1,TRUE,0.87,,,0.87,0.87,0.88,0.88,0.88
+Computer Vision,Image Generation,Text-to-Image Generation,COCO,AttnGAN,Inception score,TRUE,8.45,,,,,25.89,25.89,25.89
+Computer Vision,Image Generation,Text-to-Image Generation,CUB,AttnGAN,Inception score,TRUE,3.62,,,,3.62,4.36,4.36,4.36
+Computer Vision,Image Generation,Text-to-Image Generation,MS-COCO,AttnGAN+OP,Inception score,TRUE,24.76,,,24.76,24.76,24.76,24.76,24.76
+Computer Vision,Autonomous Vehicles,Traffic Sign Recognition,Tsinghua-Tencent 100K,Background Threshold Model,MAP,TRUE,0.32,,,,,,0.32,0.32
+Computer Vision,Autonomous Vehicles,Traffic Sign Recognition,Bosch Small Traffic Lights,Hierarchical + Background Threshold Model,MAP,TRUE,0.46,,,,,,0.46,0.46
+Computer Vision,Autonomous Vehicles,Traffic Sign Recognition,GTSRB,MCDNN,Accuracy,TRUE,1.00,1.00,1.00,1.00,1.00,1.00,1.00,1.00
+Computer Vision,Trajectory Prediction,Trajectory Prediction,GPS,Support Vector Machines,Accuracy,TRUE,0.88,0.88,0.88,0.88,0.88,0.88,0.88,0.88
+Computer Vision,Object Detection,Object Proposal Generation,"PASCAL VOC 2012, 60 proposals per image",Recurrent Pixel Embedding,Average Recall,TRUE,0.67,,,,,0.81,0.81,0.81
+Computer Vision,Object Recognition,3D Object Recognition,ModelNet40,MVCNN-MultiRes,Accuracy,TRUE,0.94,,,,0.94,0.94,0.94,0.94
+Computer Vision,Human Part Segmentation,Human Part Segmentation,CIHP,Parsing R-CNN + ResNext101,Mean IoU,TRUE,55.80,,,,,,61.10,61.10
+Computer Vision,Human Part Segmentation,Human Part Segmentation,MHP v2.0,Parsing R-CNN + ResNext101,Mean IoU,TRUE,41.80,,,,,,41.80,41.80
+Computer Vision,Image Classification,Sequential Image Classification,Sequential MNIST,BN LSTM,Permuted Accuracy,TRUE,0.82,,,0.88,0.95,0.95,0.95,0.95
+Computer Vision,Human Parsing,Multi-Human Parsing,MHP v1.0,NAN,AP 0.5,TRUE,0.53,,,,,0.53,0.57,0.57
+Computer Vision,Human Parsing,Multi-Human Parsing,MHP v2.0,NAN,AP 0.5,TRUE,0.15,,,,,0.18,0.25,0.25
+Computer Vision,Human Parsing,Multi-Human Parsing,PASCAL-Person-Part,NAN,AP 0.5,TRUE,0.39,,,0.39,0.39,0.41,0.60,0.60
+Computer Vision,3D,3D Object Classification,ModelNet40,3D-PointCapsNet,Classification Accuracy,TRUE,0.89,,,,,,0.89,0.89
+Computer Vision,Image-to-Image Translation,Multimodal Unsupervised Image-To-Image Translation,Edge-to-Shoes,MUNIT,Diversity,TRUE,0.01,,,,,0.10,0.11,0.11
+Computer Vision,Image-to-Image Translation,Multimodal Unsupervised Image-To-Image Translation,Edge-to-Handbags,MUNIT,Diversity,TRUE,0.02,,,,,0.14,0.18,0.18
+Computer Vision,Image-to-Image Translation,Multimodal Unsupervised Image-To-Image Translation,Cats-and-Dogs,MUNIT,CIS,TRUE,0.12,,,,,0.12,1.04,1.04
+Computer Vision,Facial Recognition and Modelling,Age Estimation,MORPH Album2,CORAL,MAE,TRUE,2.42,,,,2.42,2.42,2.42,2.59
+Computer Vision,Facial Recognition and Modelling,Age Estimation,AFAD,CORAL,MAE,TRUE,3.48,,,,,,,3.48
+Computer Vision,Facial Recognition and Modelling,Age Estimation,CACD,CORAL,MAE,TRUE,5.35,,,,,,,5.35
+Computer Vision,Facial Recognition and Modelling,Age Estimation,UTKFace,CORAL,MAE,TRUE,5.39,,,,,,,5.39
+Computer Vision,Object Detection,Medical Object Detection,Barrett‚Äôs Esophagus,Attention-based model,Mean Accuracy,TRUE,0.74,,,,,0.74,0.81,0.81
+Computer Vision,Line segment detection,Line segment detection,wireframe dataset,atrous Residual U-Net,F1 score,TRUE,0.77,,,,,,,0.77
+Computer Vision,Scene Text Detection,Curved Text Detection,SCUT-CTW1500,PSENet-1s,F-Measure,TRUE,0.41,,,,,0.73,0.81,0.81
+Computer Vision,3D Reconstruction,3D Room Layouts From A Single Rgb Panorama,PanoContext,HorizonNet,3DIoU,TRUE,0.74,,,,,,0.77,0.82
+Computer Vision,3D Reconstruction,3D Room Layouts From A Single Rgb Panorama,Stanford 2D-3D,HorizonNet,3DIoU,TRUE,0.76,,,,,,0.79,0.80
+Computer Vision,3D Reconstruction,3D Room Layouts From A Single Rgb Panorama,Realtor360,DuLa-Net,3DIoU,TRUE,0.63,,,,,,0.77,0.77
+Computer Vision,Facial Recognition and Modelling,Facial Inpainting,VggFace2,SymmFCNet (Full),PSNR,TRUE,27.81,,,,,,27.81,27.81
+Computer Vision,Facial Recognition and Modelling,Facial Inpainting,WebFace,SymmFCNet (Full),PSNR,TRUE,27.22,,,,,,27.22,27.22
+Computer Vision,Object Detection,Video Object Detection,ImageNet VID,FGFA + Seq-NMS,MAP,TRUE,0.80,,,,,0.80,0.80,0.80
+Computer Vision,Face Detection,Occluded Face Detection,MAFA,FAN,MAP,TRUE,0.77,,,,,0.88,0.88,0.88
+Computer Vision,Sketch,Face Sketch Synthesis,CUHK,Residual net + Pseudo Sketch Feature Loss + LSGAN,FSIM,TRUE,0.74,,,,,0.74,0.74,0.74
+Computer Vision,Sketch,Face Sketch Synthesis,CUFS,Residual net + Pseudo Sketch Feature Loss + LSGAN,FSIM,TRUE,0.73,,,,,,0.73,0.73
+Computer Vision,Sketch,Face Sketch Synthesis,CUFSF,Residual net + Pseudo Sketch Feature Loss + LSGAN,FSIM,TRUE,0.72,,,,,,0.72,0.72
+Computer Vision,Facial Recognition and Modelling,Facial Action Unit Detection,BP4D,Multi-View,Average Accuracy,TRUE,0.56,,,,,0.82,0.82,0.82
+Computer Vision,Facial Recognition and Modelling,Facial Beauty Prediction,ECCV HotOrNot,CNN features + Bayesian ridge regression,Pearson Correlation,TRUE,0.47,,,,,,0.47,0.47
+Computer Vision,Facial Recognition and Modelling,Age-Invariant Face Recognition,CACDVS,AIM + CAFR,Accuracy,TRUE,0.98,,,0.98,0.98,0.99,1.00,1.00
+Computer Vision,Facial Recognition and Modelling,Age-Invariant Face Recognition,MORPH Album2,AIM + CAFR,Rank-1 Recognition Rate,TRUE,1.00,,,,,,1.00,1.00
+Computer Vision,Facial Recognition and Modelling,Age-Invariant Face Recognition,CAFR,AIM,Accuracy,TRUE,0.74,,,0.74,0.74,0.74,0.85,0.85
+Computer Vision,Facial Recognition and Modelling,Age-Invariant Face Recognition,FG-NET,AIM,Accuracy,TRUE,0.93,,,,,,0.93,0.93
+Computer Vision,Autonomous Vehicles,Pedestrian Attribute Recognition,PA-100K,HP-net,Accuracy,TRUE,0.72,,,,,0.72,0.72,0.72
+Computer Vision,Autonomous Vehicles,Pedestrian Attribute Recognition,PETA,HP-net,Accuracy,TRUE,0.76,,,,,0.76,0.76,0.76
+Computer Vision,Autonomous Vehicles,Pedestrian Attribute Recognition,RAP,HP-net,Accuracy,TRUE,0.65,,,,,0.65,0.65,0.65
+Computer Vision,Object Detection,Object Skeleton Detection,SK-LARGE,DeepFlux,F-Measure,TRUE,0.72,,,,,,0.73,0.73
+Computer Vision,Face Verification,Disguised Face Verification,Disguised Faces in the Wild,DisguiseNet,GAR @0.1% FAR,TRUE,23.25,,,,,,23.25,23.25
+Computer Vision,Object Recognition,Depiction Invariant Object Recognition,Photo-Art-50,SwiDeN,Overall Accuracy,TRUE,0.93,,,,0.93,0.93,0.93,0.93
+Computer Vision,Birds Eye View Object Detection,Birds Eye View Object Detection,KITTI Cars Moderate,PointPillars,AP,TRUE,0.86,,,,,,0.86,0.86
+Computer Vision,Birds Eye View Object Detection,Birds Eye View Object Detection,KITTI Cyclists Moderate,PointPillars,AP,TRUE,0.62,,,,,,0.62,0.62
+Computer Vision,Birds Eye View Object Detection,Birds Eye View Object Detection,KITTI Pedestrians Moderate,PointPillars,AP,TRUE,0.50,,,,,,0.50,0.50
+Computer Vision,Safety Perception Recognition,Safety Perception Recognition,Google Street Images,CNN,Accuracy,TRUE,0.81,,,,,,,0.81
+Computer Vision,Image Classification,Unsupervised image classification,STL-10,IIC,Accuracy,TRUE,0.61,,,,,,,0.61
+Computer Vision,Image Classification,Unsupervised image classification,CIFAR-10,IIC,Accuracy,TRUE,61.70,,,,,,,61.70
+Computer Vision,Image Classification,Unsupervised image classification,CIFAR-20,IIC,Accuracy,TRUE,25.70,,,,,,,25.70
+Computer Vision,Image Classification,Unsupervised image classification,MNIST,IIC,Accuracy,TRUE,99.30,,,,,,,99.30
+Computer Vision,Semantic Segmentation,Unsupervised semantic segmentation,COCO-Stuff-15,IIC,Accuracy,TRUE,27.70,,,,,,,27.70
+Computer Vision,Semantic Segmentation,Unsupervised semantic segmentation,COCO-Stuff-3,IIC,Accuracy,TRUE,72.30,,,,,,,72.30
+Computer Vision,Semantic Segmentation,Unsupervised semantic segmentation,Potsdam,IIC,Accuracy,TRUE,65.10,,,,,,,65.10
+Computer Vision,Semantic Segmentation,Unsupervised semantic segmentation,Potsdam-3,IIC,Accuracy,TRUE,45.40,,,,,,,45.40
+Computer Vision,Instance Segmentation,Human Instance Segmentation,OCHuman,Pose2Seg (plus ground-truth keypoints),AP,TRUE,0.55,,,,,,0.55,0.55
+Computer Vision,Image Recognition,License Plate Recognition,Chinese License Plates,LPRNet basic,Accuracy,TRUE,0.95,,,,,,0.95,0.95
+Computer Vision,Novel View Synthesis,Novel View Synthesis,KITTI Novel View Synthesis,Multi-view to Novel View,SSIM,TRUE,0.63,,,,,,0.63,0.63
+Computer Vision,Novel View Synthesis,Novel View Synthesis,ShapeNet Car,Multi-view to Novel View,SSIM,TRUE,0.92,,,,,,0.92,0.92
+Computer Vision,Novel View Synthesis,Novel View Synthesis,ShapeNet Chair,Multi-view to Novel View,SSIM,TRUE,0.90,,,,,,0.90,0.90
+Computer Vision,Novel View Synthesis,Novel View Synthesis,Synthia Novel View Synthesis,Multi-view to Novel View,SSIM,TRUE,0.70,,,,,,0.70,0.70
+Computer Vision,Object Detection,One-Shot Object Detection,COCO,Siamese Mask R-CNN,AP 0.5,TRUE,16.30,,,,,,16.30,16.30
+Computer Vision,3D,3D Part Segmentation,ShapeNet-Part,3D-PointCapsNet,Accuracy,TRUE,86.00,,,,,,86.00,86.00
+Computer Vision,Instance Segmentation,Real-time Instance Segmentation,MSCOCO,YOLACT,MAP,TRUE,29.80,,,,,,,29.80
+Computer Vision,Facial Recognition and Modelling,Smile Recognition,DISFA,Deep CNN,Accuracy,TRUE,0.99,,,,0.99,0.99,0.99,0.99
+Computer Vision,Image Classification,Document Image Classification,RVL-CDIP,Transfer Learning from VGG16 trained on Imagenet,Accuracy,TRUE,0.90,,,0.90,0.90,0.91,0.92,0.92

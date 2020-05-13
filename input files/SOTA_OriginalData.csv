@@ -1,0 +1,1001 @@
+﻿Area,Parent Task,Task,Dataset,Best method name,Primary metric,Primary metric - is higher better?,Metric first reported value,Metric SOTA value in 2013,Metric SOTA value in 2014,Metric SOTA value in 2015,Metric SOTA value in 2016,Metric SOTA value in 2017,Metric SOTA value in 2018,Metric SOTA value in 2019,Papers all time,Papers in 2013,Papers in 2014,Papers in 2015,Papers in 2016,Papers in 2017,Papers in 2018,Papers in 2019,Papers with code all time,Papers with code in 2013,Papers with code in 2014,Papers with code in 2015,Papers with code in 2016,Papers with code in 2017,Papers with code in 2018,Papers with code in 2019
+,,,,,,,,2013,2014,2015,2016,2017,2018,2019,,2013,2014,2015,2016,2017,2018,2019,,2013,2014,2015,2016,2017,2018,2019
+Computer Vision,Semantic Segmentation,Semantic Segmentation,PASCAL VOC 2012,DeepLabv3+ (Xception-JFT),Mean IoU,TRUE,69.80%,,,69.80%,85.40%,86.90%,89.00%,89.00%,19,0,0,2,7,6,4,0,19,0,0,2,7,6,4,0
+Computer Vision,Semantic Segmentation,Semantic Segmentation,Cityscapes,DeepLabv3+ (Xception-JFT),Mean IoU,TRUE,63.10%,,63.10%,67.10%,81.20%,82.00%,82.10%,82.10%,18,0,1,3,5,2,6,1,18,0,1,3,5,2,6,1
+Computer Vision,Semantic Segmentation,Semantic Segmentation,PASCAL Context,Joint Pyramid Upsampling + EncNet,mIoU,TRUE,37.8,,37.8,43.3,47.3,47.3,51.7,53.1,12,0,1,5,3,0,1,2,8,0,1,2,2,0,1,2
+Computer Vision,Semantic Segmentation,Semantic Segmentation,ADE20K,PSPNet,Validation mIoU,TRUE,29.39,,29.39,32.31,44.94,44.94,44.94,44.94,7,0,1,2,2,0,1,1,7,0,1,2,2,0,1,1
+Computer Vision,Semantic Segmentation,Semantic Segmentation,CamVid,PSPNet,Mean IoU,TRUE,61.60%,,61.60%,65.30%,69.10%,69.10%,69.10%,69.10%,7,0,1,3,2,0,1,0,7,0,1,3,2,0,1,0
+Computer Vision,Semantic Segmentation,Semantic Segmentation,ShapeNet,SGPN,Mean IoU,TRUE,84.60%,,,,,85.80%,85.80%,85.80%,2,0,0,0,0,2,0,0,2,0,0,0,0,2,0,0
+Computer Vision,Semantic Segmentation,Semantic Segmentation,NYU Depth v2,Dilated FCN-2s RGB,Mean IoU,TRUE,32.30%,,,,,32.30%,32.30%,32.30%,1,0,0,0,0,1,0,0,1,0,0,0,0,1,0,0
+Computer Vision,Image Classification,Image Classification,CIFAR-10,GPIPE + transfer learning,Percentage correct,TRUE,88.8,91.2,96.5,96.5,96.69,97.88,99,99,57,4,10,17,8,7,5,1,40,3,7,9,7,6,5,1
+Computer Vision,Image Classification,Image Classification,MNIST,RMDL,Percentage error,FALSE,0.2,0.2,0.2,0.2,0.2,0.2,0.18,0.18,27,2,7,12,2,1,1,1,13,2,4,4,1,0,1,0
+Computer Vision,Image Classification,Image Classification,CIFAR-100,GPIPE,Percentage correct,TRUE,57.5,64.3,75.7,75.7,82.62,84.59,91.3,91.3,39,5,7,12,6,6,3,0,28,3,6,7,5,4,3,0
+Computer Vision,Image Classification,Image Classification,ImageNet,GPIPE,Top 1 Accuracy,TRUE,69.80%,,69.80%,78.80%,81.30%,82.70%,84.30%,84.30%,19,0,1,2,4,6,3,3,19,0,1,2,4,6,3,3
+Computer Vision,Image Classification,Image Classification,SVHN,WRN + fixup init + mixup + cutout,Percentage error,FALSE,2.8,2.16,1.92,1.69,1.59,1.54,1.54,1.4,21,4,1,7,4,4,0,1,15,4,1,2,4,3,0,1
+Computer Vision,Image Classification,Image Classification,STL-10,IIC,Percentage correct,TRUE,70.1,70.1,72.8,74.33,77.79,87.26,87.26,88.8,12,1,6,2,1,1,0,1,5,0,1,1,1,1,0,1
+Computer Vision,Image Classification,Image Classification,MSRC-21 (per-class),Large FC CRF,Percentage correct,TRUE,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Computer Vision,Image Classification,Image Classification,MSRC-21 (per-pixel),HCRF+CO,Percentage correct,TRUE,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Computer Vision,Image Classification,Image Classification,Fashion-MNIST,Random Erasing,Percentage error,FALSE,3.65,,,,,3.65,3.65,3.65,1,0,0,0,0,1,0,0,1,0,0,0,0,1,0,0
+Computer Vision,Image Classification,Image Classification,iNaturalist,IncResNetV2 SE,Top 1 Accuracy,TRUE,67.30%,,,,,67.30%,67.30%,67.30%,1,0,0,0,0,1,0,0,1,0,0,0,0,1,0,0
+Computer Vision,Image Classification,Image Classification,MultiMNIST,CapsNet,Percentage error,FALSE,5.2,,,,,5.2,5.2,5.2,1,0,0,0,0,1,0,0,1,0,0,0,0,1,0,0
+Computer Vision,Object Detection,Object Detection,COCO,SNIPER,Bounding Box AP,TRUE,34.9,,,34.9,36.8,45.7,47.6,47.6,26,0,0,1,5,8,8,4,25,0,0,1,5,8,8,3
+Computer Vision,Object Detection,Object Detection,PASCAL VOC 2007,SNIPER,MAP,TRUE,82.44%,,82.44%,82.44%,82.44%,83.80%,86.90%,86.90%,17,0,1,4,4,6,2,0,17,0,1,4,4,6,2,0
+Computer Vision,Object Detection,Object Detection,ImageNet Detection,Inception V1,MAP,TRUE,24.30%,24.30%,43.90%,43.90%,43.90%,43.90%,43.90%,43.90%,2,1,1,0,0,0,0,0,2,1,1,0,0,0,0,0
+Computer Vision,Image Generation,Image Generation,CIFAR-10,PGGAN,Inception score,TRUE,5.34,,,,6.86,8.8,8.8,8.8,30,0,3,2,8,8,7,2,25,0,1,1,8,7,6,2
+Computer Vision,Image Generation,Image Generation,LSUN Bedroom 256 x 256,COCO-GAN,FID,FALSE,9.5,,,,,8.34,8.34,6.95,6,0,0,0,0,3,1,2,6,0,0,0,0,3,1,2
+Computer Vision,Image Generation,Image Generation,CelebA-HQ 1024x1024,StyleGAN,FID,FALSE,7.3,,,,,7.3,5.06,5.06,3,0,0,0,0,1,1,1,3,0,0,0,0,1,1,1
+Computer Vision,Image Generation,Image Generation,CAT 256x256,RaSGAN,FID,FALSE,155.46,,,,,155.46,32.11,32.11,2,0,0,0,0,1,1,0,2,0,0,0,0,1,1,0
+Computer Vision,Image Generation,Image Generation,FFHQ,StyleGAN,FID,FALSE,8.04,,,,,8.04,4.4,4.4,2,0,0,0,0,1,1,0,2,0,0,0,0,1,1,0
+Computer Vision,Pose Estimation,Pose Estimation,MPII Human Pose,HRNet-32,PCKh-0.5,TRUE,82.40%,,,82.40%,90.90%,92.00%,92.00%,92.30%,12,0,0,1,3,4,2,2,11,0,0,1,3,4,2,1
+Computer Vision,Pose Estimation,Pose Estimation,Leeds Sports Poses,Pyramid Residual Modules (PRMs),PCK,TRUE,90.50%,,,,90.50%,93.90%,93.90%,93.90%,6,0,0,0,2,4,0,0,6,0,0,0,2,4,0,0
+Computer Vision,Pose Estimation,Pose Estimation,FLIC Elbows,Stacked Hourglass Networks,PCK@0.2,TRUE,97.59%,,,,99.00%,99.00%,99.00%,99.00%,2,0,0,0,2,0,0,0,2,0,0,0,2,0,0,0
+Computer Vision,Pose Estimation,Pose Estimation,FLIC Wrists,Stacked Hourglass Networks,PCK@0.2,TRUE,95.03%,,,,97.00%,97.00%,97.00%,97.00%,2,0,0,0,2,0,0,0,2,0,0,0,2,0,0,0
+Computer Vision,Pose Estimation,Pose Estimation,DensePose-COCO,Parsing R-CNN + ResNext101,AP,TRUE,55.8,,,,,,61.6,61.6,2,0,0,0,0,0,2,0,2,0,0,0,0,0,2,0
+Computer Vision,Pose Estimation,Pose Estimation,ITOP top-view,V2V-PoseNet,Mean mAP,TRUE,75.5,,,,75.5,83.44,83.44,83.44,2,0,0,0,1,1,0,0,2,0,0,0,1,1,0,0
+Computer Vision,Pose Estimation,Pose Estimation,COCO,HRNet-48,Mean mAP,TRUE,73.7,,,,,,73.7,77,2,0,0,0,0,0,1,1,2,0,0,0,0,0,1,1
+Computer Vision,Pose Estimation,Pose Estimation, ITOP front-view,V2V-PoseNet,Mean mAP,TRUE,77.4,,,,77.4,88.74,88.74,88.74,2,0,0,0,1,1,0,0,2,0,0,0,1,1,0,0
+Computer Vision,Super Resolution,Super Resolution,Set5-2x,FALSR-A ,PSNR,TRUE,37.82,,,,,,,37.82,1,0,0,0,0,0,0,1,1,0,0,0,0,0,0,1
+Computer Vision,Image Retrieval,Image Retrieval,Par106k,DELF+FT+ATT+DIR+QE,Accuracy,TRUE,90.50%,,,,92.80%,92.80%,92.80%,92.80%,3,0,0,0,3,0,0,0,3,0,0,0,3,0,0,0
+Computer Vision,Image Retrieval,Image Retrieval,Oxf105k,DELF+FT+ATT+DIR+QE,MAP,TRUE,87.80%,,,,88.50%,88.50%,88.50%,88.50%,3,0,0,0,3,0,0,0,3,0,0,0,3,0,0,0
+Computer Vision,Image Retrieval,Image Retrieval,Par6k,DELF+FT+ATT+DIR+QE,Accuracy,TRUE,93.80%,,,,95.70%,95.70%,95.70%,95.70%,3,0,0,0,3,0,0,0,3,0,0,0,3,0,0,0
+Computer Vision,Image Retrieval,Image Retrieval,Oxf5k,DELF+FT+ATT+DIR+QE,MAP,TRUE,89%,,,,90.00%,90.00%,90.00%,90.00%,3,0,0,0,3,0,0,0,3,0,0,0,3,0,0,0
+Computer Vision,Image Retrieval,Image Retrieval,street2shop - topwear,Ranknet,Accuracy,TRUE,94.98,,,,,,,94.98,2,0,0,0,0,0,0,2,2,0,0,0,0,0,0,2
+Computer Vision,Image Retrieval,Image Retrieval,INRIA Holidays,MultiGrain R50 @ 800,Mean mAP,TRUE,92.50%,,,,,,,92.50%,1,0,0,0,0,0,0,1,1,0,0,0,0,0,0,1
+Computer Vision,Image Retrieval,Image Retrieval,Stanford Cars,ABE-8-512,Recall@8,TRUE,96.1,,,,,,96.1,96.1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+Computer Vision,Action Recognition,Action Recognition,UCF101,Two-Stream I3D,Accuracy,TRUE,93.4,,,,,93.4,93.4,93.4,1,0,0,0,0,1,0,0,1,0,0,0,0,1,0,0
+Computer Vision,Action Recognition,Action Recognition,HMDB51,Two-Stream I3D,Accuracy,TRUE,80.9,,,,,80.9,80.9,80.9,1,0,0,0,0,1,0,0,1,0,0,0,0,1,0,0
+Computer Vision,Visual Question Answering,Visual Question Answering,COCO Visual Question Answering (VQA) real images 1.0 open ended,MCB 7 att.,Percentage correct,TRUE,58.2,,,58.9,66.5,66.5,66.5,66.5,11,0,0,4,6,1,0,0,6,0,0,3,2,1,0,0
+Computer Vision,Visual Question Answering,Visual Question Answering,VQA v2,"Image features from bottom-up attention, adaptive K, ensemble",Accuracy,TRUE,62.27%,,,,62.27%,70.34%,70.34%,70.34%,4,0,0,0,1,2,1,0,4,0,0,0,1,2,1,0
+Computer Vision,Visual Question Answering,Visual Question Answering,COCO Visual Question Answering (VQA) real images 1.0 multiple choice,MCB 7 att.,Percentage correct,TRUE,63.1,,,63.1,70.1,70.1,70.1,70.1,7,0,0,2,5,0,0,0,4,0,0,2,2,0,0,0
+Computer Vision,Visual Question Answering,Visual Question Answering,COCO Visual Question Answering (VQA) real images 2.0 open ended,Up-Down,Percentage correct,TRUE,68.16,,,68.16,68.16,70.34,70.34,70.34,3,0,0,1,1,1,0,0,3,0,0,1,1,1,0,0
+Computer Vision,Visual Question Answering,Visual Question Answering,COCO Visual Question Answering (VQA) abstract 1.0 multiple choice,Graph VQA,Percentage correct,TRUE,71.18,,,71.18,74.37,74.37,74.37,74.37,2,0,0,1,1,0,0,0,1,0,0,1,0,0,0,0
+Computer Vision,Visual Question Answering,Visual Question Answering,COCO Visual Question Answering (VQA) abstract images 1.0 open ended,Graph VQA,Percentage correct,TRUE,69.73,,,69.73,70.42,70.42,70.42,70.42,2,0,0,1,1,0,0,0,1,0,0,1,0,0,0,0
+Computer Vision,Visual Question Answering,Visual Question Answering,Visual7W,CMN,Percentage correct,TRUE,62.2,,,,72.53,72.53,72.53,72.53,2,0,0,0,2,0,0,0,2,0,0,0,2,0,0,0
+Computer Vision,Visual Question Answering,Visual Question Answering,Visual Genome (subjects),CMN,Percentage correct,TRUE,44.24,,,,44.24,44.24,44.24,44.24,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0
+Computer Vision,Visual Question Answering,Visual Question Answering,Visual Genome (pairs),CMN,Percentage correct,TRUE,28.52,,,,28.52,28.52,28.52,28.52,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0
+Computer Vision,Super Resolution,Image Super-Resolution,Set5 - 4x upscaling,PFF,PSNR,TRUE,30.49,,30.49,31.52,32.23,32.46,32.74,32.74,38,0,1,3,7,9,17,1,35,0,1,1,7,9,16,1
+Computer Vision,Super Resolution,Image Super-Resolution,Set14 - 4x upscaling,SRGAN + Residual-in-Residual Dense Block,PSNR,TRUE,27.5,,27.5,28.02,28.8,28.8,28.99,28.99,37,0,1,3,5,10,17,1,33,0,1,1,5,9,16,1
+Computer Vision,Super Resolution,Image Super-Resolution,BSD100 - 4x upscaling,SRGAN + Residual-in-Residual Dense Block,PSNR,TRUE,26.9,,26.9,27.21,27.66,27.71,27.85,27.85,34,0,1,2,7,7,16,1,31,0,1,1,7,6,15,1
+Computer Vision,Super Resolution,Image Super-Resolution,Urban100 - 4x upscaling,SRGAN + Residual-in-Residual Dense Block,PSNR,TRUE,24.52,,24.52,24.52,26.42,26.64,27.03,27.03,23,0,1,0,3,4,14,1,21,0,1,0,3,3,13,1
+Computer Vision,Super Resolution,Image Super-Resolution,Manga109 - 4x upscaling,SRGAN + Residual-in-Residual Dense Block,SSIM,TRUE,0.8555,,0.8555,0.8555,0.8555,0.9148,0.9196,0.9196,8,0,1,0,0,2,4,1,8,0,1,0,0,2,4,1
+Computer Vision,Optical Flow Estimation,Optical Flow Estimation,Sintel-clean,PWC-Net,Average End-Point Error,FALSE,6.64,,,,6.64,6.64,3.45,3.45,3,0,0,0,1,0,2,0,3,0,0,0,1,0,2,0
+Computer Vision,Optical Flow Estimation,Optical Flow Estimation,Sintel-final,PWC-Net,Average End-Point Error,FALSE,8.36,,,,8.36,8.36,4.6,4.6,3,0,0,0,1,0,2,0,3,0,0,0,1,0,2,0
+Computer Vision,Person Re-Identification,Person Re-Identification,Market-1501,Parameter-Free Spatial Attention,MAP,TRUE,22.22,,22.22,22.22,59.9,81.6,91.7,91.7,22,0,1,1,3,13,3,1,10,0,0,0,1,5,3,1
+Computer Vision,Person Re-Identification,Person Re-Identification,DukeMTMC-reID,Parameter-Free Spatial Attention,MAP,TRUE,17.04,,17.04,17.04,47.4,69.2,85.9,85.9,15,0,1,1,2,8,3,0,10,0,0,0,1,6,3,0
+Computer Vision,Instance Segmentation,Instance Segmentation,COCO,PANet,Average Precision,TRUE,25.00%,,,,25.00%,40.30%,42.00%,42.00%,5,0,0,0,1,2,1,1,5,0,0,0,1,2,1,1
+Computer Vision,Instance Segmentation,Instance Segmentation,NYU Depth v2,SGPN-CNN,MAP,TRUE,43.5,,,,,43.5,43.5,43.5,1,0,0,0,0,1,0,0,1,0,0,0,0,1,0,0
+Computer Vision,Facial Recognition and Modelling,Face Recognition,Olivetti Faces 5 Image,RMDL,Accuracy,TRUE,95,,,,,,95,95,1,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0
+Computer Vision,Facial Recognition and Modelling,Face Recognition,IJB-A,SE-GV-3,TAR @ FAR=0.01,TRUE,0.972,,,,,,0.972,0.972,1,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0
+Computer Vision,Facial Recognition and Modelling,Face Recognition,IJB-B,"GhostVLAD, SE-GV-3",TAR @ FAR=0.01,TRUE,0.963,,,,,,0.963,0.963,1,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0
+Computer Vision,Image Generation,Image-to-Image Translation,Cityscapes Labels-to-Photo,pix2pix,Class IOU,TRUE,0.02,,,,0.18,0.18,0.18,0.18,9,0,0,0,4,3,1,1,7,0,0,0,4,2,0,1
+Computer Vision,Image Generation,Image-to-Image Translation,Cityscapes Photo-to-Labels,pix2pix,Class IOU,TRUE,0.07,,,,0.32,0.32,0.32,0.32,5,0,0,0,4,1,0,0,5,0,0,0,4,1,0,0
+Computer Vision,Image Generation,Image-to-Image Translation,ADE20K-Outdoor Labels-to-Photos,SPADE,mIoU,TRUE,16.5,,,,,17.4,17.4,30.8,4,0,0,0,0,2,1,1,2,0,0,0,0,1,0,1
+Computer Vision,Image Generation,Image-to-Image Translation,RaFD,StarGAN,Classification Error,FALSE,4.10%,,,,4.10%,2.12%,2.12%,2.12%,4,0,0,0,2,2,0,0,3,0,0,0,1,2,0,0
+Computer Vision,Image Generation,Image-to-Image Translation,COCO-Stuff Labels-to-Photos,SPADE,mIoU,TRUE,23.7,,,,,23.7,23.7,37.4,3,0,0,0,0,2,0,1,2,0,0,0,0,1,0,1
+Computer Vision,Image Generation,Image-to-Image Translation,ADE20K Labels-to-Photos,SPADE,mIoU,TRUE,22.4,,,,,22.4,22.4,38.5,3,0,0,0,0,2,0,1,2,0,0,0,0,1,0,1
+Computer Vision,Image Generation,Image-to-Image Translation,Aerial-to-Map,cGAN,Class IOU,TRUE,0.26,,,,0.26,0.26,0.26,0.26,2,0,0,0,1,1,0,0,2,0,0,0,1,1,0,0
+Computer Vision,Image Generation,Image-to-Image Translation,SYNTHIA-to-Cityscapes,superpixel + color constancy,mIoU,TRUE,20.2,,,,20.2,20.2,29.7,29.7,2,0,0,0,1,0,1,0,2,0,0,0,1,0,1,0
+Computer Vision,Image Generation,Image-to-Image Translation,SYNTHIA Fall-to-Winter,CyCADA,mIoU,TRUE,59.6,,,,59.6,63.3,63.3,63.3,2,0,0,0,1,1,0,0,2,0,0,0,1,1,0,0
+Computer Vision,Denoising,Image Denoising,BSD68 sigma50,MWCNN,PSNR,TRUE,26.23,,,,26.23,26.29,26.53,26.53,7,0,0,0,1,2,4,0,7,0,0,0,1,2,4,0
+Computer Vision,Denoising,Image Denoising,BSD68 sigma25,NLRN,PSNR,TRUE,29.23,,,,29.23,29.23,29.41,29.41,6,0,0,0,1,2,3,0,6,0,0,0,1,2,3,0
+Computer Vision,Denoising,Image Denoising,Urban100 sigma50,Residual Dense Network +,PSNR,TRUE,26.32,,,,26.32,26.32,29.38,29.38,6,0,0,0,2,0,4,0,6,0,0,0,2,0,4,0
+Computer Vision,Denoising,Image Denoising,BSD68 sigma15,NLRN,PSNR,TRUE,31.73,,,,31.73,31.73,31.88,31.88,5,0,0,0,1,2,2,0,5,0,0,0,1,2,2,0
+Computer Vision,Denoising,Image Denoising,Urban100 sigma70,Residual Dense Network +,PSNR,TRUE,24.63,,,,24.63,24.63,27.74,27.74,4,0,0,0,2,0,2,0,4,0,0,0,2,0,2,0
+Computer Vision,Denoising,Image Denoising,BSD68 sigma70,Residual Dense Network +,PSNR,TRUE,26.56,,,,26.56,26.56,26.88,26.88,3,0,0,0,1,0,2,0,3,0,0,0,1,0,2,0
+Computer Vision,Denoising,Image Denoising,BSD68 sigma30,Residual Dense Network +,PSNR,TRUE,30.4,,,,30.4,30.4,30.7,30.7,2,0,0,0,1,0,1,0,2,0,0,0,1,0,1,0
+Computer Vision,Denoising,Image Denoising,Urban100 sigma30,Residual Dense Network +,PSNR,TRUE,30.19,,,,,,31.78,31.78,2,0,0,0,0,0,2,0,2,0,0,0,0,0,2,0
+Computer Vision,Denoising,Image Denoising,BSD68 sigma10,Residual Dense Network +,PSNR,TRUE,36.31,,,,36.31,36.31,36.49,36.49,2,0,0,0,1,0,1,0,2,0,0,0,1,0,1,0
+Computer Vision,Denoising,Image Denoising,BSD200 sigma50,RED30,PSNR,TRUE,25.75,,,,25.75,25.75,25.75,25.75,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0
+Computer Vision,Denoising,Image Denoising,BSD200 sigma30,RED30,PSNR,TRUE,27.95,,,,27.95,27.95,27.95,27.95,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0
+Computer Vision,Denoising,Image Denoising,BSD200 sigma70,RED30,PSNR,TRUE,24.37,,,,24.37,24.37,24.37,24.37,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0
+Computer Vision,Denoising,Image Denoising,BSD200 sigma10,RED30,PSNR,TRUE,33.63,,,,33.63,33.63,33.63,33.63,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0
+Computer Vision,Image Reconstruction,Image Reconstruction,Edge-to-Shoes,PI-REC,FID,FALSE,0.015,,,,,,,0.015,1,0,0,0,0,0,0,1,1,0,0,0,0,0,0,1
+Computer Vision,Image Reconstruction,Image Reconstruction,Edge-to-Handbags,PI-REC,FID,FALSE,0.069,,,,,,,0.069,1,0,0,0,0,0,0,1,1,0,0,0,0,0,0,1
+Computer Vision,Facial Recognition and Modelling,Face Detection,WIDER Face (Hard),DSFD,AP,TRUE,0.29,,0.29,0.4,0.823,0.876,0.9,0.9,14,0,1,1,4,3,5,0,8,0,0,1,3,1,3,0
+Computer Vision,Facial Recognition and Modelling,Face Detection,WIDER Face (Easy),DSFD,AP,TRUE,0.695,,0.695,0.716,0.919,0.943,0.96,0.96,12,0,1,1,3,3,4,0,6,0,0,1,2,1,2,0
+Computer Vision,Facial Recognition and Modelling,Face Detection,WIDER Face (Medium),DSFD,AP,TRUE,0.588,,0.588,0.636,0.908,0.931,0.953,0.953,12,0,1,1,3,3,4,0,6,0,0,1,2,1,2,0
+Computer Vision,Facial Recognition and Modelling,Face Detection,Annotated Faces in the Wild,SRN,AP,TRUE,0.9721,,0.9721,0.9721,0.994,0.9985,0.9987,0.9987,9,0,1,0,3,3,2,0,6,0,0,0,2,3,1,0
+Computer Vision,Facial Recognition and Modelling,Face Detection,FDDB,DSFD,AP,TRUE,0.864,,0.864,0.864,0.901,0.99,0.991,0.991,9,0,1,0,1,3,4,0,6,0,0,0,1,2,3,0
+Computer Vision,Facial Recognition and Modelling,Face Detection,PASCAL Face,SRN,AP,TRUE,0.9029,,0.9029,0.9029,0.962,0.9849,0.9909,0.9909,7,0,1,0,2,2,2,0,4,0,0,0,1,2,1,0
+Computer Vision,Object Localization,Object Localization,KITTI Cyclists Easy,Frustum PointNets,AP,TRUE,66.70%,,,,,75.38%,75.38%,75.38%,2,0,0,0,0,2,0,0,2,0,0,0,0,2,0,0
+Computer Vision,Object Localization,Object Localization,KITTI Pedestrians Easy,Frustum PointNets,AP,TRUE,46.13%,,,,,58.09%,58.09%,58.09%,2,0,0,0,0,2,0,0,2,0,0,0,0,2,0,0
+Computer Vision,Object Localization,Object Localization,KITTI Cars Moderate,Frustum PointNets,AP,TRUE,79.26%,,,,,84.00%,84.00%,84.00%,2,0,0,0,0,2,0,0,2,0,0,0,0,2,0,0
+Computer Vision,Object Localization,Object Localization,KITTI Cyclists Hard,Frustum PointNets,AP,TRUE,50.55%,,,,,54.68%,54.68%,54.68%,2,0,0,0,0,2,0,0,2,0,0,0,0,2,0,0
+Computer Vision,Object Localization,Object Localization,KITTI Cyclists Moderate,Frustum PointNets,AP,TRUE,54.76%,,,,,61.96%,61.96%,61.96%,2,0,0,0,0,2,0,0,2,0,0,0,0,2,0,0
+Computer Vision,Object Localization,Object Localization,KITTI Cars Hard,VoxelNet,AP,TRUE,77.39%,,,,,77.39%,77.39%,77.39%,2,0,0,0,0,2,0,0,2,0,0,0,0,2,0,0
+Computer Vision,Object Localization,Object Localization,KITTI Cars Easy,VoxelNet,AP,TRUE,89.35%,,,,,89.35%,89.35%,89.35%,2,0,0,0,0,2,0,0,2,0,0,0,0,2,0,0
+Computer Vision,Object Localization,Object Localization,KITTI Pedestrians Hard,Frustum PointNets,AP,TRUE,38.11%,,,,,47.20%,47.20%,47.20%,2,0,0,0,0,2,0,0,2,0,0,0,0,2,0,0
+Computer Vision,Object Localization,Object Localization,KITTI Pedestrians Moderate,Frustum PointNets,AP,TRUE,40.74%,,,,,50.22%,50.22%,50.22%,2,0,0,0,0,2,0,0,2,0,0,0,0,2,0,0
+Computer Vision,3D,3D Reconstruction,Scan2CAD,Scan2CAD,Average Accuracy,TRUE,10.29%,,,,10.29%,10.29%,31.68%,31.68%,2,0,0,0,1,0,1,0,2,0,0,0,1,0,1,0
+Computer Vision,Facial Recognition and Modelling,Face Verification,Labeled Faces in the Wild,"ArcFace + MS1MV2 + R100, ",Accuracy,TRUE,98.52%,,99.47%,99.63%,99.63%,99.63%,99.83%,99.83%,12,0,3,2,1,1,5,0,8,0,0,2,1,1,4,0
+Computer Vision,Facial Recognition and Modelling,Face Verification,IJB-A,Dual-Agent GANs,TAR @ FAR=0.01,TRUE,73.30%,,,83.80%,94.10%,97.60%,97.60%,97.60%,12,0,0,2,6,3,1,0,3,0,0,0,1,1,1,0
+Computer Vision,Facial Recognition and Modelling,Face Verification,YouTube Faces DB,"SeqFace, 1 ResNet-64",Accuracy,TRUE,93.20%,,93.20%,95.54%,95.54%,96.17%,98.12,98.12,10,0,1,2,1,2,4,0,8,0,0,2,1,2,3,0
+Computer Vision,Facial Recognition and Modelling,Face Verification,MegaFace,ArcFace + MS1MV2 + R100 + R,Accuracy,TRUE,86.47%,,,86.47%,86.47%,89.14%,98.48%,98.48%,5,0,0,2,0,1,2,0,4,0,0,2,0,1,1,0
+Computer Vision,Facial Recognition and Modelling,Face Verification,IJB-C,AIM,TAR @ FAR=0.01,TRUE,66.50%,,,66.50%,66.50%,66.50%,93.50%,93.50%,3,0,0,1,0,0,2,0,2,0,0,1,0,0,1,0
+Computer Vision,Facial Recognition and Modelling,Face Verification,IJB-B,FPN,TAR @ FAR=0.01,TRUE,96.50%,,,,,96.50%,96.50%,96.50%,1,0,0,0,0,1,0,0,1,0,0,0,0,1,0,0
+Computer Vision,Image Generation,Conditional Image Generation,CIFAR-10,Splitting GAN,Inception score,TRUE,6.58,,,6.58,8.59,8.87,8.87,8.87,7,0,0,1,4,2,0,0,6,0,0,1,4,1,0,0
+Computer Vision,Image Generation,Conditional Image Generation,ImageNet 128x128,BigGAN-deep,Inception score,TRUE,28.5,,,,28.5,28.5,166.5,166.5,4,0,0,0,1,0,3,0,4,0,0,0,1,0,3,0
+Computer Vision,Scene Text Detection,Scene Text Detection,IC15,FOTS,F-Measure,TRUE,75.61%,,,,,84.14%,87.99%,87.99%,10,0,0,0,0,6,4,0,5,0,0,0,0,4,1,0
+Computer Vision,Scene Text Detection,Scene Text Detection,IC17-MLT,PSENet-1s,F-Measure,TRUE,67.25%,,,,,,72.45%,72.45%,3,0,0,0,0,0,3,0,1,0,0,0,0,0,1,0
+Computer Vision,Pose Estimation,3D Human Pose Estimation,Human3.6M,Fully supervised EpipolarPose,Average 3D Error,FALSE,88.39,,,,,64.9,59.9,51.8,5,0,0,0,0,3,1,1,5,0,0,0,0,3,1,1
+Computer Vision,Pose Estimation,3D Human Pose Estimation,CHALL H80K,ResNet,MPJPE,FALSE,55.3,,,,,,55.3,55.3,1,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0
+Computer Vision,Facial Recognition and Modelling,Face Alignment,AFLW2000-3D,2DASL,Mean NME ,FALSE,4.94%,,,4.94%,4.94%,4.49%,3.62%,3.53%,5,0,0,1,0,2,1,1,2,0,0,0,0,0,1,1
+Computer Vision,Facial Recognition and Modelling,Face Alignment,300W,DAN-Menpo + bounding box diagonal normalization,Mean Error Rate,FALSE,1.42,,,,,1.42,1.42,1.42,3,0,0,0,0,1,2,0,2,0,0,0,0,1,1,0
+Computer Vision,Facial Recognition and Modelling,Face Alignment,AFLW2000,Nonlinear 3D Face Morphable Model,Error rate,FALSE,4.7,,,,,,4.7,4.7,2,0,0,0,0,0,2,0,2,0,0,0,0,0,2,0
+Computer Vision,Facial Recognition and Modelling,Face Alignment,AFLW-LFPA,FPN,Mean NME ,FALSE,3.86%,,,,,3.86%,2.93%,2.93%,2,0,0,0,0,1,1,0,1,0,0,0,0,0,1,0
+Computer Vision,Object Detection,3D Object Detection,KITTI Cars Moderate,PointRCNN,AP,TRUE,65.11%,,,,,71.88%,75.42%,75.42%,8,0,0,0,0,3,5,0,6,0,0,0,0,3,3,0
+Computer Vision,Object Detection,3D Object Detection,KITTI Cars Hard,PointRCNN,AP,TRUE,57.73%,,,,,66.38%,67.86%,67.86%,7,0,0,0,0,3,4,0,5,0,0,0,0,3,2,0
+Computer Vision,Object Detection,3D Object Detection,KITTI Cars Easy,PC-CNN-V2,AP,TRUE,77.47%,,,,,81.94%,84.33%,84.33%,7,0,0,0,0,3,4,0,5,0,0,0,0,3,2,0
+Computer Vision,Object Detection,3D Object Detection,KITTI Pedestrians Moderate,Frustum PointNets,AP,TRUE,33.69%,,,,,44.89%,44.89%,44.89%,5,0,0,0,0,3,2,0,4,0,0,0,0,3,1,0
+Computer Vision,Object Detection,3D Object Detection,KITTI Cyclists Moderate,PointPillars,AP,TRUE,48.36%,,,,,56.77%,59.07%,59.07%,5,0,0,0,0,3,2,0,4,0,0,0,0,3,1,0
+Computer Vision,Object Detection,3D Object Detection,KITTI Cyclists Easy,Frustum PointNets,AP,TRUE,61.22%,,,,,71.96%,71.96%,71.96%,4,0,0,0,0,3,1,0,3,0,0,0,0,3,0,0
+Computer Vision,Object Detection,3D Object Detection,KITTI Pedestrians Hard,IPOD,AP,TRUE,31.51%,,,,,40.88%,42.39%,42.39%,4,0,0,0,0,3,1,0,3,0,0,0,0,3,0,0
+Computer Vision,Object Detection,3D Object Detection,KITTI Pedestrians Easy,IPOD,AP,TRUE,39.48%,,,,,51.21%,56.92%,56.92%,4,0,0,0,0,3,1,0,3,0,0,0,0,3,0,0
+Computer Vision,Object Detection,3D Object Detection,KITTI Cyclists Hard,Frustum PointNets,AP,TRUE,44.37%,,,,,50.39%,50.39%,50.39%,4,0,0,0,0,3,1,0,3,0,0,0,0,3,0,0
+Computer Vision,Object Detection,3D Object Detection,SUN-RGBD,Frustum PointNets,MAP,TRUE,54.00%,,,,,54.00%,54.00%,54.00%,1,0,0,0,0,1,0,0,1,0,0,0,0,1,0,0
+Computer Vision,Object Detection,3D Object Detection,NYU Depth v2,SGPN-CNN,MAP,TRUE,41.3,,,,,41.3,41.3,41.3,1,0,0,0,0,1,0,0,1,0,0,0,0,1,0,0
+Computer Vision,Semantic Segmentation,Real-Time Semantic Segmentation,Cityscapes,PSPNet,mIoU,TRUE,63.10%,,63.10%,67.10%,81.20%,81.20%,81.20%,81.20%,12,0,1,3,4,1,2,1,12,0,1,3,4,1,2,1
+Computer Vision,Semantic Segmentation,Real-Time Semantic Segmentation,CamVid,PSPNet,mIoU,TRUE,61.60%,,61.60%,65.30%,69.10%,69.10%,69.10%,69.10%,6,0,1,2,1,1,1,0,6,0,1,2,1,1,1,0
+Computer Vision,Image-to-Image Translation,Unsupervised Image-To-Image Translation,SVNH-to-MNIST,CyCADA pixel+feat,Classification Accuracy,TRUE,73.60%,,73.60%,73.60%,84.40%,90.40%,90.40%,90.40%,4,0,1,0,1,2,0,0,4,0,1,0,1,2,0,0
+Computer Vision,Autonomous Vehicles,Pedestrian Detection,Caltech,CSP + CityPersons dataset,Reasonable Miss Rate,FALSE,20.9,,20.9,9.68,7.3,4,4,3.8,16,0,2,4,3,3,3,1,5,0,0,0,1,1,2,1
+Computer Vision,Autonomous Vehicles,Pedestrian Detection,CityPersons,CSP (with offset) + ResNet-50,Reasonable MR^-2,FALSE,14.8,,,,,13.2,12,11,6,0,0,0,0,2,3,1,2,0,0,0,0,0,1,1
+Computer Vision,Object Detection,Real-Time Object Detection,PASCAL VOC 2007,YOLO,FPS,TRUE,7,,,46,46,46,46,46,4,0,0,2,1,1,0,0,4,0,0,2,1,1,0,0
+Computer Vision,Object Detection,Real-Time Object Detection,COCO,YOLOv3-tiny,FPS,TRUE,40,,,,40,40,220,220,2,0,0,0,1,0,1,0,2,0,0,0,1,0,1,0
+Computer Vision,Facial Recognition and Modelling,Facial Expression Recognition, Static Facial Expressions in the Wild,Covariance Pooling,Accuracy,TRUE,58.14%,,,,,,58.14%,58.14%,1,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0
+Computer Vision,Facial Recognition and Modelling,Facial Expression Recognition,Real-World Affective Faces,Covariance Pooling,Accuracy,TRUE,87.00%,,,,,,87.00%,87.00%,1,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0
+Computer Vision,Facial Recognition and Modelling,Facial Expression Recognition,Cohn-Kanade,Sequential forward selection,Accuracy,TRUE,88.70%,,,,,88.70%,88.70%,88.70%,1,0,0,0,0,1,0,0,1,0,0,0,0,1,0,0
+Computer Vision,Facial Recognition and Modelling,Facial Expression Recognition,MMI,DeXpression,Accuracy,TRUE,98.63%,,,98.63%,98.63%,98.63%,98.63%,98.63%,1,0,0,1,0,0,0,0,1,0,0,1,0,0,0,0
+Computer Vision,Pose Estimation,Multi-Person Pose Estimation,MPII Multi-Person,Regional Multi-Person Pose Estimation,AP,TRUE,59.40%,,,,82.10%,82.10%,82.10%,82.10%,7,0,0,0,6,1,0,0,7,0,0,0,6,1,0,0
+Computer Vision,Pose Estimation,Multi-Person Pose Estimation,WAF,DeeperCut,AOP,TRUE,86.50%,,,86.50%,88.10%,88.10%,88.10%,88.10%,3,0,0,1,1,1,0,0,3,0,0,1,1,1,0,0
+Computer Vision,Pose Estimation,Multi-Person Pose Estimation,COCO,HRNet-48,AP,TRUE,0.697,,,,,,0.697,0.77,2,0,0,0,0,0,1,1,2,0,0,0,0,0,1,1
+Computer Vision,Edge Detection,Edge Detection,SBD,CASENet,Maximum F-measure,TRUE,71.40%,,,,,71.40%,71.40%,71.40%,1,0,0,0,0,1,0,0,1,0,0,0,0,1,0,0
+Computer Vision,Edge Detection,Edge Detection,Cityscapes,CASENet,AP,TRUE,70.80%,,,,,70.80%,70.80%,70.80%,1,0,0,0,0,1,0,0,1,0,0,0,0,1,0,0
+Computer Vision,Video,Video Generation,TrailerFaces,PG-SWGAN-3D,FID,FALSE,404.1,,,,,,,404.1,1,0,0,0,0,0,0,1,1,0,0,0,0,0,0,1
+Computer Vision,Video,Visual Object Tracking,VOT2017/18,SiamMask,Expected Average Overlap (EAO),TRUE,0.263,,,,0.28,0.323,0.38,0.38,8,0,0,0,2,1,5,0,6,0,0,0,2,0,4,0
+Computer Vision,Hand,Hand Pose Estimation,NYU Hands,V2V-PoseNet,Average 3D Error,FALSE,12.7,,,,,8.42,8.42,8.42,5,0,0,0,0,5,0,0,5,0,0,0,0,5,0,0
+Computer Vision,Hand,Hand Pose Estimation,MSRA Hands,Dense Pixel-wise Estimation,Average 3D Error,FALSE,9.8,,,,,7.2,7.2,7.2,5,0,0,0,0,5,0,0,5,0,0,0,0,5,0,0
+Computer Vision,Hand,Hand Pose Estimation,ICVL Hands,V2V-PoseNet,Average 3D Error,FALSE,7.5,,,,,6.28,6.28,6.28,5,0,0,0,0,5,0,0,5,0,0,0,0,5,0,0
+Computer Vision,Hand,Hand Pose Estimation,HANDS 2017,V2V-PoseNet,Average 3D Error,FALSE,9.95,,,,,9.95,9.95,9.95,1,0,0,0,0,1,0,0,1,0,0,0,0,1,0,0
+Computer Vision,Pose Estimation,Keypoint Detection,COCO,HRNet-48,Validation AP,TRUE,60.5,,,,60.5,69.2,72.2,76.3,7,0,0,0,1,2,2,2,7,0,0,0,1,2,2,2
+Computer Vision,Pose Estimation,Keypoint Detection, Pascal3D+,ConvNet + deformable shape model,Mean PCK,TRUE,48.5,,68.8,68.8,68.8,82.5,82.5,82.5,4,0,2,0,0,1,1,0,1,0,0,0,0,0,1,0
+Computer Vision,Facial Recognition and Modelling,Face Identification,MegaFace,ArcFace + MS1MV2 + R100 + R,Accuracy,TRUE,70.49%,,,73.75%,73.75%,75.77%,98.35%,98.35%,5,0,0,2,0,1,2,0,4,0,0,2,0,1,1,0
+Computer Vision,Facial Recognition and Modelling,Face Identification,IJB-A,Deep Residual Equivariant Mapping,Accuracy,TRUE,91.40%,,,,,91.40%,94.60%,94.60%,2,0,0,0,0,1,1,0,2,0,0,0,0,1,1,0
+Computer Vision,Facial Recognition and Modelling,Face Identification,IJB-B,FPN,Accuracy,TRUE,91.10%,,,,,91.10%,91.10%,91.10%,1,0,0,0,0,1,0,0,1,0,0,0,0,1,0,0
+Computer Vision,Object Reconstruction,3D Object Reconstruction,Data3D‚àíR2N2,MVD,Avg F1,TRUE,39.01,,,,48.58,48.58,66.39,66.39,5,0,0,0,2,1,2,0,4,0,0,0,1,1,2,0
+Computer Vision,Image Classification,Few-Shot Image Classification,Mini-ImageNet - 5-Shot Learning,MetaOptNet-SVM,Accuracy,TRUE,55.30%,,,,55.30%,68.20%,75.50%,78.63%,9,0,0,0,1,2,4,2,9,0,0,0,1,2,4,2
+Computer Vision,Image Classification,Few-Shot Image Classification,Mini-ImageNet - 1-Shot Learning,MetaOptNet-SVM,Accuracy,TRUE,43.60%,,,,43.60%,49.42%,61.20%,62.64%,9,0,0,0,1,2,5,1,8,0,0,0,1,2,4,1
+Computer Vision,Image Classification,Few-Shot Image Classification,OMNIGLOT - 1-Shot Learning,Prototypical-Nets,Accuracy,TRUE,98.10%,,,,98.10%,98.80%,98.80%,98.80%,6,0,0,0,2,3,1,0,5,0,0,0,2,2,1,0
+Computer Vision,Image Classification,Few-Shot Image Classification,OMNIGLOT - 5-Shot Learning,MAML,Accuracy,TRUE,99.50%,,,,99.50%,99.90%,99.90%,99.90%,6,0,0,0,2,3,1,0,5,0,0,0,2,2,1,0
+Computer Vision,Image Classification,Few-Shot Image Classification,CUB-200 - 0-Shot Learning,Prototypical-Nets,Accuracy,TRUE,50.10%,,50.10%,50.10%,50.10%,54.60%,54.60%,54.60%,3,0,1,0,1,1,0,0,2,0,0,0,1,1,0,0
+Computer Vision,Video,Video Super-Resolution,Vid4 - 4x upscaling,VSR-DUF,PSNR,TRUE,24.68,,24.68,24.68,25.35,25.88,27.31,27.31,10,0,1,1,2,1,4,1,9,0,1,0,2,1,4,1
+Computer Vision,Video,Video Super-Resolution,Xiph HD - 4x upscaling,ESPCN,Average PSNR,TRUE,31.47,,31.47,31.47,31.67,31.67,31.67,31.67,2,0,1,0,1,0,0,0,2,0,1,0,1,0,0,0
+Computer Vision,Video,Video Super-Resolution,Ultra Video Group HD - 4x upscaling,ESPCN,Average PSNR,TRUE,37.52,,37.52,37.52,37.91,37.91,37.91,37.91,2,0,1,0,1,0,0,0,2,0,1,0,1,0,0,0
+Computer Vision,Video,Action Recognition In Videos,Charades,LFB NL,MAP,TRUE,24.1,,,,,25.2,42.5,42.5,4,0,0,0,0,2,2,0,1,0,0,0,0,1,0,0
+Computer Vision,Object Detection,Weakly Supervised Object Detection,PASCAL VOC 2007,pipeline method,MAP,TRUE,39.3,,,39.3,42.8,47,51.2,51.2,9,0,0,1,2,4,2,0,4,0,0,1,1,1,1,0
+Computer Vision,Object Detection,Weakly Supervised Object Detection,PASCAL VOC 2012,PCL-OB-G-Ens + FRCNN,MAP,TRUE,35.3,,,,37.9,42.5,44.2,44.2,6,0,0,0,2,3,1,0,3,0,0,0,1,1,1,0
+Computer Vision,Object Detection,Weakly Supervised Object Detection,ImageNet,PCL-OB-G-Ens + FRCNN,MAP,TRUE,16.3,,,,16.3,16.3,19.6,19.6,4,0,0,0,1,2,1,0,2,0,0,0,0,1,1,0
+Computer Vision,Object Detection,Weakly Supervised Object Detection,COCO,MSLPD,MAP,TRUE,43.5,,,43.5,47.9,56.6,56.6,56.6,4,0,0,1,1,2,0,0,1,0,0,0,0,1,0,0
+Computer Vision,Crowds,Crowd Counting,UCF CC 50,Cascaded-MTL,MAE,FALSE,322.8,,,,,322.8,322.8,322.8,1,0,0,0,0,1,0,0,1,0,0,0,0,1,0,0
+Computer Vision,Crowds,Crowd Counting,ShanghaiTech A,Cascaded-MTL,MAE,FALSE,101.3,,,,,101.3,101.3,101.3,1,0,0,0,0,1,0,0,1,0,0,0,0,1,0,0
+Computer Vision,Crowds,Crowd Counting,ShanghaiTech B,Cascaded-MTL,MAE,FALSE,20,,,,,20,20,20,1,0,0,0,0,1,0,0,1,0,0,0,0,1,0,0
+Computer Vision,Facial Recognition and Modelling,3D Face Reconstruction,Florence,PRN,Mean NME ,FALSE,6.38%,,,6.38%,6.38%,5.27%,3.76%,3.76%,7,0,0,1,1,2,2,1,4,0,0,0,1,0,2,1
+Computer Vision,Facial Recognition and Modelling,3D Face Reconstruction,AFLW2000-3D,PRN,Mean NME ,FALSE,5.37%,,,5.37%,5.37%,5.37%,3.96%,3.96%,3,0,0,1,0,1,1,0,1,0,0,0,0,0,1,0
+Computer Vision,Semantic Segmentation,Scene Segmentation,SUN-RGBD,DeepLab-LargeFOV,Mean IoU,TRUE,32.08,,32.08,32.08,32.08,32.08,32.08,32.08,3,0,1,1,1,0,0,0,3,0,1,1,1,0,0,0
+Computer Vision,Semantic Segmentation,Scene Segmentation,ScanNet,3DMV,Average Accuracy,TRUE,60.20%,,,,60.20%,60.20%,75.00%,75.00%,2,0,0,0,1,0,1,0,2,0,0,0,1,0,1,0
+Computer Vision,Facial Recognition and Modelling,Face Generation,CelebA,COCO-GAN,FID,FALSE,7.3,,,,,7.3,7.3,5.74,2,0,0,0,0,1,0,1,2,0,0,0,0,1,0,1
+Computer Vision,Pose Estimation,6D Pose Estimation,LineMOD,PoseCNN + DeepIM,Accuracy,TRUE,83.90%,,,,,90.37%,97.50%,97.50%,5,0,0,0,0,3,2,0,4,0,0,0,0,2,2,0
+Computer Vision,Pose Estimation,6D Pose Estimation,OccludedLINEMOD,PoseCNN + ICP,Accuracy,TRUE,76.70%,,,,76.70%,78.00%,78.00%,78.00%,3,0,0,0,1,2,0,0,1,0,0,0,0,1,0,0
+Computer Vision,Pose Estimation,6D Pose Estimation,YCB-Video,DenseFusion,Mean AUC,TRUE,93.00%,,,,,93.00%,93.00%,93.10%,3,0,0,0,0,2,0,1,2,0,0,0,0,1,0,1
+Computer Vision,Pose Estimation,6D Pose Estimation,OCCLUSION,Single-shot deep CNN,MAP,TRUE,0.48,,,,,0.48,0.48,0.48,2,0,0,0,0,2,0,0,1,0,0,0,0,1,0,0
+Computer Vision,Pose Estimation,6D Pose Estimation,T-LESS,RetinaNet+Augmented Autoencoders+ICP,Accuracy,TRUE,57.14,,,,,,,57.14,1,0,0,0,0,0,0,1,1,0,0,0,0,0,0,1
+Computer Vision,Gaze Estimation,Gaze Estimation,MPII Gaze,RT-GENE 4 model ensemble,Angular Error,FALSE,4.3,,,,,,4.3,4.3,1,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0
+Computer Vision,Gaze Estimation,Gaze Estimation,RT-GENE,RT-GENE 4 model ensemble,Angular Error,FALSE,7.7,,,,,,7.7,7.7,1,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0
+Computer Vision,Gaze Estimation,Gaze Estimation,UT Multi-view,RT-GENE 4 model ensemble,Angular Error,FALSE,5.1,,,,,,5.1,5.1,1,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0
+Computer Vision,Image Classification,Semi-Supervised Image Classification,"CIFAR-10, 4000 Labels",SWSA,Accuracy,TRUE,79.6,,,79.6,87.84,93.72,95,95,6,0,0,1,2,2,1,0,6,0,0,1,2,2,1,0
+Computer Vision,Image Classification,Semi-Supervised Image Classification,"SVHN, 1000 labels",VAT+EntMin,Accuracy,TRUE,91.89,,,,95.58,96.14,96.14,96.14,4,0,0,0,2,2,0,0,4,0,0,0,2,2,0,0
+Computer Vision,Image Classification,Semi-Supervised Image Classification,STL-10,IIC,Accuracy,TRUE,88.8,,,,,,,88.8,1,0,0,0,0,0,0,1,1,0,0,0,0,0,0,1
+Computer Vision,Emotion Recognition,Multimodal Emotion Recognition,IEMOCAP,CHFusion,F1,TRUE,55.30%,,,,,,55.30%,55.30%,1,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0
+Computer Vision,Emotion Recognition,Multimodal Emotion Recognition,Monologue,bc-LSTM,Accuracy,TRUE,74.10%,,,,,74.10%,74.10%,74.10%,1,0,0,0,0,1,0,0,1,0,0,0,0,1,0,0
+Computer Vision,Facial Recognition and Modelling,Facial Landmark Detection,300W,SAN GT,NME,FALSE,6.3,,,,,6.3,3.98,3.98,3,0,0,0,0,2,1,0,2,0,0,0,0,1,1,0
+Computer Vision,Facial Recognition and Modelling,Facial Landmark Detection,AFLW-Full,SAN,Mean NME ,FALSE,1.91,,,,,,1.91,1.91,1,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0
+Computer Vision,Facial Recognition and Modelling,Facial Landmark Detection,AFLW-Front,SAN,Mean NME ,FALSE,1.85,,,,,,1.85,1.85,1,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0
+Computer Vision,Image-to-Image Translation,Synthetic-to-Real Translation,GTAV-to-Cityscapes Labels,Domain adaptation + ResNet-101,mIoU,TRUE,27.1,,,,27.1,39.5,43.2,43.2,7,0,0,0,1,3,3,0,6,0,0,0,1,2,3,0
+Computer Vision,Object Localization,Weakly-Supervised Object Localization, CUB-200-2011,SPG,Top-1 Error Rate,FALSE,53.36,,,,,,53.36,53.36,1,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0
+Computer Vision,Object Localization,Weakly-Supervised Object Localization,ILSVRC 2015,SPG,Top-1 Error Rate,FALSE,51.4,,,,,,51.4,51.4,1,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0
+Computer Vision,Object Localization,Weakly-Supervised Object Localization,ILSVRC 2016,SPG,Top-5 Error,FALSE,40,,,,,,40,40,1,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0
+Computer Vision,Image Classification,Fine-Grained Image Classification, CUB-200-2011,Inception-V3,Accuracy,TRUE,76.40%,,76.40%,85.10%,85.10%,88.70%,89.6,89.6,10,0,1,2,0,3,2,2,5,0,0,0,0,2,2,1
+Computer Vision,Image Classification,Fine-Grained Image Classification,Stanford Cars,WS-DAN,Accuracy,TRUE,92.86%,,,,,93.30%,93.30%,94.50%,4,0,0,0,0,2,1,1,3,0,0,0,0,2,1,0
+Computer Vision,Image Classification,Fine-Grained Image Classification,FGVC Aircraft,WS-DAN,Accuracy,TRUE,91.40%,,,,,91.40%,91.40%,93.00%,3,0,0,0,0,1,1,1,2,0,0,0,0,1,1,0
+Computer Vision,Image Classification,Fine-Grained Image Classification,CompCars,A3M,Accuracy,TRUE,91.20%,,,91.20%,91.20%,91.20%,91.20%,95.40%,2,0,0,1,0,0,0,1,2,0,0,1,0,0,0,1
+Computer Vision,Image Classification,Fine-Grained Image Classification,Stanford Dogs,WS-DAN,Accuracy,TRUE,83.75%,,,,,83.75%,83.75%,92.1,2,0,0,0,0,1,0,1,1,0,0,0,0,1,0,0
+Computer Vision,Image Classification,Fine-Grained Image Classification,Oxford 102 Flowers,PC Bilinear CNN,Accuracy,TRUE,93.65%,,,,,93.65%,93.65%,93.65%,2,0,0,0,0,1,1,0,2,0,0,0,0,1,1,0
+Computer Vision,Image Classification,Fine-Grained Image Classification,Caltech-101,AutoAugment,Top-1 Error Rate,FALSE,13.07%,,,,,,13.07%,13.07%,1,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0
+Computer Vision,Image Classification,Fine-Grained Image Classification,Oxford-IIIT Pets,AutoAugment,Top-1 Error Rate,FALSE,11.02%,,,,,,11.02%,11.02%,1,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0
+Computer Vision,Image Classification,Fine-Grained Image Classification,NABirds,PC-DenseNet-161,Accuracy,TRUE,82.79%,,,,,82.79%,82.79%,82.79%,1,0,0,0,0,1,0,0,1,0,0,0,0,1,0,0
+Computer Vision,Hyperspectral,Hyperspectral Image Classification,Indian Pines,BASSNet,Overall Accuracy,TRUE,96.77%,,,,96.77%,96.77%,96.77%,96.77%,3,0,0,0,1,1,1,0,3,0,0,0,1,1,1,0
+Computer Vision,Hyperspectral,Hyperspectral Image Classification,Pavia University,St-SS-pGRU,Overall Accuracy,TRUE,97.48%,,,,97.48%,97.48%,98.44%,98.44%,3,0,0,0,1,1,1,0,3,0,0,0,1,1,1,0
+Computer Vision,Autonomous Vehicles,Lane Detection,TuSimple,Spatial CNN,Accuracy,TRUE,96.40%,,,,,96.53%,96.53%,96.53%,4,0,0,0,0,2,2,0,4,0,0,0,0,2,2,0
+Computer Vision,Autonomous Vehicles,Lane Detection,Caltech Lanes Washington,VPGNet,F1,TRUE,0.861,,,0.861,0.861,0.869,0.869,0.869,2,0,0,1,0,1,0,0,1,0,0,0,0,1,0,0
+Computer Vision,Autonomous Vehicles,Lane Detection,Caltech Lanes Cordova,VPGNet,F1,TRUE,0.866,,,0.866,0.866,0.884,0.884,0.884,2,0,0,1,0,1,0,0,1,0,0,0,0,1,0,0
+Computer Vision,Image Generation,Text-to-Image Generation,COCO,AttnGAN,Inception score,TRUE,8.45,,,,,25.89,25.89,25.89,3,0,0,0,0,2,0,1,3,0,0,0,0,2,0,1
+Computer Vision,Image Generation,Text-to-Image Generation,CUB,AttnGAN,Inception score,TRUE,3.62,,,,3.62,4.36,4.36,4.36,3,0,0,0,1,2,0,0,2,0,0,0,0,2,0,0
+Computer Vision,Image Generation,Text-to-Image Generation,Oxford 102 Flowers,StackGAN-v2,FID,FALSE,48.68,,,,,48.68,48.68,48.68,1,0,0,0,0,1,0,0,1,0,0,0,0,1,0,0
+Computer Vision,Image Generation,Text-to-Image Generation,MS-COCO,AttnGAN+OP,Inception score,TRUE,24.76,,,24.76,24.76,24.76,24.76,24.76,1,0,0,1,0,0,0,0,1,0,0,1,0,0,0,0
+Computer Vision,Autonomous Vehicles,Traffic Sign Recognition,Tsinghua-Tencent 100K,Background Threshold Model,MAP,TRUE,0.32,,,,,,0.32,0.32,1,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0
+Computer Vision,Autonomous Vehicles,Traffic Sign Recognition,Bosch Small Traffic Lights,Hierarchical + Background Threshold Model,MAP,TRUE,0.46,,,,,,0.46,0.46,1,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0
+Computer Vision,Autonomous Vehicles,Traffic Sign Recognition,GTSRB,MCDNN,Accuracy,TRUE,99.50%,99.50%,99.50%,99.50%,99.50%,99.50%,99.50%,99.50%,2,0,0,0,0,0,1,0,2,0,0,0,0,0,1,0
+Computer Vision,Trajectory Prediction,Trajectory Prediction,GPS,Support Vector Machines,Accuracy,TRUE,88%,88%,88%,88%,88%,88%,88%,88%,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Computer Vision,Object Detection,Object Proposal Generation,"PASCAL VOC 2012, 60 proposals per image",Recurrent Pixel Embedding,Average Recall,TRUE,0.667,,,,,0.814,0.814,0.814,2,0,0,0,0,2,0,0,2,0,0,0,0,2,0,0
+Computer Vision,Object Recognition,3D Object Recognition,ModelNet40,MVCNN-MultiRes,Accuracy,TRUE,93.80%,,,,93.80%,93.80%,93.80%,93.80%,3,0,0,0,2,1,0,0,3,0,0,0,2,1,0,0
+Computer Vision,Human Part Segmentation,Human Part Segmentation,CIHP,Parsing R-CNN + ResNext101,Mean IoU,TRUE,55.8,,,,,,61.1,61.1,2,0,0,0,0,0,2,0,2,0,0,0,0,0,2,0
+Computer Vision,Human Part Segmentation,Human Part Segmentation,MHP v2.0,Parsing R-CNN + ResNext101,Mean IoU,TRUE,41.8,,,,,,41.8,41.8,1,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0
+Computer Vision,Image Classification,Sequential Image Classification,Sequential MNIST,BN LSTM,Permuted Accuracy,TRUE,82%,,,88%,95.40%,95.40%,95.40%,95.40%,5,0,0,2,2,1,0,0,5,0,0,2,2,1,0,0
+Computer Vision,Human Parsing,Multi-Human Parsing,MHP v1.0,NAN,AP 0.5,TRUE,52.68%,,,,,52.68%,57.09%,57.09%,4,0,0,0,0,3,1,0,4,0,0,0,0,3,1,0
+Computer Vision,Human Parsing,Multi-Human Parsing,MHP v2.0,NAN,AP 0.5,TRUE,14.90%,,,,,17.99%,25.14%,25.14%,3,0,0,0,0,2,1,0,3,0,0,0,0,2,1,0
+Computer Vision,Human Parsing,Multi-Human Parsing,PASCAL-Person-Part,NAN,AP 0.5,TRUE,38.80%,,,38.80%,38.80%,40.60%,59.70%,59.70%,3,0,0,1,0,1,1,0,2,0,0,1,0,0,1,0
+Computer Vision,Pose Estimation,Head Pose Estimation,BIWI,Multi-Loss ResNet50,MAE,FALSE,19.068,,,19.068,19.068,4.895,4.895,4.895,4,0,0,1,0,3,0,0,2,0,0,0,0,2,0,0
+Computer Vision,Pose Estimation,Head Pose Estimation,AFLW2000,Multi-Loss ResNet50,MAE,FALSE,7.393,,,7.393,7.393,6.155,6.155,6.155,3,0,0,1,0,2,0,0,2,0,0,0,0,2,0,0
+Computer Vision,3D,3D Object Classification,ModelNet40,3D-PointCapsNet,Classification Accuracy,TRUE,89.30%,,,,,,89.30%,89.30%,1,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0
+Computer Vision,Image-to-Image Translation,Multimodal Unsupervised Image-To-Image Translation,Edge-to-Shoes,MUNIT,Diversity,TRUE,0.011,,,,,0.104,0.109,0.109,4,0,0,0,0,3,1,0,4,0,0,0,0,3,1,0
+Computer Vision,Image-to-Image Translation,Multimodal Unsupervised Image-To-Image Translation,Edge-to-Handbags,MUNIT,Diversity,TRUE,0.023,,,,,0.14,0.175,0.175,4,0,0,0,0,3,1,0,4,0,0,0,0,3,1,0
+Computer Vision,Image-to-Image Translation,Multimodal Unsupervised Image-To-Image Translation,Cats-and-Dogs,MUNIT,CIS,TRUE,0.115,,,,,0.115,1.039,1.039,3,0,0,0,0,2,1,0,3,0,0,0,0,2,1,0
+Computer Vision,Facial Recognition and Modelling,Age Estimation,MORPH Album2,CORAL,MAE,TRUE,2.42¬±0.01,,,,2.42¬±0.01,2.42¬±0.01,2.42¬±0.01,2.59,2,0,0,0,1,0,0,1,2,0,0,0,1,0,0,1
+Computer Vision,Facial Recognition and Modelling,Age Estimation,FGNET,CMAAE-OR,MAE,FALSE,3.62,,,,,,3.62,3.62,1,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0
+Computer Vision,Facial Recognition and Modelling,Age Estimation,MORPH,CMAAE-OR,MAE,FALSE,1.48,,,,,,1.48,1.48,1,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0
+Computer Vision,Facial Recognition and Modelling,Age Estimation,AFAD,CORAL,MAE,TRUE,3.48,,,,,,,3.48,1,0,0,0,0,0,0,1,1,0,0,0,0,0,0,1
+Computer Vision,Facial Recognition and Modelling,Age Estimation,CACD,CORAL,MAE,TRUE,5.35,,,,,,,5.35,1,0,0,0,0,0,0,1,1,0,0,0,0,0,0,1
+Computer Vision,Facial Recognition and Modelling,Age Estimation,ChaLearn 2015,DLDL+VGG-Face,MAE,FALSE,3.51,,,,3.51,3.51,3.51,3.51,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0
+Computer Vision,Facial Recognition and Modelling,Age Estimation,UTKFace,CORAL,MAE,TRUE,5.39,,,,,,,5.39,1,0,0,0,0,0,0,1,1,0,0,0,0,0,0,1
+Computer Vision,Object Detection,Medical Object Detection,Barrett‚Äôs Esophagus,Attention-based model,Mean Accuracy,TRUE,74%,,,,,74%,81%,81%,2,0,0,0,0,1,1,0,2,0,0,0,0,1,1,0
+Computer Vision,Line segment detection,Line segment detection,wireframe dataset,atrous Residual U-Net,F1 score,TRUE,0.773,,,,,,,0.773,1,0,0,0,0,0,0,1,1,0,0,0,0,0,0,1
+Computer Vision,Scene Text Detection,Curved Text Detection,SCUT-CTW1500,PSENet-1s,F-Measure,TRUE,40.80%,,,,,73.40%,81.17%,81.17%,5,0,0,0,0,3,2,0,4,0,0,0,0,3,1,0
+Computer Vision,Dense Pixel Correspondence Estimation,Dense Pixel Correspondence Estimation,HPatches,DGC-Net aff+tps+homo,Viewpoint I AEPE,FALSE,5.84,,,5.84,5.84,4.43,1.55,1.55,5,0,0,1,2,1,1,0,4,0,0,0,2,1,1,0
+Computer Vision,3D Reconstruction,3D Room Layouts From A Single Rgb Panorama,PanoContext,HorizonNet,3DIoU,TRUE,74.48%,,,,,,77.42%,82.17%,4,0,0,0,0,0,2,2,3,0,0,0,0,0,1,2
+Computer Vision,3D Reconstruction,3D Room Layouts From A Single Rgb Panorama,Stanford 2D-3D,HorizonNet,3DIoU,TRUE,76.33%,,,,,,79.36%,79.79%,3,0,0,0,0,0,2,1,2,0,0,0,0,0,1,1
+Computer Vision,3D Reconstruction,3D Room Layouts From A Single Rgb Panorama,Realtor360,DuLa-Net,3DIoU,TRUE,62.77%,,,,,,77.20%,77.20%,2,0,0,0,0,0,2,0,1,0,0,0,0,0,1,0
+Computer Vision,Facial Recognition and Modelling,Facial Inpainting,VggFace2,SymmFCNet (Full),PSNR,TRUE,27.81,,,,,,27.81,27.81,1,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0
+Computer Vision,Facial Recognition and Modelling,Facial Inpainting,WebFace,SymmFCNet (Full),PSNR,TRUE,27.22,,,,,,27.22,27.22,1,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0
+Computer Vision,Object Detection,Video Object Detection,ImageNet VID,FGFA + Seq-NMS,MAP,TRUE,80.10%,,,,,80.10%,80.10%,80.10%,1,0,0,0,0,1,0,0,1,0,0,0,0,1,0,0
+Computer Vision,Face Detection,Occluded Face Detection,MAFA,FAN,MAP,TRUE,77.30%,,,,,88.30%,88.30%,88.30%,2,0,0,0,0,2,0,0,2,0,0,0,0,2,0,0
+Computer Vision,Facial Recognition and Modelling,Face Anti-Spoofing,MSU-MFSD,GFA-CNN,Equal Error Rate,FALSE,10.80%,,,10.80%,10.80%,10.80%,10.80%,7.50%,2,0,0,1,0,0,0,1,1,0,0,0,0,0,0,1
+Computer Vision,Sketch,Face Sketch Synthesis,CUHK,Residual net + Pseudo Sketch Feature Loss + LSGAN,FSIM,TRUE,73.61%,,,,,73.61%,74.23%,74.23%,2,0,0,0,0,1,1,0,2,0,0,0,0,1,1,0
+Computer Vision,Sketch,Face Sketch Synthesis,CUFS,Residual net + Pseudo Sketch Feature Loss + LSGAN,FSIM,TRUE,72.56%,,,,,,72.56%,72.56%,1,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0
+Computer Vision,Sketch,Face Sketch Synthesis,CUFSF,Residual net + Pseudo Sketch Feature Loss + LSGAN,FSIM,TRUE,71.59%,,,,,,71.59%,71.59%,1,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0
+Computer Vision,Facial Recognition and Modelling,Facial Action Unit Detection,BP4D,Multi-View,Average Accuracy,TRUE,56.10%,,,,,81.80%,81.80%,81.80%,2,0,0,0,0,2,0,0,1,0,0,0,0,1,0,0
+Computer Vision,Facial Recognition and Modelling,Facial Beauty Prediction,SCUT-FBP,CNN features + Bayesian ridge regression,MAE,FALSE,0.3931,,,,,,0.2595,0.2595,2,0,0,0,0,0,2,0,2,0,0,0,0,0,2,0
+Computer Vision,Facial Recognition and Modelling,Facial Beauty Prediction,ECCV HotOrNot,CNN features + Bayesian ridge regression,Pearson Correlation,TRUE,0.468,,,,,,0.468,0.468,1,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0
+Computer Vision,Facial Recognition and Modelling,Age-Invariant Face Recognition,CACDVS,AIM + CAFR,Accuracy,TRUE,97.95%,,,97.95%,97.95%,99.13%,99.76%,99.76%,4,0,0,1,0,1,2,0,2,0,0,1,0,0,1,0
+Computer Vision,Facial Recognition and Modelling,Age-Invariant Face Recognition,MORPH Album2,AIM + CAFR,Rank-1 Recognition Rate,TRUE,99.65%,,,,,,99.65%,99.65%,2,0,0,0,0,0,2,0,1,0,0,0,0,0,1,0
+Computer Vision,Facial Recognition and Modelling,Age-Invariant Face Recognition,CAFR,AIM,Accuracy,TRUE,73.56%,,,73.56%,73.56%,73.56%,84.81%,84.81%,2,0,0,1,0,0,1,0,2,0,0,1,0,0,1,0
+Computer Vision,Facial Recognition and Modelling,Age-Invariant Face Recognition,FG-NET,AIM,Accuracy,TRUE,93.20%,,,,,,93.20%,93.20%,1,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0
+Computer Vision,Autonomous Vehicles,Pedestrian Attribute Recognition,PA-100K,HP-net,Accuracy,TRUE,72.19%,,,,,72.19%,72.19%,72.19%,1,0,0,0,0,1,0,0,1,0,0,0,0,1,0,0
+Computer Vision,Autonomous Vehicles,Pedestrian Attribute Recognition,PETA,HP-net,Accuracy,TRUE,76.13%,,,,,76.13%,76.13%,76.13%,1,0,0,0,0,1,0,0,1,0,0,0,0,1,0,0
+Computer Vision,Autonomous Vehicles,Pedestrian Attribute Recognition,RAP,HP-net,Accuracy,TRUE,65.39%,,,,,65.39%,65.39%,65.39%,1,0,0,0,0,1,0,0,1,0,0,0,0,1,0,0
+Computer Vision,Object Detection,Object Skeleton Detection,SK-LARGE,DeepFlux,F-Measure,TRUE,0.724,,,,,,0.732,0.732,2,0,0,0,0,0,2,0,1,0,0,0,0,0,1,0
+Computer Vision,Face Verification,Disguised Face Verification,Disguised Faces in the Wild,DisguiseNet,GAR @0.1% FAR,TRUE,23.25,,,,,,23.25,23.25,2,0,0,0,0,0,2,0,1,0,0,0,0,0,1,0
+Computer Vision,Object Recognition,Depiction Invariant Object Recognition,Photo-Art-50,SwiDeN,Overall Accuracy,TRUE,93.02%,,,,93.02%,93.02%,93.02%,93.02%,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0
+Computer Vision,Birds Eye View Object Detection,Birds Eye View Object Detection,KITTI Cars Moderate,PointPillars,AP,TRUE,86.10%,,,,,,86.10%,86.10%,1,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0
+Computer Vision,Birds Eye View Object Detection,Birds Eye View Object Detection,KITTI Cyclists Moderate,PointPillars,AP,TRUE,62.25%,,,,,,62.25%,62.25%,1,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0
+Computer Vision,Birds Eye View Object Detection,Birds Eye View Object Detection,KITTI Pedestrians Moderate,PointPillars,AP,TRUE,50.23%,,,,,,50.23%,50.23%,1,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0
+Computer Vision,Safety Perception Recognition,Safety Perception Recognition,Google Street Images,CNN,Accuracy,TRUE,81%,,,,,,,81%,1,0,0,0,0,0,0,1,1,0,0,0,0,0,0,1
+Computer Vision,Image Classification,Unsupervised image classification,STL-10,IIC,Accuracy,TRUE,61.00%,,,,,,,61.00%,1,0,0,0,0,0,0,1,1,0,0,0,0,0,0,1
+Computer Vision,Image Classification,Unsupervised image classification,CIFAR-10,IIC,Accuracy,TRUE,61.7,,,,,,,61.7,1,0,0,0,0,0,0,1,1,0,0,0,0,0,0,1
+Computer Vision,Image Classification,Unsupervised image classification,CIFAR-20,IIC,Accuracy,TRUE,25.7,,,,,,,25.7,1,0,0,0,0,0,0,1,1,0,0,0,0,0,0,1
+Computer Vision,Image Classification,Unsupervised image classification,MNIST,IIC,Accuracy,TRUE,99.3,,,,,,,99.3,1,0,0,0,0,0,0,1,1,0,0,0,0,0,0,1
+Computer Vision,Semantic Segmentation,Unsupervised semantic segmentation,COCO-Stuff-15,IIC,Accuracy,TRUE,27.7,,,,,,,27.7,1,0,0,0,0,0,0,1,1,0,0,0,0,0,0,1
+Computer Vision,Semantic Segmentation,Unsupervised semantic segmentation,COCO-Stuff-3,IIC,Accuracy,TRUE,72.3,,,,,,,72.3,1,0,0,0,0,0,0,1,1,0,0,0,0,0,0,1
+Computer Vision,Semantic Segmentation,Unsupervised semantic segmentation,Potsdam,IIC,Accuracy,TRUE,65.1,,,,,,,65.1,1,0,0,0,0,0,0,1,1,0,0,0,0,0,0,1
+Computer Vision,Semantic Segmentation,Unsupervised semantic segmentation,Potsdam-3,IIC,Accuracy,TRUE,45.4,,,,,,,45.4,1,0,0,0,0,0,0,1,1,0,0,0,0,0,0,1
+Computer Vision,Instance Segmentation,Human Instance Segmentation,OCHuman,Pose2Seg (plus ground-truth keypoints),AP,TRUE,0.552,,,,,,0.552,0.552,1,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0
+Computer Vision,Image Recognition,License Plate Recognition,Chinese License Plates,LPRNet basic,Accuracy,TRUE,95.00%,,,,,,95.00%,95.00%,1,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0
+Computer Vision,Novel View Synthesis,Novel View Synthesis,KITTI Novel View Synthesis,Multi-view to Novel View,SSIM,TRUE,0.626,,,,,,0.626,0.626,1,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0
+Computer Vision,Novel View Synthesis,Novel View Synthesis,ShapeNet Car,Multi-view to Novel View,SSIM,TRUE,0.923,,,,,,0.923,0.923,1,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0
+Computer Vision,Novel View Synthesis,Novel View Synthesis,ShapeNet Chair,Multi-view to Novel View,SSIM,TRUE,0.895,,,,,,0.895,0.895,1,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0
+Computer Vision,Novel View Synthesis,Novel View Synthesis,Synthia Novel View Synthesis,Multi-view to Novel View,SSIM,TRUE,0.697,,,,,,0.697,0.697,1,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0
+Computer Vision,Object Detection,One-Shot Object Detection,COCO,Siamese Mask R-CNN,AP 0.5,TRUE,16.3,,,,,,16.3,16.3,1,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0
+Computer Vision,Instance Segmentation,One-Shot Instance Segmentation,COCO,Siamese Mask R-CNN,AP 0.5,FALSE,14.5,,,,,,14.5,14.5,1,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0
+Computer Vision,3D,3D Part Segmentation,ShapeNet-Part,3D-PointCapsNet,Accuracy,TRUE,86,,,,,,86,86,1,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0
+Computer Vision,Instance Segmentation,Real-time Instance Segmentation,MSCOCO,YOLACT,MAP,TRUE,29.8,,,,,,,29.8,1,0,0,0,0,0,0,1,1,0,0,0,0,0,0,1
+Computer Vision,Facial Recognition and Modelling,Smile Recognition,DISFA,Deep CNN,Accuracy,TRUE,99.45%,,,,99.45%,99.45%,99.45%,99.45%,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+Computer Vision,Image Classification,Document Image Classification,RVL-CDIP,Transfer Learning from VGG16 trained on Imagenet,Accuracy,TRUE,89.80%,,,89.80%,89.80%,90.97%,92.21%,92.21%,4,0,0,1,0,2,1,0,0,0,0,0,0,0,0,0
+Natural Language Processing,Machine Translation,Machine Translation,WMT2014 English-French,Transformer Big + BT,BLEU score,TRUE,34.54,,37.5,37.5,39.92,41.4,45.6,45.6,23,0,5,0,5,5,6,2,21,0,5,0,4,4,6,2
+Natural Language Processing,Machine Translation,Machine Translation,WMT2014 English-German,DeepL,BLEU score,TRUE,20.7,,,,26.3,28.9,29.3,29.7,22,0,0,0,5,7,8,2,20,0,0,0,4,6,8,2
+Natural Language Processing,Machine Translation,Machine Translation,IWSLT2015 German-English,Transformer,BLEU score,TRUE,28.53,,28.53,28.53,30.4,34.44,34.44,34.44,15,0,1,1,4,5,4,0,15,0,1,1,4,5,4,0
+Natural Language Processing,Machine Translation,Machine Translation,WMT2016 English-Romanian,ConvS2S BPE40k,BLEU score,TRUE,28.1,,,,28.9,29.88,29.88,29.88,7,0,0,0,3,2,2,0,6,0,0,0,2,2,2,0
+Natural Language Processing,Machine Translation,Machine Translation,IWSLT2015 English-German,Transformer,BLEU score,TRUE,25.04,,,,25.04,28.23,28.23,28.23,7,0,0,0,1,4,2,0,7,0,0,0,1,4,2,0
+Natural Language Processing,Machine Translation,Machine Translation,WMT2015 English-German,ByteNet,BLEU score,TRUE,22.8,,,22.8,26.26,26.26,26.26,26.26,4,0,0,1,2,1,0,0,4,0,0,1,2,1,0,0
+Natural Language Processing,Machine Translation,Machine Translation,WMT2016 English-German,Attentional encoder-decoder + BPE,BLEU score,TRUE,34.2,,,,34.2,34.2,34.2,34.2,5,0,0,0,2,1,2,0,5,0,0,0,2,1,2,0
+Natural Language Processing,Machine Translation,Machine Translation,WMT2016 German-English,Attentional encoder-decoder + BPE,BLEU score,TRUE,38.6,,,,38.6,38.6,38.6,38.6,5,0,0,0,2,1,2,0,5,0,0,0,2,1,2,0
+Natural Language Processing,Machine Translation,Machine Translation,WMT2016 English-Russian,Attentional encoder-decoder + BPE,BLEU score,TRUE,26,,,,26,26,26,26,2,0,0,0,1,0,1,0,2,0,0,0,1,0,1,0
+Natural Language Processing,Machine Translation,Machine Translation,WMT2016 Romanian-English,MLM pretraining,BLEU score,TRUE,33.3,,,,33.3,33.3,33.3,35.3,4,0,0,0,1,1,1,1,4,0,0,0,1,1,1,1
+Natural Language Processing,Machine Translation,Machine Translation,WMT2014 German-English,Denoising autoencoders (non-autoregressive),BLEU score,TRUE,23.2,,,,,23.2,25.43,25.43,3,0,0,0,0,1,2,0,3,0,0,0,0,1,2,0
+Natural Language Processing,Machine Translation,Machine Translation,WMT2016 English-Czech,Attentional encoder-decoder + BPE,BLEU score,TRUE,25.8,,,,25.8,25.8,25.8,25.8,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0
+Natural Language Processing,Machine Translation,Machine Translation,WMT 2014 EN-DE,universal transformer base,BLEU,TRUE,28.9,,,,,,28.9,28.9,1,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0
+Natural Language Processing,Machine Translation,Machine Translation,IWSLT2015 Thai-English,Seq-KD + Seq-Inter + Word-KD,BLEU score,TRUE,14.2,,,,14.2,14.2,14.2,14.2,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0
+Natural Language Processing,Machine Translation,Machine Translation,WMT2015 English-Russian,C2-50k Segmentation,BLEU score,TRUE,20.9,,,20.9,20.9,20.9,20.9,20.9,1,0,0,1,0,0,0,0,1,0,0,1,0,0,0,0
+Natural Language Processing,Machine Translation,Machine Translation,WMT2016 Czech-English,Attentional encoder-decoder + BPE,BLEU score,TRUE,31.4,,,,31.4,31.4,31.4,31.4,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0
+Natural Language Processing,Machine Translation,Machine Translation,WMT2014 French-English,SMT + iterative backtranslation (unsupervised),BLEU score,TRUE,25.87,,,,,,25.87,25.87,1,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0
+Natural Language Processing,Machine Translation,Machine Translation,WMT2016 Russian-English,Attentional encoder-decoder + BPE,BLEU score,TRUE,28,,,,28,28,28,28,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0
+Natural Language Processing,Language Modelling,Language Modelling,Penn Treebank (Word Level),GPT-2,Test perplexity,FALSE,65.4,,,,64,47.69,46.54,35.76,18,0,0,0,3,4,7,4,16,0,0,0,3,4,5,4
+Natural Language Processing,Language Modelling,Language Modelling,One Billion Word,Transformer-XL Large,PPL,FALSE,51.3,51.3,51.3,51.3,30,28,23.02,21.8,11,1,1,0,2,2,2,3,9,1,0,0,2,1,2,3
+Natural Language Processing,Language Modelling,Language Modelling,WikiText-103,GPT-2,Test perplexity,FALSE,40.8,,,,37.2,37.2,18.7,17.48,9,0,0,0,2,0,5,2,7,0,0,0,2,0,3,2
+Natural Language Processing,Language Modelling,Language Modelling,WikiText-2,GPT-2,Test perplexity,FALSE,52,,,,,40.68,39.14,18.34,10,0,0,0,0,4,3,3,9,0,0,0,0,4,2,3
+Natural Language Processing,Language Modelling,Language Modelling,Hutter Prize,24-layer Transformer-XL,Bit per Character (BPC),FALSE,1.27,,,,1.24,1.08,1.06,0.99,7,0,0,0,2,2,2,1,4,0,0,0,1,1,1,1
+Natural Language Processing,Language Modelling,Language Modelling,enwiki8,GPT-2,Bit per Character (BPC),FALSE,1.27,,,,1.24,1.24,1.06,0.93,8,0,0,0,4,1,1,2,4,0,0,0,2,0,0,2
+Natural Language Processing,Language Modelling,Language Modelling,Text8,GPT-2,Bit per Character (BPC),FALSE,1.36,,,,1.27,1.19,1.13,0.98,8,0,0,0,4,1,1,2,6,0,0,0,3,1,0,2
+Natural Language Processing,Language Modelling,Language Modelling,Penn Treebank (Character Level),Trellis Network,Bit per Character (BPC),FALSE,1.219,,,,1.214,1.19,1.158,1.158,6,0,0,0,2,1,3,0,3,0,0,0,1,0,2,0
+Natural Language Processing,Language Modelling,Language Modelling,Sequential MNIST,Trellis Network,Accuracy,TRUE,99.2,,,,,,99.2,99.2,1,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0
+Natural Language Processing,Question Answering,Question Answering,SQuAD1.1,BERT (ensemble),EM,TRUE,67.901,,,,75.034,82.283,87.433,87.433,32,0,0,0,8,18,6,0,18,0,0,0,5,10,3,0
+Natural Language Processing,Question Answering,Question Answering,SQuAD2.0,BERT + DAE + AoA (ensemble),EM,TRUE,70.3,,,,,71.316,83.536,87.147,6,0,0,0,0,2,4,0,5,0,0,0,0,2,3,0
+Natural Language Processing,Question Answering,Question Answering,CNN / Daily Mail,GA+MAGE (32),CNN,TRUE,69.4,,,69.4,77.9,78.6,78.6,78.6,11,0,0,1,9,1,0,0,7,0,0,1,6,0,0,0
+Natural Language Processing,Question Answering,Question Answering,WikiQA,HyperQA,MAP,TRUE,0.5976,,0.652,0.6886,0.709,0.712,0.712,0.712,10,0,2,1,6,1,0,0,7,0,2,1,3,1,0,0
+Natural Language Processing,Question Answering,Question Answering,bAbi,QRN,Accuracy (trained on 10k),TRUE,93.40%,,,93.40%,99.70%,99.70%,99.70%,99.70%,9,0,0,1,4,3,1,0,6,0,0,1,2,3,0,0
+Natural Language Processing,Question Answering,Question Answering,Children's Book Test,GPT-2,Accuracy-CN,TRUE,68.90%,,,,71.90%,71.90%,71.90%,93.30%,6,0,0,0,5,0,0,1,5,0,0,0,4,0,0,1
+Natural Language Processing,Question Answering,Question Answering,CoQA,BERT Large Augmented (single model),In-domain,TRUE,67,,,,,,82.5,82.5,5,0,0,0,0,0,5,0,5,0,0,0,0,0,5,0
+Natural Language Processing,Question Answering,Question Answering,QASent,Attentive LSTM,MAP,TRUE,0.6762,,0.7113,0.7339,0.7339,0.7339,0.7339,0.7339,3,0,2,1,0,0,0,0,3,0,2,1,0,0,0,0
+Natural Language Processing,Question Answering,Question Answering,NarrativeQA,ConZNet,Rouge-L,TRUE,36.74,,,,36.74,36.74,46.67,46.67,6,0,0,0,1,1,4,0,4,0,0,0,1,1,2,0
+Natural Language Processing,Question Answering,Question Answering,SemEvalCQA,HyperQA,P@1,TRUE,0.753,,,0.753,0.755,0.809,0.809,0.809,5,0,0,1,3,1,0,0,2,0,0,1,0,1,0,0
+Natural Language Processing,Question Answering,Question Answering,YahooCQA,HyperQA,P@1,TRUE,0.568,,,,0.568,0.683,0.683,0.683,2,0,0,0,1,1,0,0,1,0,0,0,0,1,0,0
+Natural Language Processing,Question Answering,Question Answering,TriviaQA,MemoReader,EM,TRUE,46.94,,,,,66.37,67.21,67.21,5,0,0,0,0,4,1,0,2,0,0,0,0,2,0,0
+Natural Language Processing,Question Answering,Question Answering,AI2 Kaggle Dataset,IR Baseline,P@1,FALSE,47.2,,,,,47.2,47.2,47.2,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+Natural Language Processing,Question Answering,Question Answering,MS MARCO,Masque Q&A Style,Rouge-L,TRUE,23.96,,,,23.96,23.96,52.01,52.2,4,0,0,0,1,0,2,1,1,0,0,0,1,0,0,0
+Natural Language Processing,Question Answering,Question Answering,NewsQA,DecaProp,F1,TRUE,56.1,,,,,56.1,66.3,66.3,4,0,0,0,0,1,3,0,3,0,0,0,0,1,2,0
+Natural Language Processing,Question Answering,Question Answering,TrecQA,HyperQA,MAP,TRUE,0.711,,0.711,0.711,0.7588,0.77,0.77,0.77,4,0,1,0,1,1,1,0,2,0,1,0,0,1,0,0
+Natural Language Processing,Question Answering,Question Answering,WikiHop,CFC,Test,TRUE,42.9,,,,,42.9,59.3,70.6,4,0,0,0,0,1,2,1,1,0,0,0,0,0,1,0
+Natural Language Processing,Question Answering,Question Answering,Story Cloze Test,Finetuned Transformer LM,Accuracy,TRUE,78.7,,,,78.7,78.7,78.7,78.7,3,0,0,0,1,1,1,0,1,0,0,0,1,0,0,0
+Natural Language Processing,Question Answering,Question Answering,WebQuestions,Memory Networks (ensemble),F1,TRUE,29.70%,,39.20%,42.20%,42.20%,42.20%,42.20%,42.20%,3,0,2,1,0,0,0,0,1,0,0,1,0,0,0,0
+Natural Language Processing,Question Answering,Question Answering,CliCR,Gated-Attention Reader,F1,TRUE,33.9,,,,,,33.9,33.9,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+Natural Language Processing,Question Answering,Question Answering,RACE,Finetuned Transformer LM,RACE-m,TRUE,60.2,,,,,,60.2,60.2,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+Natural Language Processing,Question Answering,Question Answering,Reverb,Weakly Supervised Embeddings,Accuracy,TRUE,73%,,73%,73%,73%,73%,73%,73%,2,0,1,1,0,0,0,0,1,0,0,1,0,0,0,0
+Natural Language Processing,Question Answering,Question Answering,MCTest-500,Parallel-Hierarchical,Accuracy,TRUE,71%,,,,71%,71%,71%,71%,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0
+Natural Language Processing,Question Answering,Question Answering,Quora Question Pairs,BERT (single model),Accuracy,TRUE,72.10%,,,,,,72.10%,72.10%,1,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0
+Natural Language Processing,Question Answering,Question Answering,COMPLEXQUESTIONS,WebQA,F1,FALSE,53.6,,,,,53.6,53.6,53.6,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+Natural Language Processing,Question Answering,Question Answering,QuAC,FlowQA (single model),F1,TRUE,64.1,,,,,,64.1,64.1,1,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0
+Natural Language Processing,Question Answering,Question Answering,Natural Questions,BERT-joint,F1 (Long),TRUE,66.2,,,,,,,66.2,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
+Natural Language Processing,Question Answering,Question Answering,SimpleQuestions,Memory Networks (ensemble),F1,TRUE,63.90%,,,63.90%,63.90%,63.90%,63.90%,63.90%,1,0,0,1,0,0,0,0,1,0,0,1,0,0,0,0
+Natural Language Processing,Question Answering,Question Answering,MCTest-160,"syntax, frame, coreference, and word embedding features",Accuracy,TRUE,75.27%,,,,75.27%,75.27%,75.27%,75.27%,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0
+Natural Language Processing,Sentiment Analysis,Sentiment Analysis,SST-2 Binary classification,MT-DNN,Accuracy,TRUE,85.4,85.4,85.4,87.8,89.7,93.2,93.2,95.6,21,1,0,1,2,5,10,2,15,0,0,1,1,4,8,1
+Natural Language Processing,Sentiment Analysis,Sentiment Analysis,SST-5 Fine-grained classification,EDD-LG (shared),Accuracy,TRUE,45.7,45.7,49.6,49.6,49.6,53.7,64.4,64.4,16,1,1,1,0,3,10,0,9,0,1,1,0,2,5,0
+Natural Language Processing,Sentiment Analysis,Sentiment Analysis,Yelp Binary classification,ULMFiT,Error,FALSE,4.88,,,4.88,2.9,2.64,2.16,2.16,13,0,0,1,2,3,6,1,10,0,0,1,1,2,5,1
+Natural Language Processing,Sentiment Analysis,Sentiment Analysis,IMDb,ULMFiT,Accuracy,TRUE,92.33,,92.33,92.33,94.1,94.99,95.4,95.4,11,0,1,0,2,3,5,0,10,0,1,0,1,3,5,0
+Natural Language Processing,Sentiment Analysis,Sentiment Analysis,Yelp Fine-grained classification,ULMFiT,Error,FALSE,37.95,,,37.95,32.39,30.58,29.98,29.98,11,0,0,1,2,1,6,1,9,0,0,1,1,1,5,1
+Natural Language Processing,Sentiment Analysis,Sentiment Analysis,MR,MEAN,Accuracy,TRUE,78.26,,,,,78.26,84.5,84.5,9,0,0,0,0,1,7,1,7,0,0,0,0,1,5,1
+Natural Language Processing,Sentiment Analysis,Sentiment Analysis,Amazon Review Full,DRNN,Accuracy,TRUE,60.2,,,,60.2,60.2,64.43,64.43,6,0,0,0,1,0,5,0,5,0,0,0,1,0,4,0
+Natural Language Processing,Sentiment Analysis,Sentiment Analysis,Amazon Review Polarity,DRNN,Accuracy,TRUE,94.6,,,,94.6,94.6,96.49,96.49,6,0,0,0,1,0,5,0,5,0,0,0,1,0,4,0
+Natural Language Processing,Sentiment Analysis,Sentiment Analysis,Multi-Domain Sentiment Dataset,Distributional Correspondence Indexing,DVD,TRUE,75.4,,,76.57,76.57,76.57,81,81,5,0,0,2,0,1,2,0,2,0,0,1,0,0,1,0
+Natural Language Processing,Sentiment Analysis,Sentiment Analysis,CR,Block-sparse LSTM,Accuracy,TRUE,92.2,,,,,92.2,92.2,92.2,3,0,0,0,0,1,2,0,3,0,0,0,0,1,2,0
+Natural Language Processing,Sentiment Analysis,Sentiment Analysis,SemEval,LSTMs+CNNs ensemble with multiple conv. ops ,F1-score,TRUE,0.685,,,,,0.685,0.685,0.685,2,0,0,0,0,2,0,0,2,0,0,0,0,2,0,0
+Natural Language Processing,Sentiment Analysis,Sentiment Analysis,MPQA,USE_T+DAN (w2v w.e.) ,Accuracy,TRUE,88.14,,,,,,88.14,88.14,1,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0
+Natural Language Processing,Sentiment Analysis,Sentiment Analysis,Sogou News,fastText,Accuracy,TRUE,96.8,,,,96.8,96.8,96.8,96.8,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0
+Natural Language Processing,Text Classification,Text Classification,AG News,L MIXED,Error,FALSE,9.51,,,9.51,6.57,6.57,5.01,4.95,17,0,0,1,3,1,10,2,15,0,0,1,2,1,9,2
+Natural Language Processing,Text Classification,Text Classification,DBpedia,L MIXED,Error,FALSE,1.55,,,1.55,0.84,0.84,0.8,0.7,15,0,0,1,3,2,8,1,12,0,0,1,2,1,7,1
+Natural Language Processing,Text Classification,Text Classification,TREC-6,USE_T+CNN,Error,FALSE,4,,,4,3.9,3.9,1.93,1.93,10,0,0,2,1,2,5,0,8,0,0,1,0,2,5,0
+Natural Language Processing,Text Classification,Text Classification,Yahoo! Answers,DRNN,Accuracy,TRUE,72.3,,,,72.3,72.3,76.26,76.26,6,0,0,0,1,0,5,0,5,0,0,0,1,0,4,0
+Natural Language Processing,Text Classification,Text Classification,Ohsumed,SGCN,Accuracy,TRUE,36.2,,,,,36.2,68.36,68.5,3,0,0,0,0,1,1,1,3,0,0,0,0,1,1,1
+Natural Language Processing,Text Classification,Text Classification,R52,SGCN,Accuracy,TRUE,93.56,,,,,,93.56,94,2,0,0,0,0,0,1,1,2,0,0,0,0,0,1,1
+Natural Language Processing,Text Classification,Text Classification,20NEWS,SGCN,Accuracy,TRUE,86.34,,,,,,86.34,88.5,2,0,0,0,0,0,1,1,2,0,0,0,0,0,1,1
+Natural Language Processing,Text Classification,Text Classification,R8,SGCN,Accuracy,TRUE,97.07,,,,,,97.07,97.2,2,0,0,0,0,0,1,1,2,0,0,0,0,0,1,1
+Natural Language Processing,Text Classification,Text Classification,TREC-50,Rules,Error,FALSE,2.8,,,,2.8,2.8,2.8,2.8,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+Natural Language Processing,Text Classification,Text Classification,Sogou News,CCCapsNet,Accuracy,TRUE,97.25,,,,,,97.25,97.25,1,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0
+Natural Language Processing,Text Classification,Text Classification,IMDb,L MIXED,Accuracy,TRUE,95.68,,,,,,,95.68,1,0,0,0,0,0,0,1,1,0,0,0,0,0,0,1
+Natural Language Processing,Natural Language Inference,Natural Language Inference,SNLI,MT-DNN,% Test Accuracy,TRUE,78.2,,,86.1,88.6,89.3,90.1,91.1,42,0,0,5,9,11,16,1,25,0,0,3,6,8,7,1
+Natural Language Processing,Natural Language Inference,Natural Language Inference,MultiNLI,MT-DNN,Matched,TRUE,71.4,,,,,,73.9,86.7,4,0,0,0,0,0,3,1,3,0,0,0,0,0,2,1
+Natural Language Processing,Natural Language Inference,Natural Language Inference,SciTail,MT-DNN,Accuracy,TRUE,83.3,,,,,83.3,92,94.1,4,0,0,0,0,1,2,1,3,0,0,0,0,0,2,1
+Natural Language Processing,Natural Language Inference,Natural Language Inference,V-SNLI,V-BiMPM,Accuracy,TRUE,86.99,,,,,,86.99,86.99,1,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0
+Natural Language Processing,Natural Language Inference,Natural Language Inference,Quora Question Pairs,aESIM,Accuracy,TRUE,88.01,,,,,,88.01,88.01,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+Natural Language Processing,Named Entity Recognition (NER),Named Entity Recognition (NER),CoNLL 2003 (English),CNN Large + fine-tune,F1,TRUE,91.21,,,,91.21,91.93,93.09,93.5,18,0,0,0,2,3,12,1,15,0,0,0,2,2,11,0
+Natural Language Processing,Named Entity Recognition (NER),Named Entity Recognition (NER),Ontonotes v5 (English),Flair embeddings,F1,TRUE,86.99,,,,,86.99,89.71,89.71,4,0,0,0,0,1,3,0,3,0,0,0,0,1,2,0
+Natural Language Processing,Named Entity Recognition (NER),Named Entity Recognition (NER),JNLPBA,CollaboNet,F1,TRUE,78.58,,,,,,78.58,78.58,2,0,0,0,0,0,1,1,2,0,0,0,0,0,1,1
+Natural Language Processing,Named Entity Recognition (NER),Named Entity Recognition (NER),BC5CDR,SciBERT (SciVocab),F1,TRUE,87.12,,,,,,87.12,88.94,2,0,0,0,0,0,1,1,2,0,0,0,0,0,1,1
+Natural Language Processing,Named Entity Recognition (NER),Named Entity Recognition (NER),Long-tail emerging entities,Flair embeddings,F1,TRUE,40.78,,,,,40.78,50.2,50.2,3,0,0,0,0,1,2,0,1,0,0,0,0,0,1,0
+Natural Language Processing,Named Entity Recognition (NER),Named Entity Recognition (NER),SciERC,SciBERT (SciVocab),F1,TRUE,64.2,,,,,,64.2,65.5,2,0,0,0,0,0,1,1,2,0,0,0,0,0,1,1
+Natural Language Processing,Named Entity Recognition (NER),Named Entity Recognition (NER),NCBI-disease,SciBERT (Base Vocab),F1,TRUE,86.91,,,,,,,86.91,1,0,0,0,0,0,0,1,1,0,0,0,0,0,0,1
+Natural Language Processing,Text Generation,Text Generation,EMNLP2017 WMT,LeakGAN,BLEU-2,TRUE,0.859,,,,0.859,0.956,0.956,0.956,3,0,0,0,1,2,0,0,2,0,0,0,1,1,0,0
+Natural Language Processing,Text Generation,Text Generation,COCO Captions,LeakGAN,BLEU-2,TRUE,0.831,,,,0.831,0.95,0.95,0.95,3,0,0,0,1,2,0,0,2,0,0,0,1,1,0,0
+Natural Language Processing,Text Generation,Text Generation,Chinese Poems,LeakGAN,BLEU-2,TRUE,0.738,,,,0.738,0.881,0.881,0.881,3,0,0,0,1,2,0,0,2,0,0,0,1,1,0,0
+Natural Language Processing,Text Generation,Text Generation,Yahoo Questions,Aggressive VAE,NLL,FALSE,332.1,,,,,332.1,327.5,326.7,3,0,0,0,0,1,1,1,3,0,0,0,0,1,1,1
+Natural Language Processing,Text Generation,Text Generation,CMU-SE,STWGAN-GP,BLEU-3,TRUE,0.617,,,,,,0.617,0.617,1,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0
+Natural Language Processing,Text Generation,Text Generation,DailyDialog,AEM+Attention,BLEU-1,TRUE,14.17,,,,,,14.17,14.17,1,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0
+Natural Language Processing,Text Generation,Text Generation,LDC2016E25,Graph2Seq,BLEU,TRUE,22,,,,,,22,22,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+Natural Language Processing,Dependency Parsing,Dependency Parsing,Penn Treebank,CVT + Multi-Task,UAS,TRUE,93.99,,,93.99,95.44,95.44,96.61,96.61,8,0,0,1,5,0,2,0,5,0,0,0,3,0,2,0
+Natural Language Processing,Dependency Parsing,Dependency Parsing,GENIA - LAS,BiLSTM-CRF,F1,TRUE,91.92,,,,,,91.92,91.92,2,0,0,0,0,0,1,1,2,0,0,0,0,0,1,1
+Natural Language Processing,Dependency Parsing,Dependency Parsing,GENIA - UAS,BiLSTM-CRF,F1,TRUE,92.84,,,,,,92.84,92.84,2,0,0,0,0,0,1,1,2,0,0,0,0,0,1,1
+Natural Language Processing,Relation Extraction,Relation Extraction,TACRED,TRE,F1,TRUE,65.1,,,,,65.1,66.4,67.4,4,0,0,0,0,1,1,2,4,0,0,0,0,1,1,2
+Natural Language Processing,Relation Extraction,Relation Extraction,ChemProt,SciBERT (SciVocab),F1,TRUE,76.12,,,,,,,76.12,1,0,0,0,0,0,0,1,1,0,0,0,0,0,0,1
+Natural Language Processing,Relation Extraction,Relation Extraction,SciERC,SciBERT (SciVocab),F1,TRUE,74.64,,,,,,,74.64,1,0,0,0,0,0,0,1,1,0,0,0,0,0,0,1
+Natural Language Processing,Semantic Textual Similarity,Semantic Textual Similarity,SentEval,GenSen,MRPC,TRUE,76.2/83.1,,,,,76.2/83.1,78.6/84.4,78.6/84.4,2,0,0,0,0,1,1,0,2,0,0,0,0,1,1,0
+Natural Language Processing,Semantic Textual Similarity,Semantic Textual Similarity,STS Benchmark,USE_T,Pearson Correlation,TRUE,0.782,,,,,,0.782,0.782,1,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0
+Natural Language Processing,Part-Of-Speech Tagging,Part-Of-Speech Tagging,Penn Treebank,Meta BiLSTM,Accuracy,TRUE,97.78,,,97.78,97.78,97.78,97.96,97.96,13,0,0,1,4,4,4,0,10,0,0,1,2,3,4,0
+Natural Language Processing,Part-Of-Speech Tagging,Part-Of-Speech Tagging,UD,Adversarial Bi-LSTM,Avg accuracy,TRUE,96.4,,,,96.4,96.73,96.73,96.73,3,0,0,0,1,2,0,0,2,0,0,0,1,1,0,0
+Natural Language Processing,Part-Of-Speech Tagging,Part-Of-Speech Tagging,Social media,GATE,Accuracy,TRUE,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Natural Language Processing,Semantic Parsing,Semantic Parsing,spider,Exact Set Matching,Accuracy,TRUE,19.7,,,,,,19.7,19.7,1,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0
+Natural Language Processing,Text Classification,Document Classification,WOS-11967,RMDL,Accuracy,TRUE,86.07,,,,,86.07,91.59,91.59,2,0,0,0,0,1,1,0,2,0,0,0,0,1,1,0
+Natural Language Processing,Text Classification,Document Classification,WOS-46985,RMDL,Accuracy,TRUE,76.58,,,,,76.58,90.69,90.69,2,0,0,0,0,1,1,0,2,0,0,0,0,1,1,0
+Natural Language Processing,Text Classification,Document Classification,WOS-5736,RMDL,Accuracy,TRUE,90.93,,,,,90.93,93.57,93.57,2,0,0,0,0,1,1,0,2,0,0,0,0,1,1,0
+Natural Language Processing,Text Classification,Document Classification,Reuters-21578,RMDL,Accuracy,TRUE,90.69,,,,,,90.69,90.69,1,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0
+Natural Language Processing,Text Classification,Document Classification,IMDb,RMDL,Accuracy,TRUE,90.79,,,,,,90.79,90.79,1,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0
+Natural Language Processing,Text Classification,Document Classification,20NEWS,RMDL,Accuracy,TRUE,87.91,,,,,,87.91,87.91,1,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0
+Natural Language Processing,Semantic Role Labeling,Semantic Role Labeling,OntoNotes,BiLSTM-Span (Ensemble),F1,TRUE,81.7,,,,,82.7,87,87,6,0,0,0,0,2,3,1,5,0,0,0,0,2,2,1
+Natural Language Processing,Semantic Role Labeling,Semantic Role Labeling,CoNLL 2005,BiLSTM-Span (Ensemble),F1,TRUE,86.04,,,,,,88.5,88.5,3,0,0,0,0,0,2,1,3,0,0,0,0,0,2,1
+Natural Language Processing,Coreference Resolution,Coreference Resolution,CoNLL 2012,"(Lee et al., 2017)+ELMo",Avg F1,TRUE,67.2,,,,,67.2,73,73,3,0,0,0,0,1,2,0,2,0,0,0,0,1,1,0
+Natural Language Processing,Text Summarization,Text Summarization,GigaWord,FTSum_g,ROUGE-1,TRUE,36.4,,,,36.4,37.27,37.27,37.27,12,0,0,0,2,4,6,0,1,0,0,0,1,0,0,0
+Natural Language Processing,Text Summarization,Text Summarization,DUC 2004 Task 1,EndDec+WFE,ROUGE-1,TRUE,28.61,,,,28.97,32.28,32.28,32.28,6,0,0,0,2,3,1,0,1,0,0,0,1,0,0,0
+Natural Language Processing,Word Sense Disambiguation,Word Sense Disambiguation,Supervised:,MFS baseline,Senseval 2,FALSE,72,,,,,72,71.6,71.6,4,0,0,0,0,1,3,0,1,0,0,0,0,0,1,0
+Natural Language Processing,Word Sense Disambiguation,Word Sense Disambiguation,SensEval 2,"SemCor+WNGT, vocabulary reduced, ensemble",F1,TRUE,74.4,,,,74.4,74.4,75.15,75.15,3,0,0,0,1,0,2,0,2,0,0,0,0,0,2,0
+Natural Language Processing,Word Sense Disambiguation,Word Sense Disambiguation,SemEval 2013 Task 12,"SemCor+WNGT, vocabulary reduced, ensemble",F1,TRUE,69.5,,,,69.5,69.5,72.63,72.63,3,0,0,0,1,0,2,0,2,0,0,0,0,0,2,0
+Natural Language Processing,Word Sense Disambiguation,Word Sense Disambiguation,SensEval 3 Task 1,"LSTMLP (T:SemCor, U:1K)",F1,TRUE,71.8,,,,71.8,71.8,71.8,71.8,3,0,0,0,1,0,2,0,2,0,0,0,0,0,2,0
+Natural Language Processing,Word Sense Disambiguation,Word Sense Disambiguation,SemEval 2007 Task 7,"SemCor+WNGT, vocabulary reduced, ensemble",F1,TRUE,84.3,,,,84.3,84.3,86.02,86.02,2,0,0,0,1,0,1,0,1,0,0,0,0,0,1,0
+Natural Language Processing,Word Sense Disambiguation,Word Sense Disambiguation,SemEval 2007 Task 17,"SemCor+WNGT, vocabulary reduced, ensemble",F1,TRUE,64.2,,,,64.2,64.2,66.81,66.81,2,0,0,0,1,0,1,0,1,0,0,0,0,0,1,0
+Natural Language Processing,Word Sense Disambiguation,Word Sense Disambiguation,Knowledge-based:,WSD-TM,All,TRUE,66.9,,,,,,66.9,66.9,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+Natural Language Processing,Word Sense Disambiguation,Word Sense Disambiguation,SemEval 2015 Task 13,"SemCor+WNGT, vocabulary reduced, ensemble",F1,TRUE,72.6,,,,,,74.46,74.46,2,0,0,0,0,0,2,0,2,0,0,0,0,0,2,0
+Natural Language Processing,Entity Linking,Entity Linking,WebQSP-WD,VCG,F1,TRUE,0.73,,,,,,0.73,0.73,1,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0
+Natural Language Processing,Text Summarization,Document Summarization,CNN / Daily Mail,BERTSUM+Transformer,ROUGE-1,TRUE,31.1,,,,,31.1,41.22,43.25,4,0,0,0,0,1,1,2,3,0,0,0,0,0,1,2
+Natural Language Processing,Relation Classification,Relation Classification,SemEval-2010 Task 8,TRE,F1,TRUE,87.1,,,,,,,87.1,1,0,0,0,0,0,0,1,1,0,0,0,0,0,0,1
+Natural Language Processing,Text Classification,Sentence Classification,SciCite,SciBERT,F1,TRUE,77.2,,,,,77.2,82.6,84.9,4,0,0,0,0,0,1,3,4,0,0,0,0,0,1,3
+Natural Language Processing,Text Classification,Sentence Classification,ACL-ARC,Structural-scaffolds,F1,TRUE,53,,,,,,53,67.9,3,0,0,0,0,0,1,2,3,0,0,0,0,0,1,2
+Natural Language Processing,Text Classification,Sentence Classification,PubMed 20k RCT,Hierarchical Neural Networks,F1,TRUE,92.6,,,,,,92.6,92.6,2,0,0,0,0,0,1,1,2,0,0,0,0,0,1,1
+Natural Language Processing,Text Classification,Sentence Classification,Paper Field,SciBERT (SciVocab),F1,TRUE,64.07,,,,,,,64.07,1,0,0,0,0,0,0,1,1,0,0,0,0,0,0,1
+Natural Language Processing,Text Classification,Sentence Classification,ScienceCite,SciBERT (SciVocab),F1,TRUE,84.99,,,,,,,84.99,1,0,0,0,0,0,0,1,1,0,0,0,0,0,0,1
+Natural Language Processing,Dialogue,Dialogue Generation,Ubuntu Dialogue (Activity),MrRNN Act.-Ent.,F1,TRUE,11.43,,,,11.43,11.43,11.43,11.43,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0
+Natural Language Processing,Dialogue,Dialogue Generation,Ubuntu Dialogue (Entity),MrRNN Act.-Ent.,F1,TRUE,3.72,,,,3.72,3.72,3.72,3.72,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0
+Natural Language Processing,Dialogue,Dialogue Generation,Ubuntu Dialogue (Tense),MrRNN Act.-Ent.,Accuracy,TRUE,29.01%,,,,29.01%,29.01%,29.01%,29.01%,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0
+Natural Language Processing,Dialogue,Dialogue Generation,Ubuntu Dialogue (Cmd),MrRNN Act.-Ent.,Accuracy,TRUE,95.04%,,,,95.04%,95.04%,95.04%,95.04%,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0
+Natural Language Processing,Dialogue,Dialogue Generation,Twitter Dialogue (Noun),MrRNN Act.-Ent.,F1,TRUE,4.63,,,,4.63,4.63,4.63,4.63,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0
+Natural Language Processing,Dialogue,Dialogue Generation,Twitter Dialogue (Tense),MrRNN Act.-Ent.,Accuracy,TRUE,34.48%,,,,34.48%,34.48%,34.48%,34.48%,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0
+Natural Language Processing,Chunking,Chunking,Penn Treebank,Flair embeddings,F1 score,TRUE,95.57,,,,95.77,95.77,96.72,96.72,4,0,0,0,2,0,2,0,3,0,0,0,1,0,2,0
+Natural Language Processing,Paraphrase Identification,Paraphrase Identification,Quora Question Pairs,MT-DNN,Accuracy,TRUE,88.17,,,,,89.06,89.06,89.6,6,0,0,0,0,3,2,1,4,0,0,0,0,2,1,1
+Natural Language Processing,Sentiment Analysis,Aspect-Based Sentiment Analysis,SemEval 2014 Task 4 Sub Task 2,HAPN,Restaurant (Acc),TRUE,75.63,,,75.63,80.95,80.95,82.23,82.23,22,0,0,1,2,2,16,1,12,0,0,1,2,2,7,0
+Natural Language Processing,Sentiment Analysis,Aspect-Based Sentiment Analysis,Sentihood,Liu et al.,Aspect,TRUE,69.3,,,,69.3,69.3,78.5,78.5,3,0,0,0,1,0,2,0,1,0,0,0,0,0,1,0
+Natural Language Processing,Constituency Parsing,Constituency Parsing,Penn Treebank,CNN Large + fine-tune,F1 score,TRUE,92.1,,92.1,92.1,93.8,94.66,95.13,95.6,11,0,1,0,3,3,3,1,7,0,1,0,2,1,3,0
+Natural Language Processing,Language Acquisition,Language Acquisition,SLAM 2018,Context Based Model,AUC,TRUE,0.821,,,,,,0.821,0.821,1,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0
+Natural Language Processing,Ad-Hoc Information Retrieval,Ad-Hoc Information Retrieval,TREC Robust04,Anserini BM25+RM3,MAP,TRUE,0.2837,,,,,0.2837,0.302,0.302,6,0,0,0,0,2,4,0,6,0,0,0,0,2,4,0
+Natural Language Processing,Chinese,Chinese Word Segmentation,MSRA,Pre-trained+bigram+ LSTM+CRF,F1,TRUE,97.4,,,97.4,97.4,97.4,97.4,97.4,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+Natural Language Processing,Grammatical Error Correction,Grammatical Error Correction,Restricted,SMT + BiGRU,F0.5,TRUE,54.79,,,,,,72.04,72.04,4,0,0,0,0,0,4,0,2,0,0,0,0,0,2,0
+Natural Language Processing,Grammatical Error Correction,Grammatical Error Correction,Unrestricted,CNN Seq2Seq + Fluency Boost,F0.5,TRUE,76.88,,,,,,76.88,76.88,1,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0
+Natural Language Processing,Grammatical Error Correction,Grammatical Error Correction,_Restricted_,SMT + BiGRU,GLEU,TRUE,57.47,,,,,,61.5,61.5,3,0,0,0,0,0,3,0,1,0,0,0,0,0,1,0
+Natural Language Processing,Question Answering,Open-Domain Question Answering,SearchQA,DecaProp,N-gram F1,TRUE,22.8,,,,22.8,22.8,70.8,70.8,6,0,0,0,1,0,5,0,4,0,0,0,1,0,3,0
+Natural Language Processing,Question Answering,Open-Domain Question Answering,Quasar,Denoising QA,EM (Quasar-T),TRUE,26.4,,,,26.4,26.4,42.2,42.2,4,0,0,0,2,0,2,0,4,0,0,0,2,0,2,0
+Natural Language Processing,Dialogue,Dialogue State Tracking,Second dialogue state tracking challenge,StateNet,Joint,TRUE,73.4,,,,73.4,73.4,75.5,75.5,4,0,0,0,1,0,3,0,3,0,0,0,0,0,3,0
+Natural Language Processing,Dialogue,Dialogue State Tracking,Wizard-of-Oz,StateNet,Joint,TRUE,84.4,,,,84.4,84.4,88.9,88.9,3,0,0,0,1,0,2,0,2,0,0,0,0,0,2,0
+Natural Language Processing,Text Classification,Emotion Classification,SemEval 2018 Task 1E-c,Transformer (finetune),Macro-F1,TRUE,56.1,,,,,,56.1,56.1,1,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0
+Natural Language Processing,Sentiment Analysis,Multimodal Sentiment Analysis,MOSI,MMMU-BA,Accuracy,TRUE,80.30%,,,,,80.30%,82.31%,82.31%,4,0,0,0,0,1,3,0,4,0,0,0,0,1,3,0
+Natural Language Processing,Amr Parsing,Amr Parsing,LDC2014T12:,Transition-based+improved aligner+ensemble,F1 Newswire,TRUE,0.7,,,,0.71,0.71,0.73,0.73,3,0,0,0,2,0,1,0,1,0,0,0,0,0,1,0
+Natural Language Processing,Subjectivity Analysis,Subjectivity Analysis,SUBJ,AdaSent,Accuracy,TRUE,95.5,,,95.5,95.5,95.5,95.5,95.5,7,0,0,1,0,2,4,0,6,0,0,0,0,2,4,0
+Natural Language Processing,Text Generation,Data-to-Text Generation,E2E NLG Challenge,S_1^R,BLEU,TRUE,64.22,,,,,64.22,66.19,68.6,7,0,0,0,0,1,5,1,3,0,0,0,0,0,2,1
+Natural Language Processing,Text Generation,Data-to-Text Generation,Rotowire (Content Selection),Neural Content Planning + conditional copy,Precision,TRUE,29.49%,,,,,29.49%,34.18%,34.18%,2,0,0,0,0,1,1,0,2,0,0,0,0,1,1,0
+Natural Language Processing,Text Generation,Data-to-Text Generation,RotoWire (Content Ordering),Neural Content Planning + conditional copy,DLD,TRUE,15.42%,,,,,15.42%,18.58%,18.58%,2,0,0,0,0,1,1,0,2,0,0,0,0,1,1,0
+Natural Language Processing,Text Generation,Data-to-Text Generation,RotoWire (Relation Generation),Neural Content Planning + conditional copy,Precision,TRUE,74.80%,,,,,74.80%,87.47%,87.47%,2,0,0,0,0,1,1,0,2,0,0,0,0,1,1,0
+Natural Language Processing,Text Generation,Data-to-Text Generation,RotoWire,Neural Content Planning + conditional copy,BLEU,TRUE,14.19,,,,,14.19,16.5,16.5,2,0,0,0,0,1,1,0,2,0,0,0,0,1,1,0
+Natural Language Processing,Text Generation,Data-to-Text Generation,SR11Deep,GCN + feat,BLEU,TRUE,0.666,,,,,,0.666,0.666,1,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0
+Natural Language Processing,Text Generation,Data-to-Text Generation,WebNLG,GCN EC,BLEU,TRUE,0.559,,,,,,0.559,0.559,1,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0
+Natural Language Processing,Sarcasm Detection,Sarcasm Detection,SARC (all-bal),CASCADE,Accuracy,TRUE,75.8,,,,,75.8,77,77,2,0,0,0,0,1,1,0,2,0,0,0,0,1,1,0
+Natural Language Processing,Sarcasm Detection,Sarcasm Detection,SARC (pol-bal),Bag-of-Bigrams,Accuracy,TRUE,76.5,,,,,76.5,76.5,76.5,2,0,0,0,0,1,1,0,2,0,0,0,0,1,1,0
+Natural Language Processing,Sarcasm Detection,Sarcasm Detection,SARC (pol-unbal),Bag-of-Words,Avg F1,TRUE,27,,,,,27,27,27,1,0,0,0,0,1,0,0,1,0,0,0,0,1,0,0
+Natural Language Processing,Stance Detection,Stance Detection,RumourEval,Kochkina et al. 2017,Accuracy,TRUE,0.784,,,,,0.784,0.784,0.784,2,0,0,0,0,2,0,0,1,0,0,0,0,1,0,0
+Natural Language Processing,Sentence Embeddings,Sentence Compression,Google Dataset,BiLSTM,CR,TRUE,0.43,,,,,0.43,0.43,0.43,2,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0
+Natural Language Processing,Machine Translation,Unsupervised Machine Translation,WMT2014 French-English,SMT + NMT (tuning and joint refinement),BLEU,TRUE,27.7,,,,,,27.7,33.5,5,0,0,0,0,0,2,3,4,0,0,0,0,0,2,2
+Natural Language Processing,Machine Translation,Unsupervised Machine Translation,WMT2016 English-German,SMT + NMT (tuning and joint refinement),BLEU,TRUE,20.2,,,,,,20.2,26.9,5,0,0,0,0,0,2,3,3,0,0,0,0,0,1,2
+Natural Language Processing,Machine Translation,Unsupervised Machine Translation,WMT2016 German-English,SMT + NMT (tuning and joint refinement),BLEU,TRUE,25.2,,,,,,26.7,34.4,5,0,0,0,0,0,2,3,3,0,0,0,0,0,1,2
+Natural Language Processing,Machine Translation,Unsupervised Machine Translation,WMT2014 English-French,SMT + NMT (tuning and joint refinement),BLEU,TRUE,27.6,,,,,,27.6,36.2,4,0,0,0,0,0,1,3,3,0,0,0,0,0,1,2
+Natural Language Processing,Machine Translation,Unsupervised Machine Translation,WMT2014 German-English,SMT + NMT (tuning and joint refinement),BLEU,TRUE,20.4,,,,,,,27,2,0,0,0,0,0,0,2,1,0,0,0,0,0,0,1
+Natural Language Processing,Machine Translation,Unsupervised Machine Translation,WMT2014 English-German,SMT + NMT (tuning and joint refinement),BLEU,TRUE,17,,,,,,,22.5,2,0,0,0,0,0,0,2,1,0,0,0,0,0,0,1
+Natural Language Processing,Machine Translation,Unsupervised Machine Translation,WMT2016 English-Romanian,MLM pretraining for encoder and decoder,BLEU,FALSE,33.3,,,,,,,33.3,1,0,0,0,0,0,0,1,1,0,0,0,0,0,0,1
+Natural Language Processing,Machine Translation,Unsupervised Machine Translation,WMT2016 Romanian-English,MLM pretraining for encoder and decoder,BLEU,TRUE,31.8,,,,,,,31.8,1,0,0,0,0,0,0,1,1,0,0,0,0,0,0,1
+Natural Language Processing,Information Extraction,Temporal Information Extraction,TimeBank,Catena,F1 score,TRUE,0.511,,,,0.511,0.511,0.511,0.511,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0
+Natural Language Processing,Information Extraction,Temporal Information Extraction,TempEval-3,Ning et al.,Temporal awareness,TRUE,67.2,,,,,67.2,67.2,67.2,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+Natural Language Processing,Graph-to-Sequence,Graph-to-Sequence,LDC2015E86:,GCNSEQ,BLEU,TRUE,23.95,,,,,,,23.95,1,0,0,0,0,0,0,1,1,0,0,0,0,0,0,1
+Natural Language Processing,Cross-Lingual,Cross-Lingual Document Classification,MLDoc Zero-Shot English-to-Spanish,Massively Multilingual Sentence Embeddings,Accuracy,TRUE,72.50%,,,,,,77.33%,77.33%,2,0,0,0,0,0,2,0,2,0,0,0,0,0,2,0
+Natural Language Processing,Cross-Lingual,Cross-Lingual Document Classification,MLDoc Zero-Shot English-to-French,Massively Multilingual Sentence Embeddings,Accuracy,TRUE,74.52%,,,,,,77.95%,77.95%,2,0,0,0,0,0,2,0,2,0,0,0,0,0,2,0
+Natural Language Processing,Cross-Lingual,Cross-Lingual Document Classification,MLDoc Zero-Shot English-to-German,Massively Multilingual Sentence Embeddings,Accuracy,TRUE,81.20%,,,,,,84.78%,84.78%,2,0,0,0,0,0,2,0,2,0,0,0,0,0,2,0
+Natural Language Processing,Text Summarization,Extractive Document Summarization,CNN / Daily Mail,BERTSUM,ROUGE-2,TRUE,20.24,,,,,,,20.24,1,0,0,0,0,0,0,1,1,0,0,0,0,0,0,1
+Natural Language Processing,Grammatical Error Correction,Grammatical Error Detection,CoNLL-2014 A1,Bi-LSTM + POS (unrestricted data),F0.5,TRUE,34.3,,,,34.3,36.1,36.1,36.1,5,0,0,0,1,3,1,0,2,0,0,0,0,1,1,0
+Natural Language Processing,Grammatical Error Correction,Grammatical Error Detection,CoNLL-2014 A2,Bi-LSTM + POS (unrestricted data),F0.5,TRUE,44,,,,44,45.1,45.1,45.1,5,0,0,0,1,3,1,0,2,0,0,0,0,1,1,0
+Natural Language Processing,Grammatical Error Correction,Grammatical Error Detection,FCE,BiLSTM-JOINT,F0.5,TRUE,41.1,,,,41.88,49.11,52.07,52.07,6,0,0,0,2,3,1,0,2,0,0,0,0,1,1,0
+Natural Language Processing,Grammatical Error Correction,Grammatical Error Detection,JFLEG,BiLSTM-JOINT (trained on FCE),F0.5,TRUE,52.52,,,,,,52.52,52.52,1,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0
+Natural Language Processing,Natural Language Inference,Cross-Lingual Natural Language Inference,XNLI Zero-Shot English-to-Spanish,BERT,Accuracy,TRUE,68.70%,,,,,68.70%,74.30%,74.30%,3,0,0,0,0,1,2,0,3,0,0,0,0,1,2,0
+Natural Language Processing,Natural Language Inference,Cross-Lingual Natural Language Inference,XNLI Zero-Shot English-to-German,BiLSTM,Accuracy,TRUE,67.70%,,,,,67.70%,72.60%,72.60%,3,0,0,0,0,1,2,0,3,0,0,0,0,1,2,0
+Natural Language Processing,Natural Language Inference,Cross-Lingual Natural Language Inference,XNLI Zero-Shot English-to-French,BiLSTM,Accuracy,TRUE,67.70%,,,,,67.70%,71.90%,71.90%,2,0,0,0,0,1,1,0,2,0,0,0,0,1,1,0
+Natural Language Processing,Text Classification,Citation Intent Classification,ACL-ARC,Structural-scaffolds,F1,TRUE,41,41,41,41,51.8,51.8,54.6,67.9,6,1,0,0,1,0,2,2,4,0,0,0,0,0,2,2
+Natural Language Processing,Text Classification,Citation Intent Classification,SciCite,SciBERT,F1,TRUE,79.6,,,,,,82.6,84.99,3,0,0,0,0,0,1,2,3,0,0,0,0,0,1,2
+Natural Language Processing,Question Answering,Knowledge Base Question Answering,WebQSP-WD,GGNN,Avg F1,TRUE,0.2588,,,,,,0.2588,0.2588,1,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0
+Natural Language Processing,Relationship Extraction (Distant Supervised),Relationship Extraction (Distant Supervised),New York Times Corpus,RESIDE,P@10%,TRUE,69.4,,,,69.4,69.4,73.6,73.6,2,0,0,0,1,0,1,0,2,0,0,0,1,0,1,0
+Natural Language Processing,CCG Supertagging,CCG Supertagging,CCGBank,Clark et al.,Accuracy,TRUE,94.7,,,,94.7,94.7,96.1,96.1,4,0,0,0,3,0,1,0,1,0,0,0,0,0,1,0
+Natural Language Processing,Text Generation,Table-to-text Generation,WikiBio,Field-gating Seq2seq + dual attention,BLEU,TRUE,34.7,,,,34.7,44.89,44.89,44.89,2,0,0,0,1,1,0,0,2,0,0,0,1,1,0,0
+Natural Language Processing,Passage Re-Ranking,Passage Re-Ranking,MS MARCO,BERT + Small Training,MRR,TRUE,0.359,,,,,,,0.359,2,0,0,0,0,0,0,2,2,0,0,0,0,0,0,2
+Natural Language Processing,Named Entity Recognition (NER),Chinese Named Entity Recognition,Weibo NER,Lattice,F1,TRUE,58.79,,,,,,58.79,58.79,2,0,0,0,0,0,2,0,2,0,0,0,0,0,2,0
+Natural Language Processing,Named Entity Recognition (NER),Chinese Named Entity Recognition,MSRA,Lattice,F1,TRUE,93.18,,,,,,93.18,93.18,1,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0
+Natural Language Processing,Named Entity Recognition (NER),Chinese Named Entity Recognition,OntoNotes 4,Lattice,F1,TRUE,73.88,,,,,,73.88,73.88,1,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0
+Natural Language Processing,Named Entity Recognition (NER),Chinese Named Entity Recognition,Resume NER,Lattice,F1,TRUE,94.46,,,,,,94.46,94.46,1,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0
+Natural Language Processing,Named Entity Recognition (NER),Chinese Named Entity Recognition,SighanNER,BiLSTM+CRF+adversarial+self-attention,F1,TRUE,90.64,,,,,,90.64,90.64,1,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0
+Natural Language Processing,Emotion Recognition,Emotion Recognition in Conversation,IEMOCAP,DialogueRNN,F1,TRUE,56.13%,,,,,,64.50%,64.50%,3,0,0,0,0,0,3,0,3,0,0,0,0,0,3,0
+Natural Language Processing,Hypernym Discovery,Hypernym Discovery,General,CRIM,MAP,TRUE,10.6,,,,10.6,10.6,19.78,19.78,7,0,0,0,2,0,5,0,1,0,0,0,1,0,0,0
+Natural Language Processing,Hypernym Discovery,Hypernym Discovery,Medical domain,CRIM,MAP,TRUE,18.84,,,,18.84,18.84,34.05,34.05,7,0,0,0,2,0,5,0,1,0,0,0,1,0,0,0
+Natural Language Processing,Hypernym Discovery,Hypernym Discovery,Music domain,CRIM,MAP,TRUE,12.99,,,,12.99,12.99,40.97,40.97,6,0,0,0,2,0,4,0,1,0,0,0,1,0,0,0
+Natural Language Processing,Cross-Lingual Bitext Mining,Cross-Lingual Bitext Mining,BUCC German-to-English,Massively Multilingual Sentence Embeddings,F1 score,TRUE,76.9,,,76.9,76.9,76.9,96.19,96.19,3,0,0,1,0,0,2,0,2,0,0,0,0,0,2,0
+Natural Language Processing,Cross-Lingual Bitext Mining,Cross-Lingual Bitext Mining,BUCC French-to-English,Massively Multilingual Sentence Embeddings,F1 score,TRUE,75.8,,,75.8,75.8,75.8,93.91,93.91,3,0,0,1,0,0,2,0,2,0,0,0,0,0,2,0
+Natural Language Processing,Semantic Role Labeling,Predicate Detection,CoNLL 2005,LISA,F1,TRUE,96.4,,,,,96.4,98.4,98.4,2,0,0,0,0,1,1,0,2,0,0,0,0,1,1,0
+Natural Language Processing,Semantic Role Labeling,Predicate Detection,CoNLL 2012,LISA,F1,TRUE,97.2,,,,,,97.2,97.2,1,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0
+Natural Language Processing,Named Entity Recognition (NER),Nested Named Entity Recognition,ACE 2004,Neural transition-based model,F1,FALSE,73.3,,,,,,73.3,73.3,1,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0
+Natural Language Processing,Dialogue,Dialogue Act Classification,Switchboard corpus,CRF-ASN,Accuracy,TRUE,79.2,,,,,81.3,81.3,81.3,3,0,0,0,0,2,1,0,1,0,0,0,0,1,0,0
+Natural Language Processing,Dialogue,Dialogue Act Classification,ICSI Meeting Recorder Dialog Act (MRDA) corpus,CRF-ASN,Accuracy,TRUE,90.9,,,,,91.7,91.7,91.7,2,0,0,0,0,2,0,0,1,0,0,0,0,1,0,0
+Natural Language Processing,Nested Mention Recognition,Nested Mention Recognition,ACE 2004,Neural transition-based model,F1,FALSE,73.3,,,,,,73.3,73.3,1,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0
+Natural Language Processing,Nested Mention Recognition,Nested Mention Recognition,ACE 2005,Neural transition-based model,F1,FALSE,73,,,,,,73,73,1,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0
+Natural Language Processing,Entity Resolution,Entity Resolution,CoNLL 2003 (English),deep joint entity disambiguation w/ neural attention,Accuracy,TRUE,92.22,,,,,92.22,92.22,92.22,1,0,0,0,0,1,0,0,1,0,0,0,0,1,0,0
+Natural Language Processing,Semantic Role Labeling,Semantic Role Labeling (predicted predicates),CoNLL 2005,LISA + ELMo,F1,TRUE,86.9,,,,,,86.9,86.9,2,0,0,0,0,0,2,0,1,0,0,0,0,0,1,0
+Natural Language Processing,Semantic Role Labeling,Semantic Role Labeling (predicted predicates),CoNLL 2012,LISA + ELMo,F1,TRUE,83.38,,,,,,83.38,83.38,2,0,0,0,0,0,2,0,1,0,0,0,0,0,1,0
+Natural Language Processing,Anaphora Resolution,Abstract Anaphora Resolution,The ARRAU Corpus,MR-LSTM,Average Precision,TRUE,43.83,,,,,43.83,43.83,43.83,1,0,0,0,0,1,0,0,1,0,0,0,0,1,0,0
+Natural Language Processing,Query Wellformedness,Query Wellformedness,Query Wellformedness,"word-1, 2 POS-1, 2, 3",Accuracy,TRUE,70.7,,,,,,70.7,70.7,1,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0
+Natural Language Processing,Lexical Normalization,Lexical Normalization,LexNorm,MoNoise,Accuracy,TRUE,87.63,,,,,87.63,87.63,87.63,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+Medical,Medical Image Segmentation,Medical Image Segmentation,ISBI 2012 EM Segmentation,U-Net,Warping Error,FALSE,0.000353,,,0.000353,0.000353,0.000353,0.000353,0.000353,1,0,0,1,0,0,0,0,1,0,0,1,0,0,0,0
+Medical,Medical Image Segmentation,Medical Image Segmentation,iSEG 2017 Challenge,HyperDenseNet,Dice Score,TRUE,0.9257,,,,,,0.9257,0.9257,1,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0
+Medical,Drug Discovery,Drug Discovery,Tox21,GraphConv + dummy super node,AUC,TRUE,0.846,,,0.846,0.846,0.854,0.854,0.854,3,0,0,1,0,2,0,0,3,0,0,1,0,2,0,0
+Medical,Drug Discovery,Drug Discovery,QM9,MPNNs,Error ratio,FALSE,1.36,,,1.36,1.36,0.68,0.68,0.68,3,0,0,1,1,1,0,0,2,0,0,1,0,1,0,0
+Medical,Drug Discovery,Drug Discovery,ToxCast,GraphConv + dummy super node,AUC,TRUE,0.754,,,0.754,0.754,0.768,0.768,0.768,2,0,0,1,0,1,0,0,2,0,0,1,0,1,0,0
+Medical,Drug Discovery,Drug Discovery,PCBA,GraphConv + dummy super node,AUC,TRUE,0.855,,,0.855,0.855,0.867,0.867,0.867,2,0,0,1,0,1,0,0,2,0,0,1,0,1,0,0
+Medical,Drug Discovery,Drug Discovery,MUV,GraphConv + dummy super node,AUC,TRUE,0.836,,,0.836,0.836,0.845,0.845,0.845,2,0,0,1,0,1,0,0,2,0,0,1,0,1,0,0
+Medical,Drug Discovery,Drug Discovery,HIV dataset,GraphConv + dummy super node + focal loss,AUC,TRUE,0.822,,,0.822,0.822,0.851,0.851,0.851,2,0,0,1,0,1,0,0,2,0,0,1,0,1,0,0
+Medical,Medical Image Segmentation,Lesion Segmentation,BUS 2017 Dataset B,Attn U-Net + Multi-Input + FTL,Dice Score,TRUE,0.804,,,,,,0.804,0.804,1,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0
+Medical,Medical Image Segmentation,Lesion Segmentation,ISIC 2018,Attn U-Net + Multi-Input + FTL,Dice Score,TRUE,0.856,,,,,,0.856,0.856,1,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0
+Medical,Medical Image Segmentation,Lesion Segmentation,ISIC 2017,Automatic skin lesion segmentation with fully convolutional-deconvolutional networks,Mean IoU,TRUE,0.765,,,,,0.765,0.765,0.765,1,0,0,0,0,1,0,0,1,0,0,0,0,1,0,0
+Medical,Medical Image Segmentation,Brain Tumor Segmentation,BRATS-2015,CNN + 3D filters,Dice Score,TRUE,84%,,,,84%,85%,85%,85%,4,0,0,0,1,1,2,0,3,0,0,0,1,0,2,0
+Medical,Medical Image Segmentation,Brain Tumor Segmentation,BRATS-2013,InputCascadeCNN,Dice Score,TRUE,0.88,,,0.88,0.88,0.88,0.88,0.88,1,0,0,1,0,0,0,0,1,0,0,1,0,0,0,0
+Medical,Medical Image Segmentation,Brain Tumor Segmentation,BRATS 2018,NVDLMED,Dice Score,TRUE,0.87049,,,,,,0.87049,0.87049,1,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0
+Medical,Medical Image Segmentation,Retinal Vessel Segmentation,DRIVE,LadderNet,AUC,TRUE,0.9755,,,0.9755,0.9755,0.9779,0.9793,0.9793,4,0,0,1,0,1,2,0,3,0,0,1,0,1,1,0
+Medical,Medical Image Segmentation,Retinal Vessel Segmentation,CHASE_DB1,LadderNet,AUC,TRUE,0.9772,,,0.9772,0.9772,0.9779,0.9839,0.9839,4,0,0,1,0,1,2,0,3,0,0,1,0,1,1,0
+Medical,Medical Image Segmentation,Retinal Vessel Segmentation,STARE,R2U-Net,AUC,TRUE,0.9898,,,0.9898,0.9898,0.9904,0.9914,0.9914,3,0,0,1,0,1,1,0,3,0,0,1,0,1,1,0
+Medical,Medical Image Segmentation,3D Medical Imaging Segmentation,TCIA Pancreas-CT,Holistic-nested CNN,Dice Score,TRUE,81.3,,,,,81.3,81.3,81.3,2,0,0,0,0,1,1,0,1,0,0,0,0,0,1,0
+Medical,Medical Image Segmentation,Pancreas Segmentation,CT-150,Att U-Net,Dice Score,TRUE,0.814,,,0.814,0.814,0.814,0.84,0.84,2,0,0,1,0,0,1,0,2,0,0,1,0,0,1,0
+Medical,Medical Image Segmentation,Lung Nodule Segmentation,LUNA,R2U-Net,AUC,TRUE,0.9784,,,0.9784,0.9784,0.9849,0.9889,0.9889,3,0,0,1,0,1,1,0,3,0,0,1,0,1,1,0
+Medical,Mortality Prediction,Mortality Prediction,MIMIC-III,Random Forest,F1 score,TRUE,0.97,,,,,,0.97,0.97,1,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0
+Medical,Medical Image Segmentation,Skin Cancer Segmentation,Kaggle Skin Lesion Segmentation,R2U-Net,AUC,TRUE,0.9371,,,0.9371,0.9371,0.9396,0.9419,0.9419,3,0,0,1,0,1,1,0,3,0,0,1,0,1,1,0
+Medical,Medical Image Segmentation,Infant Brain Mri Segmentation,iSEG 2017 Challenge,LiviaNet (SemiDenseNet),Dice Score,TRUE,0.9243,,,,,0.9243,0.9243,0.9243,1,0,0,0,0,1,0,0,1,0,0,0,0,1,0,0
+Medical,Medical Image Segmentation,Cell Segmentation,PhC-U373,U-Net,Mean IoU,TRUE,0.9203,,,0.9203,0.9203,0.9203,0.9203,0.9203,1,0,0,1,0,0,0,0,1,0,0,1,0,0,0,0
+Medical,Medical Image Segmentation,Cell Segmentation,DIC-HeLa,U-Net,Mean IoU,TRUE,0.7756,,,0.7756,0.7756,0.7756,0.7756,0.7756,1,0,0,1,0,0,0,0,1,0,0,1,0,0,0,0
+Medical,Medical Image Segmentation,Volumetric Medical Image Segmentation,PROMISE 2012,V-Net + Dice-based loss,Dice Score,TRUE,0.869,,,,0.869,0.869,0.869,0.869,2,0,0,0,1,0,1,0,2,0,0,0,1,0,1,0
+Medical,Participant Intervention Comparison Outcome Extraction,Participant Intervention Comparison Outcome Extraction,EBM-NLP,SciBERT (SciVocab),F1,TRUE,66.3,,,,,,66.3,71.18,2,0,0,0,0,0,1,1,2,0,0,0,0,0,1,1
+Medical,Surgical Skills Evaluation,Surgical Skills Evaluation,JIGSAWS,CNN,Accuracy,TRUE,0.98,,,,,,0.98,0.98,1,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0
+Methodology,Transfer Learning,Transfer Learning,ImageCLEF-DA,EasyTL,Accuracy,TRUE,88.2,,,,,,,88.2,1,0,0,0,0,0,0,1,1,0,0,0,0,0,0,1
+Methodology,Transfer Learning,Transfer Learning,Office-Home,EasyTL,Accuracy,TRUE,63.3,,,,,,,63.3,1,0,0,0,0,0,0,1,1,0,0,0,0,0,0,1
+Methodology,Transfer Learning,Transfer Learning,Amazon Review Polarity,EasyTL,Accuracy,TRUE,79.5,,,,,,,79.5,1,0,0,0,0,0,0,1,1,0,0,0,0,0,0,1
+Methodology,Domain Adaptation,Domain Adaptation,ImageCLEF-DA,MEDA,Accuracy,TRUE,89,,,,,,,89,1,0,0,0,0,0,0,1,1,0,0,0,0,0,0,1
+Methodology,Transfer Learning,Multi-Task Learning,Cityscapes,MultiObjectiveOptimization,mIoU,TRUE,66.63,,,,,,66.63,66.63,1,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0
+Methodology,Transfer Learning,Multi-Task Learning,CelebA,MGDA-UB,Error,FALSE,8.25,,,,,,8.25,8.25,1,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0
+Methodology,Metric Learning,Metric Learning,CARS196,GoogleNet,P@1,TRUE,79.1,,,,,,,79.1,1,0,0,0,0,0,0,1,1,0,0,0,0,0,0,1
+Methodology,Few-Shot Learning,Few-Shot Learning,Mini-ImageNet - 1-Shot Learning,MTL,Accuracy,TRUE,61.20%,,,,,,61.20%,61.20%,1,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0
+Methodology,Domain Adaptation,Unsupervised Domain Adaptation,ImageCLEF-DA,MEDA,Accuracy,TRUE,88.9,,,,,,88.9,89,2,0,0,0,0,0,1,1,2,0,0,0,0,0,1,1
+Methodology,Domain Adaptation,Unsupervised Domain Adaptation,VisDA2017,IAFN,Accuracy,TRUE,76.1,,,,,,76.1,76.1,1,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0
+Methodology,Domain Adaptation,Unsupervised Domain Adaptation,Office-31,IAFN+ENT,Accuracy,TRUE,87.1,,,,,,87.1,87.1,1,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0
+Methodology,Architecture Search,Architecture Search,CIFAR-10 Image Classification,Proxyless-G + c/o,Percentage error,FALSE,2.4,,,,2.4,2.4,2.08,2.08,6,0,0,0,1,1,4,0,6,0,0,0,1,1,4,0
+Methodology,Meta-Learning,Few-Shot Image Classification,Mini-ImageNet - 5-Shot Learning,MetaOptNet-SVM,Accuracy,TRUE,55.30%,,,,55.30%,68.20%,75.50%,78.63%,9,0,0,0,1,2,4,2,9,0,0,0,1,2,4,2
+Methodology,Meta-Learning,Few-Shot Image Classification,Mini-ImageNet - 1-Shot Learning,MetaOptNet-SVM,Accuracy,TRUE,43.60%,,,,43.60%,49.42%,61.20%,62.64%,9,0,0,0,1,2,5,1,8,0,0,0,1,2,4,1
+Methodology,Meta-Learning,Few-Shot Image Classification,OMNIGLOT - 1-Shot Learning,Prototypical-Nets,Accuracy,TRUE,98.10%,,,,98.10%,98.80%,98.80%,98.80%,6,0,0,0,2,3,1,0,5,0,0,0,2,2,1,0
+Methodology,Meta-Learning,Few-Shot Image Classification,OMNIGLOT - 5-Shot Learning,MAML,Accuracy,TRUE,99.50%,,,,99.50%,99.90%,99.90%,99.90%,6,0,0,0,2,3,1,0,5,0,0,0,2,2,1,0
+Methodology,Meta-Learning,Few-Shot Image Classification,CUB-200 - 0-Shot Learning,Prototypical-Nets,Accuracy,TRUE,50.10%,,50.10%,50.10%,50.10%,54.60%,54.60%,54.60%,3,0,1,0,1,1,0,0,2,0,0,0,1,1,0,0
+Methodology,Multi-Label Text Classification,Multi-Label Text Classification,20NEWS,RMDL,Accuracy,TRUE,91.21,,,,,,91.21,91.21,1,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0
+Methodology,Pain Intensity Regression,Pain Intensity Regression,UNBC-McMaster ShoulderPain dataset,Regularized Deep Regressor,MAE,FALSE,0.389,,,,,0.389,0.389,0.389,1,0,0,0,0,1,0,0,1,0,0,0,0,1,0,0
+Miscellaneous,Recommendation Systems,Collaborative Filtering,MovieLens 1M,Sparse FC,RMSE,FALSE,0.831,,,0.831,0.829,0.829,0.824,0.824,7,0,0,2,3,1,1,0,4,0,0,1,2,1,0,0
+Miscellaneous,Recommendation Systems,Collaborative Filtering,MovieLens 10M,Sparse FC,RMSE,FALSE,0.782,,,0.782,0.771,0.771,0.769,0.769,6,0,0,1,3,1,1,0,3,0,0,0,2,1,0,0
+Miscellaneous,Recommendation Systems,Collaborative Filtering,Douban,I-CFN,RMSE,FALSE,0.6911,,,,0.6911,0.6911,0.6911,0.6911,4,0,0,0,1,2,1,0,4,0,0,0,1,2,1,0
+Miscellaneous,Recommendation Systems,Collaborative Filtering,MovieLens 100K,GC-MC + feat,RMSE,FALSE,0.996,,0.996,0.996,0.996,0.905,0.905,0.905,4,0,1,0,0,2,1,0,4,0,1,0,0,2,1,0
+Miscellaneous,Recommendation Systems,Collaborative Filtering,Netflix,DeepRec,RMSE,FALSE,0.934,,,,0.934,0.9099,0.9099,0.9099,3,0,0,0,1,1,1,0,3,0,0,0,1,1,1,0
+Miscellaneous,Recommendation Systems,Collaborative Filtering,Flixster,Factorized Exchangeable Autoencoder,RMSE,FALSE,0.926,,,,,0.917,0.908,0.908,3,0,0,0,0,2,1,0,3,0,0,0,0,2,1,0
+Miscellaneous,Recommendation Systems,Collaborative Filtering,MovieLens 20M,Mult-VAE PR,Recall@20,TRUE,0.395,,,,,,0.395,0.395,1,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0
+Miscellaneous,Recommendation Systems,Collaborative Filtering,Million Song Dataset,Mult-VAE PR,Recall@20,TRUE,0.266,,,,,,0.266,0.266,1,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0
+Miscellaneous,Recommendation Systems,Collaborative Filtering,YahooMusic,Factorized Exchangeable Autoencoder,RMSE,FALSE,20.5,,,,,20.5,20,20,2,0,0,0,0,1,1,0,2,0,0,0,0,1,1,0
+Miscellaneous,Causal Inference,Causal Inference,IDHP,Counterfactual Regression + WASS,Average Treatment Effect Error,FALSE,0.27,,,,0.27,0.27,0.27,0.27,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0
+Miscellaneous,Click-Through Rate Prediction,Click-Through Rate Prediction,Criteo,xDeepFM,AUC,TRUE,0.7963,,,,0.7987,0.8007,0.8052,0.8052,5,0,0,0,3,1,1,0,5,0,0,0,3,1,1,0
+Miscellaneous,Click-Through Rate Prediction,Click-Through Rate Prediction,Company*,DeepFM,AUC,TRUE,0.8683,,,,0.8683,0.8715,0.8715,0.8715,4,0,0,0,3,1,0,0,4,0,0,0,3,1,0,0
+Miscellaneous,Click-Through Rate Prediction,Click-Through Rate Prediction,Amazon,DIN + Dice Activation,AUC,TRUE,0.8637,,,,0.8679,0.8871,0.8871,0.8871,4,0,0,0,2,2,0,0,4,0,0,0,2,2,0,0
+Miscellaneous,Click-Through Rate Prediction,Click-Through Rate Prediction,MovieLens 20M,DIN + Dice Activation,AUC,TRUE,0.7304,,,,0.7321,0.7348,0.7348,0.7348,4,0,0,0,2,2,0,0,4,0,0,0,2,2,0,0
+Miscellaneous,Click-Through Rate Prediction,Click-Through Rate Prediction,iPinYou,OPNN,AUC,TRUE,0.7619,,,,0.8174,0.8174,0.8174,0.8174,2,0,0,0,2,0,0,0,2,0,0,0,2,0,0,0
+Miscellaneous,Click-Through Rate Prediction,Click-Through Rate Prediction,Dianping,xDeepFM,AUC,TRUE,0.8361,,,,0.8445,0.8481,0.8639,0.8639,4,0,0,0,2,1,1,0,4,0,0,0,2,1,1,0
+Miscellaneous,Click-Through Rate Prediction,Click-Through Rate Prediction,Bing News,xDeepFM,AUC,TRUE,0.8377,,,,0.8377,0.8377,0.84,0.84,4,0,0,0,2,1,1,0,4,0,0,0,2,1,1,0
+Miscellaneous,Multi-Armed Bandits,Multi-Armed Bandits,Mushroom,Linear FullPosterior-MR,Cumulative regret,FALSE,1.82,,,,,,1.82,1.82,1,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0
+Miscellaneous,Multi-Modal,Cross-Modal Retrieval,COCO 2014,Text2Vis,DCG,TRUE,2.447,,,,2.447,2.447,2.447,2.447,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0
+Speech,Speech Recognition,Speech Recognition,Switchboard + Hub500,ResNet + BiLSTMs acoustic model,Percentage error,FALSE,15,,12.6,8,5.8,5.5,5.5,5.5,8,0,2,2,3,1,0,0,1,0,1,0,0,0,0,0
+Speech,Speech Recognition,Speech Recognition,TIMIT,LiGRU + Dropout + BatchNorm + Monophone Reg,Percentage error,FALSE,17.7,17.7,17.7,17.6,17.3,17.3,14.2,14.2,7,1,0,1,1,1,3,0,4,0,0,1,0,1,2,0
+Speech,Speech Recognition,Speech Recognition,LibriSpeech test-clean,deep 1d convs + ctc + external lm rescoring,Percentage error,FALSE,5.33,,,5.33,5.33,4.8,3.06,2.95,8,0,0,1,0,2,4,1,7,0,0,1,0,1,4,1
+Speech,Speech Recognition,Speech Recognition,swb_hub_500 WER fullSWBCH,ResNet + BiLSTMs acoustic model,Percentage error,FALSE,19.1,,16,16,11.9,10.3,10.3,10.3,5,0,2,0,2,1,0,0,1,0,1,0,0,0,0,0
+Speech,Speech Recognition,Speech Recognition,LibriSpeech test-other,tdnn + chain + rnnlm rescoring,Percentage error,FALSE,13.25,,,13.25,13.25,13.25,7.63,7.63,4,0,0,1,0,0,2,1,4,0,0,1,0,0,2,1
+Speech,Speech Recognition,Speech Recognition,WSJ eval92,tdnn + chain,Percentage error,FALSE,3.47,,,3.47,2.32,2.32,2.32,2.32,4,0,0,2,1,0,1,0,3,0,0,1,1,0,1,0
+Speech,Speech Recognition,Speech Recognition,WSJ eval93,Deep Speech 2,Percentage error,FALSE,4.98,,,4.98,4.98,4.98,4.98,4.98,1,0,0,1,0,0,0,0,1,0,0,1,0,0,0,0
+Speech,Speech Recognition,Speech Recognition,fisher WER,HMM-BLSTMtrained with MMI + data augmentation (speed) + iVectors + 3 regularizations + SWBD,Percentage error,FALSE,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Speech,Speech Recognition,Speech Recognition,Librispeech,VoiceFilter: bi-LSTM,Word Error Rate (WER),FALSE,11.1,,,,,,11.1,11.1,1,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0
+Speech,Speech Recognition,Speech Recognition,Switchboard (300hr),End-to-end LF-MMI,Word Error Rate (WER),FALSE,9.3,,,,,,9.3,9.3,1,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0
+Speech,Speech Synthesis,Speech Synthesis,North American English,Tacotron 2,Mean Opinion Score,TRUE,4.21,,,,4.21,4.526,4.526,4.526,3,0,0,0,1,2,0,0,3,0,0,0,1,2,0,0
+Speech,Speech Synthesis,Speech Synthesis,Mandarin Chinese,WaveNet (L+F),Mean Opinion Score,TRUE,4.08,,,,4.08,4.08,4.08,4.08,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0
+Speech,Speech Recognition,Noisy Speech Recognition,CHiME real,HMM-TDNN(LFMMI) + LSTMLM ,Percentage error,FALSE,67.94,,67.94,21.79,21.79,21.79,11.4,11.4,4,0,1,1,0,0,2,0,4,0,1,1,0,0,2,0
+Speech,Speech Recognition,Noisy Speech Recognition,CHiME clean,Deep Speech 2,Percentage error,FALSE,6.3,,6.3,3.34,3.34,3.34,3.34,3.34,2,0,1,1,0,0,0,0,2,0,1,1,0,0,0,0
+Speech,Speech Recognition,Distant Speech Recognition,CHiME-4 real 6ch,HMM-TDNN(LFMMI) + LSTMLM + NN-GEV,Word Error Rate (WER),FALSE,2.74,,,,,,2.74,2.74,1,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0
+Speech,Speech Recognition,Accented Speech Recognition,VoxForge American-Canadian,Deep Speech 2,Percentage error,FALSE,15.01,,15.01,7.55,7.55,7.55,7.55,7.55,2,0,1,1,0,0,0,0,2,0,1,1,0,0,0,0
+Speech,Speech Recognition,Accented Speech Recognition,VoxForge Commonwealth,Deep Speech 2,Percentage error,FALSE,28.46,,28.46,13.56,13.56,13.56,13.56,13.56,2,0,1,1,0,0,0,0,2,0,1,1,0,0,0,0
+Speech,Speech Recognition,Accented Speech Recognition,VoxForge European,Deep Speech 2,Percentage error,FALSE,31.2,,31.2,17.55,17.55,17.55,17.55,17.55,2,0,1,1,0,0,0,0,2,0,1,1,0,0,0,0
+Speech,Speech Recognition,Accented Speech Recognition,VoxForge Indian,Deep Speech 2,Percentage error,FALSE,45.35,,45.35,22.44,22.44,22.44,22.44,22.44,2,0,1,1,0,0,0,0,2,0,1,1,0,0,0,0
+Playing Games,Video Games,Atari Games,Atari 2600 Montezuma's Revenge,RND,Score,TRUE,10.7,10.7,10.7,142,3459,3705.5,8152,8152,19,0,0,5,5,4,4,0,13,0,0,4,3,2,3,0
+Playing Games,Video Games,Atari Games,Atari 2600 Venture,RND,Score,TRUE,66,66,66,523.4,1172,1520,1859,1859,17,0,0,5,5,4,2,0,12,0,0,4,3,2,2,0
+Playing Games,Video Games,Atari Games,Atari 2600 Freeway,TRPO-hash,Score,TRUE,19.1,19.1,19.1,33.7,34,34,34,34,16,0,0,5,5,4,1,0,11,0,0,4,3,2,1,0
+Playing Games,Video Games,Atari Games,Atari 2600 Frostbite,Prior+Duel noop,Score,TRUE,216.9,216.9,216.9,7413,7413,7413,7413,7413,14,0,0,5,4,3,1,0,11,0,0,4,3,2,1,0
+Playing Games,Video Games,Atari Games,Atari 2600 Q*Bert,IQN,Score,TRUE,613.5,4500,4500,19220.3,21307.5,23784,25750,25750,14,1,0,5,3,3,1,0,11,1,0,4,2,2,1,0
+Playing Games,Video Games,Atari Games,Atari 2600 Private Eye,C51 noop,Score,TRUE,684.3,684.3,684.3,2598.6,2598.6,15095,15095,15095,14,0,0,4,4,3,2,0,10,0,0,3,2,2,2,0
+Playing Games,Video Games,Atari Games,Atari 2600 Gravitar,RND,Score,TRUE,387.7,387.7,387.7,588,588,805,3906,3906,14,0,0,4,4,3,2,0,10,0,0,3,2,2,2,0
+Playing Games,Video Games,Atari Games,Atari 2600 Seaquest,C51 noop,Score,TRUE,664.8,1740,1740,50254.2,50254.2,266434,266434,266434,12,1,0,4,3,2,1,0,10,1,0,3,2,2,1,0
+Playing Games,Video Games,Atari Games,Atari 2600 Space Invaders,IQN,Score,TRUE,250.1,1075,1075,15311.5,23846,23846,28888,28888,12,1,0,4,3,2,1,0,10,1,0,3,2,2,1,0
+Playing Games,Video Games,Atari Games,Atari 2600 Enduro,C51 noop,Score,TRUE,129.1,661,661,2306.4,2306.4,3454,3454,3454,12,1,0,4,3,2,1,0,10,1,0,3,2,2,1,0
+Playing Games,Video Games,Atari Games,Atari 2600 Pong,DQN best,Score,TRUE,-19,21,21,21,21,21,21,21,12,1,0,4,3,2,1,0,10,1,0,3,2,2,1,0
+Playing Games,Video Games,Atari Games,Atari 2600 Amidar,IQN,Score,TRUE,103.4,103.4,103.4,2354.5,2354.5,2354.5,2946,2946,11,0,0,4,3,2,1,0,9,0,0,3,2,2,1,0
+Playing Games,Video Games,Atari Games,Atari 2600 Asterix,C51 noop,Score,TRUE,987.3,987.3,987.3,375080,375080,406211,406211,406211,11,0,0,4,3,2,1,0,9,0,0,3,2,2,1,0
+Playing Games,Video Games,Atari Games,Atari 2600 Breakout,Bootstrapped DQN,Score,TRUE,5.2,225,225,418.5,855,855,855,855,12,1,0,4,3,2,1,0,10,1,0,3,2,2,1,0
+Playing Games,Video Games,Atari Games,Atari 2600 Alien,IQN,Score,TRUE,939.2,939.2,939.2,4461.4,4461.4,4461.4,7022,7022,11,0,0,4,3,2,1,0,9,0,0,3,2,2,1,0
+Playing Games,Video Games,Atari Games,Atari 2600 Assault,IQN,Score,TRUE,628,628,628,11477,14497.9,14497.9,29091,29091,11,0,0,4,3,2,1,0,9,0,0,3,2,2,1,0
+Playing Games,Video Games,Atari Games,Atari 2600 Beam Rider,IQN,Score,TRUE,929.4,5184,5184,37412.2,37412.2,37412.2,42776,42776,12,1,0,4,3,2,1,0,10,1,0,3,2,2,1,0
+Playing Games,Video Games,Atari Games,Atari 2600 Kangaroo,Prior noop,Score,TRUE,1622,1622,1622,16200,16200,16200,16200,16200,11,0,0,4,3,2,1,0,9,0,0,3,2,2,1,0
+Playing Games,Video Games,Atari Games,Atari 2600 Gopher,IQN,Score,TRUE,1288,1288,1288,105148.4,105148.4,105148.4,118365,118365,11,0,0,4,3,2,1,0,9,0,0,3,2,2,1,0
+Playing Games,Video Games,Atari Games,Atari 2600 Robotank,Bootstrapped DQN,Score,TRUE,28.7,28.7,28.7,65.3,66.6,66.6,66.6,66.6,11,0,0,4,3,2,1,0,9,0,0,3,2,2,1,0
+Playing Games,Video Games,Atari Games,Atari 2600 Bowling,DDQN+Pop-Art noop,Score,TRUE,43.9,43.9,43.9,69.6,102.1,102.1,102.1,102.1,11,0,0,4,3,2,1,0,9,0,0,3,2,2,1,0
+Playing Games,Video Games,Atari Games,Atari 2600 Up and Down,A3C LSTM hs,Score,TRUE,3533,3533,3533,44939.6,105728.7,105728.7,105728.7,105728.7,11,0,0,4,3,2,1,0,9,0,0,3,2,2,1,0
+Playing Games,Video Games,Atari Games,Atari 2600 Tutankham,IQN,Score,TRUE,114.3,114.3,114.3,245.9,245.9,280,293,293,11,0,0,4,3,2,1,0,9,0,0,3,2,2,1,0
+Playing Games,Video Games,Atari Games,Atari 2600 Time Pilot,A3C LSTM hs,Score,TRUE,3741,3741,3741,11666,27202,27202,27202,27202,11,0,0,4,3,2,1,0,9,0,0,3,2,2,1,0
+Playing Games,Video Games,Atari Games,Atari 2600 Name This Game,IQN,Score,TRUE,2500,2500,2500,15572.5,15851.2,15851.2,22682,22682,11,0,0,4,3,2,1,0,9,0,0,3,2,2,1,0
+Playing Games,Video Games,Atari Games,Atari 2600 Boxing,IQN,Score,TRUE,44,44,44,99.4,99.4,99.4,99.8,99.8,11,0,0,4,3,2,1,0,9,0,0,3,2,2,1,0
+Playing Games,Video Games,Atari Games,Atari 2600 Asteroids,A3C LSTM hs,Score,TRUE,907.3,907.3,907.3,2837.7,5093.1,5093.1,5093.1,5093.1,11,0,0,4,3,2,1,0,9,0,0,3,2,2,1,0
+Playing Games,Video Games,Atari Games,Atari 2600 Zaxxon,A3C FF hs,Score,TRUE,3365,3365,3365,13886,24622,24622,24622,24622,11,0,0,4,3,2,1,0,9,0,0,3,2,2,1,0
+Playing Games,Video Games,Atari Games,Atari 2600 Ice Hockey,Prior noop,Score,TRUE,-9.5,-9.5,-9.5,1.3,1.3,1.3,1.3,1.3,11,0,0,4,3,2,1,0,9,0,0,3,2,2,1,0
+Playing Games,Video Games,Atari Games,Atari 2600 Tennis,IQN,Score,TRUE,-0.1,-0.1,-0.1,12.2,12.2,23.1,23.6,23.6,11,0,0,4,3,2,1,0,9,0,0,3,2,2,1,0
+Playing Games,Video Games,Atari Games,Atari 2600 Road Runner,A3C LSTM hs,Score,TRUE,67.7,67.7,67.7,69524,73949,73949,73949,73949,11,0,0,4,3,2,1,0,9,0,0,3,2,2,1,0
+Playing Games,Video Games,Atari Games,Atari 2600 Krull,Duel noop,Score,TRUE,3372,3372,3372,11451.9,11451.9,11451.9,11451.9,11451.9,11,0,0,4,3,2,1,0,9,0,0,3,2,2,1,0
+Playing Games,Video Games,Atari Games,Atari 2600 Demon Attack,C51 noop,Score,TRUE,520.5,520.5,520.5,73371.3,115201.9,130955,130955,130955,11,0,0,4,3,2,1,0,9,0,0,3,2,2,1,0
+Playing Games,Video Games,Atari Games,Atari 2600 Crazy Climber,C51 noop,Score,TRUE,23411,23411,23411,162224,162224,179877,179877,179877,11,0,0,4,3,2,1,0,9,0,0,3,2,2,1,0
+Playing Games,Video Games,Atari Games,Atari 2600 Centipede,DDQN+Pop-Art noop,Score,TRUE,8803,8803,8803,8803,49065.8,49065.8,49065.8,49065.8,11,0,0,4,3,2,1,0,9,0,0,3,2,2,1,0
+Playing Games,Video Games,Atari Games,Atari 2600 River Raid,Duel noop,Score,TRUE,1904,1904,1904,21162.6,21162.6,21162.6,21162.6,21162.6,11,0,0,4,3,2,1,0,9,0,0,3,2,2,1,0
+Playing Games,Video Games,Atari Games,Atari 2600 Wizard of Wor,IQN,Score,TRUE,1981,1981,1981,12352,18082,18082,31190,31190,11,0,0,4,3,2,1,0,9,0,0,3,2,2,1,0
+Playing Games,Video Games,Atari Games,Atari 2600 Double Dunk,Prior noop,Score,TRUE,-13.1,-13.1,-13.1,18.5,18.5,18.5,18.5,18.5,11,0,0,4,3,2,1,0,9,0,0,3,2,2,1,0
+Playing Games,Video Games,Atari Games,Atari 2600 Battle Zone,IQN,Score,TRUE,15820,15820,15820,37150,38666.7,38666.7,42244,42244,11,0,0,4,3,2,1,0,9,0,0,3,2,2,1,0
+Playing Games,Video Games,Atari Games,Atari 2600 Video Pinball,C51 noop,Score,TRUE,16871,16871,16871,479197,811610,949604,949604,949604,11,0,0,4,3,2,1,0,9,0,0,3,2,2,1,0
+Playing Games,Video Games,Atari Games,Atari 2600 Bank Heist,Duel noop,Score,TRUE,190.8,190.8,190.8,1611.9,1611.9,1611.9,1611.9,1611.9,11,0,0,4,3,2,1,0,9,0,0,3,2,2,1,0
+Playing Games,Video Games,Atari Games,Atari 2600 Atlantis,ES FF (1 hour) noop,Score,TRUE,62687,62687,62687,629166.5,994500,1267410,1267410,1267410,11,0,0,4,3,2,1,0,9,0,0,3,2,2,1,0
+Playing Games,Video Games,Atari Games,Atari 2600 Star Gunner,A3C LSTM hs,Score,TRUE,1070,1070,1070,127073,164766,164766,164766,164766,11,0,0,4,3,2,1,0,9,0,0,3,2,2,1,0
+Playing Games,Video Games,Atari Games,Atari 2600 Fishing Derby,Duel noop,Score,TRUE,-89.5,-89.5,-89.5,46.4,46.4,46.4,46.4,46.4,11,0,0,4,3,2,1,0,9,0,0,3,2,2,1,0
+Playing Games,Video Games,Atari Games,Atari 2600 Chopper Command,IQN,Score,TRUE,1582,1582,1582,13185,13185,15600,16836,16836,11,0,0,4,3,2,1,0,9,0,0,3,2,2,1,0
+Playing Games,Video Games,Atari Games,Atari 2600 Kung-Fu Master,IQN,Score,TRUE,19544,19544,19544,48375,48375,48375,73512,73512,10,0,0,4,3,1,1,0,8,0,0,3,2,1,1,0
+Playing Games,Video Games,Atari Games,Atari 2600 HERO,C51 noop,Score,TRUE,6459,6459,6459,23037.7,32464.1,38874,38874,38874,10,0,0,4,3,1,1,0,8,0,0,3,2,1,1,0
+Playing Games,Video Games,Atari Games,Atari 2600 Ms. Pacman,Prior noop,Score,TRUE,1692,1692,1692,6518.7,6518.7,6518.7,6518.7,6518.7,10,0,0,4,3,1,1,0,8,0,0,3,2,1,1,0
+Playing Games,Video Games,Atari Games,Atari 2600 James Bond,IQN,Score,TRUE,202.8,202.8,202.8,5148,5148,5148,35108,35108,10,0,0,4,3,1,1,0,8,0,0,3,2,1,1,0
+Playing Games,Video Games,Atari Games,Atari 2600 Berzerk,Prior+Duel noop,Score,TRUE,2178.6,,,3409,3409,3409,3409,3409,8,0,0,3,2,2,1,0,7,0,0,3,1,2,1,0
+Playing Games,Video Games,Atari Games,Atari 2600 Defender,IQN,Score,TRUE,42214,,,42214,42214,42214,53537,53537,2,0,0,1,0,0,1,0,2,0,0,1,0,0,1,0
+Playing Games,Video Games,Atari Games,Atari-57,Ape-X,Medium Human-Normalized Score,TRUE,187.00%,,,,,187.00%,434.10%,434.10%,3,0,0,0,0,1,2,0,2,0,0,0,0,0,2,0
+Playing Games,Video Games,Atari Games,Atari 2600 Solaris,IQN,Score,TRUE,8007,,,,,,8007,8007,2,0,0,0,0,0,2,0,2,0,0,0,0,0,2,0
+Playing Games,Video Games,Atari Games,Atari 2600 Phoenix,Prior+Duel hs,Score,TRUE,63597,,,63597,63597,63597,63597,63597,2,0,0,1,0,0,1,0,2,0,0,1,0,0,1,0
+Playing Games,Video Games,Atari Games,Atari 2600 Pitfall!,IQN,Score,TRUE,0,,,,,,0,0,2,0,0,0,0,0,2,0,2,0,0,0,0,0,2,0
+Playing Games,Video Games,Atari Games,Atari 2600 Skiing,IQN,Score,TRUE,-9289,,,,,,-9289,-9289,1,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0
+Playing Games,Video Games,Atari Games,Atari 2600 Yars Revenge,IQN,Score,TRUE,28379,,,,,,28379,28379,1,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0
+Playing Games,Video Games,Atari Games,Atari 2600 Surround,IQN,Score,TRUE,9.4,,,,,,9.4,9.4,1,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0
+Playing Games,Continuous Control,Continuous Control,DeepMind Cheetah Run (Images),PlaNet,Return,TRUE,650,,,,,,650,650,1,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0
+Playing Games,Continuous Control,Continuous Control,DeepMind Cup Catch (Images),PlaNet,Return,TRUE,914,,,,,,914,914,1,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0
+Playing Games,Continuous Control,Continuous Control,DeepMind Walker Walk (Images),PlaNet,Return,TRUE,890,,,,,,890,890,1,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0
+Playing Games,Board Games,Game of Go,ELO Ratings,AlphaGo Zero,ELO Rating,TRUE,5185,,,,,5185,5185,5185,1,0,0,0,0,1,0,0,1,0,0,0,0,1,0,0
+Playing Games,Board Games,Game of Shogi,ELO Ratings,AlphaZero,ELO Rating,TRUE,4650,,,,,4650,4650,4650,1,0,0,0,0,1,0,0,1,0,0,0,0,1,0,0
+Graphs,Link Prediction,Link Prediction,WN18,Inverse Model,MRR,TRUE,0.822,,0.822,0.822,0.941,0.963,0.963,0.963,9,0,1,0,2,2,3,1,7,0,1,0,0,2,3,1
+Graphs,Link Prediction,Link Prediction,WN18RR,M3GM,MRR,TRUE,0.43,,,,,0.43,0.4983,0.4983,6,0,0,0,0,1,4,1,5,0,0,0,0,1,3,1
+Graphs,Link Prediction,Link Prediction, FB15k,ComplEx-N3 (reciprocal),MRR,TRUE,0.66,,,,,0.66,0.86,0.86,5,0,0,0,0,1,3,1,5,0,0,0,0,1,3,1
+Graphs,Link Prediction,Link Prediction,FB15k-237,ComplEx-N3 (reciprocal),MRR,TRUE,0.325,,,,,0.325,0.37,0.37,4,0,0,0,0,1,2,1,4,0,0,0,0,1,2,1
+Graphs,Link Prediction,Link Prediction,Pubmed,Variational graph auto-encoders,Accuracy,TRUE,96.50%,,,,96.50%,96.50%,96.50%,96.50%,2,0,0,0,1,0,1,0,2,0,0,0,1,0,1,0
+Graphs,Link Prediction,Link Prediction,Citeseer,MTGAE,Accuracy,TRUE,91.40%,,,,91.40%,91.40%,94.90%,94.90%,2,0,0,0,1,0,1,0,2,0,0,0,1,0,1,0
+Graphs,Link Prediction,Link Prediction,Cora,MTGAE,Accuracy,TRUE,92.00%,,,,92.00%,92.00%,94.60%,94.60%,2,0,0,0,1,0,1,0,2,0,0,0,1,0,1,0
+Graphs,Link Prediction,Link Prediction,YAGO3-10,ComplEx-N3 (reciprocal),Hits@10,TRUE,0.62,,,,,0.62,0.71,0.71,2,0,0,0,0,1,1,0,2,0,0,0,0,1,1,0
+Graphs,Node Classification,Node Classification,Citeseer,LGCN sub,Accuracy,TRUE,43.20%,,43.20%,43.20%,70.30%,70.30%,73.00%,73.00%,9,0,1,0,3,0,5,0,9,0,1,0,3,0,5,0
+Graphs,Node Classification,Node Classification,Cora,LGCN sub,Accuracy,TRUE,67.20%,,67.20%,67.20%,81.50%,81.50%,83.30%,83.30%,9,0,1,0,3,0,5,0,9,0,1,0,3,0,5,0
+Graphs,Node Classification,Node Classification,Pubmed,MTGAE,Accuracy,TRUE,65.30%,,65.30%,65.30%,79.00%,79.00%,80.40%,80.40%,9,0,1,0,3,0,5,0,9,0,1,0,3,0,5,0
+Graphs,Node Classification,Node Classification,BlogCatalog,GraphGAN,Accuracy,TRUE,22.50%,,22.50%,22.50%,22.50%,23.20%,23.20%,23.20%,5,0,1,1,1,2,0,0,5,0,1,1,1,2,0,0
+Graphs,Node Classification,Node Classification,Wikipedia,GraphGAN,Accuracy,TRUE,19.40%,,19.40%,19.40%,19.40%,21.30%,21.30%,21.30%,5,0,1,1,1,2,0,0,5,0,1,1,1,2,0,0
+Graphs,Node Classification,Node Classification,NELL,GCN,Accuracy,TRUE,58.10%,,58.10%,58.10%,66.00%,66.00%,66.00%,66.00%,3,0,1,0,2,0,0,0,3,0,1,0,2,0,0,0
+Graphs,Graph Classification,Graph Classification,D&D,PSCN,Accuracy,TRUE,76.27%,,,,76.27%,76.27%,76.27%,76.27%,4,0,0,0,1,0,2,1,4,0,0,0,1,0,2,1
+Graphs,Graph Classification,Graph Classification,IMDb-B,AWE,Accuracy,TRUE,71.00%,,,,71.00%,71.00%,74.45%,74.45%,4,0,0,0,1,0,2,1,4,0,0,0,1,0,2,1
+Graphs,Graph Classification,Graph Classification,NCI1,GCAPS-CNN,Accuracy,TRUE,76.34%,,,,76.34%,76.34%,82.72%,82.72%,3,0,0,0,1,0,1,1,3,0,0,0,1,0,1,1
+Graphs,Graph Classification,Graph Classification,MUTAG,PSCN,Accuracy,TRUE,88.95%,,,,88.95%,88.95%,88.95%,88.95%,3,0,0,0,1,0,1,1,3,0,0,0,1,0,1,1
+Graphs,Graph Classification,Graph Classification,COLLAB,CapsGNN,Accuracy,TRUE,79.62%,,,,,,,79.62%,1,0,0,0,0,0,0,1,1,0,0,0,0,0,0,1
+Graphs,Graph Classification,Graph Classification,ENZYMES,CapsGNN,Accuracy,TRUE,54.67%,,,,,,,54.67%,1,0,0,0,0,0,0,1,1,0,0,0,0,0,0,1
+Graphs,Graph Classification,Graph Classification,IMDb-M,CapsGNN,Accuracy,TRUE,50.27%,,,,,,,50.27%,1,0,0,0,0,0,0,1,1,0,0,0,0,0,0,1
+Graphs,Graph Classification,Graph Classification,RE-M5K,CapsGNN,Accuracy,TRUE,52.88%,,,,,,,52.88%,1,0,0,0,0,0,0,1,1,0,0,0,0,0,0,1
+Graphs,Graph Classification,Graph Classification,PROTEINS,CapsGNN,Accuracy,TRUE,76.28%,,,,,,,76.28%,1,0,0,0,0,0,0,1,1,0,0,0,0,0,0,1
+Graphs,Graph Classification,Graph Classification,RE-M12K,CapsGNN,Accuracy,TRUE,46.62%,,,,,,,46.62%,1,0,0,0,0,0,0,1,1,0,0,0,0,0,0,1
+Time Series,Traffic Prediction,Traffic Prediction,METR-LA,DCRNN,MAE @ 12 step,FALSE,3.6,,,,,3.6,3.6,3.6,1,0,0,0,0,1,0,0,1,0,0,0,0,1,0,0
+Time Series,Time Series Forecasting,Multivariate Time Series Forecasting,BPI challenge '12,LSTM,Accuracy,TRUE,0.76,,,,0.76,0.76,0.76,0.76,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0
+Time Series,Time Series Forecasting,Multivariate Time Series Forecasting,Helpdesk,LSTM,Accuracy,TRUE,0.7123,,,,0.7123,0.7123,0.7123,0.7123,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0
+Computer Code,SQL-to-Text,SQL-to-Text,WikiSQL,Graph2Seq-PGE,BLEU-4,TRUE,35.53,,,35.53,35.53,35.53,38.97,38.97,2,0,0,1,0,0,1,0,2,0,0,1,0,0,1,0
+Reasoning,Common Sense Reasoning,Common Sense Reasoning,SWAG,BERT Large,Test,TRUE,59.2,,,,,,86.3,86.3,2,0,0,0,0,0,2,0,2,0,0,0,0,0,2,0
+Reasoning,Common Sense Reasoning,Common Sense Reasoning,Winograd Schema Challenge,GPT-2,Score,TRUE,62.6,,,,,,62.6,70.7,2,0,0,0,0,0,1,1,2,0,0,0,0,0,1,1
+Reasoning,Common Sense Reasoning,Common Sense Reasoning,Event2Mind,BiRNN 100d,Test,FALSE,4.22,,,,,,4.22,4.22,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+Knowledge Base,Knowledge Graphs,Open Knowledge Graph Canonicalization,Noun Phrase Canonicalization,CESI,Ambiguous dataset,TRUE,99.8,,,,,,,99.8,1,0,0,0,0,0,0,1,1,0,0,0,0,0,0,1
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,

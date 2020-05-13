@@ -1,0 +1,54 @@
+﻿Area,Parent Task,Task,Dataset,Best method name,Primary metric,Primary metric - is higher better?,Metric first reported value,2013,2014,2015,2016,2017,2018,2019
+Computer Vision,Image Classification,Image Classification,MNIST,RMDL,Percentage error,FALSE,0.2,0.2,0.2,0.2,0.2,0.2,0.18,0.18
+Computer Vision,Image Classification,Image Classification,SVHN,WRN + fixup init + mixup + cutout,Percentage error,FALSE,2.8,2.16,1.92,1.69,1.59,1.54,1.54,1.4
+Computer Vision,Image Classification,Image Classification,Fashion-MNIST,Random Erasing,Percentage error,FALSE,3.65,,,,,3.65,3.65,3.65
+Computer Vision,Image Classification,Image Classification,MultiMNIST,CapsNet,Percentage error,FALSE,5.2,,,,,5.2,5.2,5.2
+Computer Vision,Image Generation,Image Generation,LSUN Bedroom 256 x 256,COCO-GAN,FID,FALSE,9.5,,,,,8.34,8.34,6.95
+Computer Vision,Image Generation,Image Generation,CelebA-HQ 1024x1024,StyleGAN,FID,FALSE,7.3,,,,,7.3,5.06,5.06
+Computer Vision,Image Generation,Image Generation,CAT 256x256,RaSGAN,FID,FALSE,155.46,,,,,155.46,32.11,32.11
+Computer Vision,Image Generation,Image Generation,FFHQ,StyleGAN,FID,FALSE,8.04,,,,,8.04,4.4,4.4
+Computer Vision,Optical Flow Estimation,Optical Flow Estimation,Sintel-clean,PWC-Net,Average End-Point Error,FALSE,6.64,,,,6.64,6.64,3.45,3.45
+Computer Vision,Optical Flow Estimation,Optical Flow Estimation,Sintel-final,PWC-Net,Average End-Point Error,FALSE,8.36,,,,8.36,8.36,4.6,4.6
+Computer Vision,Image Generation,Image-to-Image Translation,RaFD,StarGAN,Classification Error,FALSE,0.04,,,,0.04,0.02,0.02,0.02
+Computer Vision,Image Reconstruction,Image Reconstruction,Edge-to-Shoes,PI-REC,FID,FALSE,0.02,,,,,,,0.02
+Computer Vision,Image Reconstruction,Image Reconstruction,Edge-to-Handbags,PI-REC,FID,FALSE,0.07,,,,,,,0.07
+Computer Vision,Pose Estimation,3D Human Pose Estimation,Human3.6M,Fully supervised EpipolarPose,Average 3D Error,FALSE,88.39,,,,,64.9,59.9,51.8
+Computer Vision,Pose Estimation,3D Human Pose Estimation,CHALL H80K,ResNet,MPJPE,FALSE,55.3,,,,,,55.3,55.3
+Computer Vision,Facial Recognition and Modelling,Face Alignment,AFLW2000-3D,2DASL,Mean NME ,FALSE,0.05,,,0.05,0.05,0.04,0.04,0.04
+Computer Vision,Facial Recognition and Modelling,Face Alignment,300W,DAN-Menpo + bounding box diagonal normalization,Mean Error Rate,FALSE,1.42,,,,,1.42,1.42,1.42
+Computer Vision,Facial Recognition and Modelling,Face Alignment,AFLW2000,Nonlinear 3D Face Morphable Model,Error rate,FALSE,4.7,,,,,,4.7,4.7
+Computer Vision,Facial Recognition and Modelling,Face Alignment,AFLW-LFPA,FPN,Mean NME ,FALSE,0.04,,,,,0.04,0.03,0.03
+Computer Vision,Autonomous Vehicles,Pedestrian Detection,Caltech,CSP + CityPersons dataset,Reasonable Miss Rate,FALSE,20.9,,20.9,9.68,7.3,4,4,3.8
+Computer Vision,Autonomous Vehicles,Pedestrian Detection,CityPersons,CSP (with offset) + ResNet-50,Reasonable MR^-2,FALSE,14.8,,,,,13.2,12,11
+Computer Vision,Video,Video Generation,TrailerFaces,PG-SWGAN-3D,FID,FALSE,404.1,,,,,,,404.1
+Computer Vision,Hand,Hand Pose Estimation,NYU Hands,V2V-PoseNet,Average 3D Error,FALSE,12.7,,,,,8.42,8.42,8.42
+Computer Vision,Hand,Hand Pose Estimation,MSRA Hands,Dense Pixel-wise Estimation,Average 3D Error,FALSE,9.8,,,,,7.2,7.2,7.2
+Computer Vision,Hand,Hand Pose Estimation,ICVL Hands,V2V-PoseNet,Average 3D Error,FALSE,7.5,,,,,6.28,6.28,6.28
+Computer Vision,Hand,Hand Pose Estimation,HANDS 2017,V2V-PoseNet,Average 3D Error,FALSE,9.95,,,,,9.95,9.95,9.95
+Computer Vision,Crowds,Crowd Counting,UCF CC 50,Cascaded-MTL,MAE,FALSE,322.8,,,,,322.8,322.8,322.8
+Computer Vision,Crowds,Crowd Counting,ShanghaiTech A,Cascaded-MTL,MAE,FALSE,101.3,,,,,101.3,101.3,101.3
+Computer Vision,Crowds,Crowd Counting,ShanghaiTech B,Cascaded-MTL,MAE,FALSE,20,,,,,20,20,20
+Computer Vision,Facial Recognition and Modelling,3D Face Reconstruction,Florence,PRN,Mean NME ,FALSE,0.06,,,0.06,0.06,0.05,0.04,0.04
+Computer Vision,Facial Recognition and Modelling,3D Face Reconstruction,AFLW2000-3D,PRN,Mean NME ,FALSE,0.05,,,0.05,0.05,0.05,0.04,0.04
+Computer Vision,Facial Recognition and Modelling,Face Generation,CelebA,COCO-GAN,FID,FALSE,7.3,,,,,7.3,7.3,5.74
+Computer Vision,Gaze Estimation,Gaze Estimation,MPII Gaze,RT-GENE 4 model ensemble,Angular Error,FALSE,4.3,,,,,,4.3,4.3
+Computer Vision,Gaze Estimation,Gaze Estimation,RT-GENE,RT-GENE 4 model ensemble,Angular Error,FALSE,7.7,,,,,,7.7,7.7
+Computer Vision,Gaze Estimation,Gaze Estimation,UT Multi-view,RT-GENE 4 model ensemble,Angular Error,FALSE,5.1,,,,,,5.1,5.1
+Computer Vision,Facial Recognition and Modelling,Facial Landmark Detection,300W,SAN GT,NME,FALSE,6.3,,,,,6.3,3.98,3.98
+Computer Vision,Facial Recognition and Modelling,Facial Landmark Detection,AFLW-Full,SAN,Mean NME ,FALSE,1.91,,,,,,1.91,1.91
+Computer Vision,Facial Recognition and Modelling,Facial Landmark Detection,AFLW-Front,SAN,Mean NME ,FALSE,1.85,,,,,,1.85,1.85
+Computer Vision,Object Localization,Weakly-Supervised Object Localization, CUB-200-2011,SPG,Top-1 Error Rate,FALSE,53.36,,,,,,53.36,53.36
+Computer Vision,Object Localization,Weakly-Supervised Object Localization,ILSVRC 2015,SPG,Top-1 Error Rate,FALSE,51.4,,,,,,51.4,51.4
+Computer Vision,Object Localization,Weakly-Supervised Object Localization,ILSVRC 2016,SPG,Top-5 Error,FALSE,40,,,,,,40,40
+Computer Vision,Image Classification,Fine-Grained Image Classification,Caltech-101,AutoAugment,Top-1 Error Rate,FALSE,0.13,,,,,,0.13,0.13
+Computer Vision,Image Classification,Fine-Grained Image Classification,Oxford-IIIT Pets,AutoAugment,Top-1 Error Rate,FALSE,0.11,,,,,,0.11,0.11
+Computer Vision,Image Generation,Text-to-Image Generation,Oxford 102 Flowers,StackGAN-v2,FID,FALSE,48.68,,,,,48.68,48.68,48.68
+Computer Vision,Pose Estimation,Head Pose Estimation,BIWI,Multi-Loss ResNet50,MAE,FALSE,19.07,,,19.07,19.07,4.9,4.9,4.9
+Computer Vision,Pose Estimation,Head Pose Estimation,AFLW2000,Multi-Loss ResNet50,MAE,FALSE,7.39,,,7.39,7.39,6.16,6.16,6.16
+Computer Vision,Facial Recognition and Modelling,Age Estimation,FGNET,CMAAE-OR,MAE,FALSE,3.62,,,,,,3.62,3.62
+Computer Vision,Facial Recognition and Modelling,Age Estimation,MORPH,CMAAE-OR,MAE,FALSE,1.48,,,,,,1.48,1.48
+Computer Vision,Facial Recognition and Modelling,Age Estimation,ChaLearn 2015,DLDL+VGG-Face,MAE,FALSE,3.51,,,,3.51,3.51,3.51,3.51
+Computer Vision,Dense Pixel Correspondence Estimation,Dense Pixel Correspondence Estimation,HPatches,DGC-Net aff+tps+homo,Viewpoint I AEPE,FALSE,5.84,,,5.84,5.84,4.43,1.55,1.55
+Computer Vision,Facial Recognition and Modelling,Face Anti-Spoofing,MSU-MFSD,GFA-CNN,Equal Error Rate,FALSE,0.11,,,0.11,0.11,0.11,0.11,0.08
+Computer Vision,Facial Recognition and Modelling,Facial Beauty Prediction,SCUT-FBP,CNN features + Bayesian ridge regression,MAE,FALSE,0.39,,,,,,0.26,0.26
+Computer Vision,Instance Segmentation,One-Shot Instance Segmentation,COCO,Siamese Mask R-CNN,AP 0.5,FALSE,14.5,,,,,,14.5,14.5

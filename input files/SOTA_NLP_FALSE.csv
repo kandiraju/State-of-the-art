@@ -1,0 +1,23 @@
+﻿Area,Parent Task,Task,Dataset,Best method name,Primary metric,Primary metric - is higher better?,Metric first reported value,2013,2014,2015,2016,2017,2018,2019
+Natural Language Processing,Language Modelling,Language Modelling,Penn Treebank (Word Level),GPT-2,Test perplexity,FALSE,65.4,,,,64,47.69,46.54,35.76
+Natural Language Processing,Language Modelling,Language Modelling,One Billion Word,Transformer-XL Large,PPL,FALSE,51.3,51.3,51.3,51.3,30,28,23.02,21.8
+Natural Language Processing,Language Modelling,Language Modelling,WikiText-103,GPT-2,Test perplexity,FALSE,40.8,,,,37.2,37.2,18.7,17.48
+Natural Language Processing,Language Modelling,Language Modelling,WikiText-2,GPT-2,Test perplexity,FALSE,52,,,,,40.68,39.14,18.34
+Natural Language Processing,Language Modelling,Language Modelling,Hutter Prize,24-layer Transformer-XL,Bit per Character (BPC),FALSE,1.27,,,,1.24,1.08,1.06,0.99
+Natural Language Processing,Language Modelling,Language Modelling,enwiki8,GPT-2,Bit per Character (BPC),FALSE,1.27,,,,1.24,1.24,1.06,0.93
+Natural Language Processing,Language Modelling,Language Modelling,Text8,GPT-2,Bit per Character (BPC),FALSE,1.36,,,,1.27,1.19,1.13,0.98
+Natural Language Processing,Language Modelling,Language Modelling,Penn Treebank (Character Level),Trellis Network,Bit per Character (BPC),FALSE,1.219,,,,1.214,1.19,1.158,1.158
+Natural Language Processing,Question Answering,Question Answering,AI2 Kaggle Dataset,IR Baseline,P@1,FALSE,47.2,,,,,47.2,47.2,47.2
+Natural Language Processing,Question Answering,Question Answering,COMPLEXQUESTIONS,WebQA,F1,FALSE,53.6,,,,,53.6,53.6,53.6
+Natural Language Processing,Sentiment Analysis,Sentiment Analysis,Yelp Binary classification,ULMFiT,Error,FALSE,4.88,,,4.88,2.9,2.64,2.16,2.16
+Natural Language Processing,Sentiment Analysis,Sentiment Analysis,Yelp Fine-grained classification,ULMFiT,Error,FALSE,37.95,,,37.95,32.39,30.58,29.98,29.98
+Natural Language Processing,Text Classification,Text Classification,AG News,L MIXED,Error,FALSE,9.51,,,9.51,6.57,6.57,5.01,4.95
+Natural Language Processing,Text Classification,Text Classification,DBpedia,L MIXED,Error,FALSE,1.55,,,1.55,0.84,0.84,0.8,0.7
+Natural Language Processing,Text Classification,Text Classification,TREC-6,USE_T+CNN,Error,FALSE,4,,,4,3.9,3.9,1.93,1.93
+Natural Language Processing,Text Classification,Text Classification,TREC-50,Rules,Error,FALSE,2.8,,,,2.8,2.8,2.8,2.8
+Natural Language Processing,Text Generation,Text Generation,Yahoo Questions,Aggressive VAE,NLL,FALSE,332.1,,,,,332.1,327.5,326.7
+Natural Language Processing,Word Sense Disambiguation,Word Sense Disambiguation,Supervised:,MFS baseline,Senseval 2,FALSE,72,,,,,72,71.6,71.6
+Natural Language Processing,Machine Translation,Unsupervised Machine Translation,WMT2016 English-Romanian,MLM pretraining for encoder and decoder,BLEU,FALSE,33.3,,,,,,,33.3
+Natural Language Processing,Named Entity Recognition (NER),Nested Named Entity Recognition,ACE 2004,Neural transition-based model,F1,FALSE,73.3,,,,,,73.3,73.3
+Natural Language Processing,Nested Mention Recognition,Nested Mention Recognition,ACE 2004,Neural transition-based model,F1,FALSE,73.3,,,,,,73.3,73.3
+Natural Language Processing,Nested Mention Recognition,Nested Mention Recognition,ACE 2005,Neural transition-based model,F1,FALSE,73,,,,,,73,73

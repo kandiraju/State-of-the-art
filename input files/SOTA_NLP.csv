@@ -1,0 +1,229 @@
+﻿Area,Parent Task,Task,Dataset,Best method name,Primary metric,Primary metric - is higher better?,Metric first reported value,Metric SOTA value in 2013,Metric SOTA value in 2014,Metric SOTA value in 2015,Metric SOTA value in 2016,Metric SOTA value in 2017,Metric SOTA value in 2018,Metric SOTA value in 2019,Papers all time,Papers in 2013,Papers in 2014,Papers in 2015,Papers in 2016,Papers in 2017,Papers in 2018,Papers in 2019,Papers with code all time,Papers with code in 2013,Papers with code in 2014,Papers with code in 2015,Papers with code in 2016,Papers with code in 2017,Papers with code in 2018,Papers with code in 2019
+Natural Language Processing,Machine Translation,Machine Translation,WMT2014 English-French,Transformer Big + BT,BLEU score,TRUE,34.54,,37.5,37.5,39.92,41.4,45.6,45.6,23,0,5,0,5,5,6,2,21,0,5,0,4,4,6,2
+Natural Language Processing,Machine Translation,Machine Translation,WMT2014 English-German,DeepL,BLEU score,TRUE,20.7,,,,26.3,28.9,29.3,29.7,22,0,0,0,5,7,8,2,20,0,0,0,4,6,8,2
+Natural Language Processing,Machine Translation,Machine Translation,IWSLT2015 German-English,Transformer,BLEU score,TRUE,28.53,,28.53,28.53,30.4,34.44,34.44,34.44,15,0,1,1,4,5,4,0,15,0,1,1,4,5,4,0
+Natural Language Processing,Machine Translation,Machine Translation,WMT2016 English-Romanian,ConvS2S BPE40k,BLEU score,TRUE,28.1,,,,28.9,29.88,29.88,29.88,7,0,0,0,3,2,2,0,6,0,0,0,2,2,2,0
+Natural Language Processing,Machine Translation,Machine Translation,IWSLT2015 English-German,Transformer,BLEU score,TRUE,25.04,,,,25.04,28.23,28.23,28.23,7,0,0,0,1,4,2,0,7,0,0,0,1,4,2,0
+Natural Language Processing,Machine Translation,Machine Translation,WMT2015 English-German,ByteNet,BLEU score,TRUE,22.8,,,22.8,26.26,26.26,26.26,26.26,4,0,0,1,2,1,0,0,4,0,0,1,2,1,0,0
+Natural Language Processing,Machine Translation,Machine Translation,WMT2016 English-German,Attentional encoder-decoder + BPE,BLEU score,TRUE,34.2,,,,34.2,34.2,34.2,34.2,5,0,0,0,2,1,2,0,5,0,0,0,2,1,2,0
+Natural Language Processing,Machine Translation,Machine Translation,WMT2016 German-English,Attentional encoder-decoder + BPE,BLEU score,TRUE,38.6,,,,38.6,38.6,38.6,38.6,5,0,0,0,2,1,2,0,5,0,0,0,2,1,2,0
+Natural Language Processing,Machine Translation,Machine Translation,WMT2016 English-Russian,Attentional encoder-decoder + BPE,BLEU score,TRUE,26,,,,26,26,26,26,2,0,0,0,1,0,1,0,2,0,0,0,1,0,1,0
+Natural Language Processing,Machine Translation,Machine Translation,WMT2016 Romanian-English,MLM pretraining,BLEU score,TRUE,33.3,,,,33.3,33.3,33.3,35.3,4,0,0,0,1,1,1,1,4,0,0,0,1,1,1,1
+Natural Language Processing,Machine Translation,Machine Translation,WMT2014 German-English,Denoising autoencoders (non-autoregressive),BLEU score,TRUE,23.2,,,,,23.2,25.43,25.43,3,0,0,0,0,1,2,0,3,0,0,0,0,1,2,0
+Natural Language Processing,Machine Translation,Machine Translation,WMT2016 English-Czech,Attentional encoder-decoder + BPE,BLEU score,TRUE,25.8,,,,25.8,25.8,25.8,25.8,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0
+Natural Language Processing,Machine Translation,Machine Translation,WMT 2014 EN-DE,universal transformer base,BLEU,TRUE,28.9,,,,,,28.9,28.9,1,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0
+Natural Language Processing,Machine Translation,Machine Translation,IWSLT2015 Thai-English,Seq-KD + Seq-Inter + Word-KD,BLEU score,TRUE,14.2,,,,14.2,14.2,14.2,14.2,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0
+Natural Language Processing,Machine Translation,Machine Translation,WMT2015 English-Russian,C2-50k Segmentation,BLEU score,TRUE,20.9,,,20.9,20.9,20.9,20.9,20.9,1,0,0,1,0,0,0,0,1,0,0,1,0,0,0,0
+Natural Language Processing,Machine Translation,Machine Translation,WMT2016 Czech-English,Attentional encoder-decoder + BPE,BLEU score,TRUE,31.4,,,,31.4,31.4,31.4,31.4,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0
+Natural Language Processing,Machine Translation,Machine Translation,WMT2014 French-English,SMT + iterative backtranslation (unsupervised),BLEU score,TRUE,25.87,,,,,,25.87,25.87,1,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0
+Natural Language Processing,Machine Translation,Machine Translation,WMT2016 Russian-English,Attentional encoder-decoder + BPE,BLEU score,TRUE,28,,,,28,28,28,28,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0
+Natural Language Processing,Language Modelling,Language Modelling,Penn Treebank (Word Level),GPT-2,Test perplexity,FALSE,65.4,,,,64,47.69,46.54,35.76,18,0,0,0,3,4,7,4,16,0,0,0,3,4,5,4
+Natural Language Processing,Language Modelling,Language Modelling,One Billion Word,Transformer-XL Large,PPL,FALSE,51.3,51.3,51.3,51.3,30,28,23.02,21.8,11,1,1,0,2,2,2,3,9,1,0,0,2,1,2,3
+Natural Language Processing,Language Modelling,Language Modelling,WikiText-103,GPT-2,Test perplexity,FALSE,40.8,,,,37.2,37.2,18.7,17.48,9,0,0,0,2,0,5,2,7,0,0,0,2,0,3,2
+Natural Language Processing,Language Modelling,Language Modelling,WikiText-2,GPT-2,Test perplexity,FALSE,52,,,,,40.68,39.14,18.34,10,0,0,0,0,4,3,3,9,0,0,0,0,4,2,3
+Natural Language Processing,Language Modelling,Language Modelling,Hutter Prize,24-layer Transformer-XL,Bit per Character (BPC),FALSE,1.27,,,,1.24,1.08,1.06,0.99,7,0,0,0,2,2,2,1,4,0,0,0,1,1,1,1
+Natural Language Processing,Language Modelling,Language Modelling,enwiki8,GPT-2,Bit per Character (BPC),FALSE,1.27,,,,1.24,1.24,1.06,0.93,8,0,0,0,4,1,1,2,4,0,0,0,2,0,0,2
+Natural Language Processing,Language Modelling,Language Modelling,Text8,GPT-2,Bit per Character (BPC),FALSE,1.36,,,,1.27,1.19,1.13,0.98,8,0,0,0,4,1,1,2,6,0,0,0,3,1,0,2
+Natural Language Processing,Language Modelling,Language Modelling,Penn Treebank (Character Level),Trellis Network,Bit per Character (BPC),FALSE,1.219,,,,1.214,1.19,1.158,1.158,6,0,0,0,2,1,3,0,3,0,0,0,1,0,2,0
+Natural Language Processing,Language Modelling,Language Modelling,Sequential MNIST,Trellis Network,Accuracy,TRUE,99.2,,,,,,99.2,99.2,1,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0
+Natural Language Processing,Question Answering,Question Answering,SQuAD1.1,BERT (ensemble),EM,TRUE,67.901,,,,75.034,82.283,87.433,87.433,32,0,0,0,8,18,6,0,18,0,0,0,5,10,3,0
+Natural Language Processing,Question Answering,Question Answering,SQuAD2.0,BERT + DAE + AoA (ensemble),EM,TRUE,70.3,,,,,71.316,83.536,87.147,6,0,0,0,0,2,4,0,5,0,0,0,0,2,3,0
+Natural Language Processing,Question Answering,Question Answering,CNN / Daily Mail,GA+MAGE (32),CNN,TRUE,69.4,,,69.4,77.9,78.6,78.6,78.6,11,0,0,1,9,1,0,0,7,0,0,1,6,0,0,0
+Natural Language Processing,Question Answering,Question Answering,WikiQA,HyperQA,MAP,TRUE,0.5976,,0.652,0.6886,0.709,0.712,0.712,0.712,10,0,2,1,6,1,0,0,7,0,2,1,3,1,0,0
+Natural Language Processing,Question Answering,Question Answering,bAbi,QRN,Accuracy (trained on 10k),TRUE,93.40%,,,93.40%,99.70%,99.70%,99.70%,99.70%,9,0,0,1,4,3,1,0,6,0,0,1,2,3,0,0
+Natural Language Processing,Question Answering,Question Answering,Children's Book Test,GPT-2,Accuracy-CN,TRUE,68.90%,,,,71.90%,71.90%,71.90%,93.30%,6,0,0,0,5,0,0,1,5,0,0,0,4,0,0,1
+Natural Language Processing,Question Answering,Question Answering,CoQA,BERT Large Augmented (single model),In-domain,TRUE,67,,,,,,82.5,82.5,5,0,0,0,0,0,5,0,5,0,0,0,0,0,5,0
+Natural Language Processing,Question Answering,Question Answering,QASent,Attentive LSTM,MAP,TRUE,0.6762,,0.7113,0.7339,0.7339,0.7339,0.7339,0.7339,3,0,2,1,0,0,0,0,3,0,2,1,0,0,0,0
+Natural Language Processing,Question Answering,Question Answering,NarrativeQA,ConZNet,Rouge-L,TRUE,36.74,,,,36.74,36.74,46.67,46.67,6,0,0,0,1,1,4,0,4,0,0,0,1,1,2,0
+Natural Language Processing,Question Answering,Question Answering,SemEvalCQA,HyperQA,P@1,TRUE,0.753,,,0.753,0.755,0.809,0.809,0.809,5,0,0,1,3,1,0,0,2,0,0,1,0,1,0,0
+Natural Language Processing,Question Answering,Question Answering,YahooCQA,HyperQA,P@1,TRUE,0.568,,,,0.568,0.683,0.683,0.683,2,0,0,0,1,1,0,0,1,0,0,0,0,1,0,0
+Natural Language Processing,Question Answering,Question Answering,TriviaQA,MemoReader,EM,TRUE,46.94,,,,,66.37,67.21,67.21,5,0,0,0,0,4,1,0,2,0,0,0,0,2,0,0
+Natural Language Processing,Question Answering,Question Answering,AI2 Kaggle Dataset,IR Baseline,P@1,FALSE,47.2,,,,,47.2,47.2,47.2,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+Natural Language Processing,Question Answering,Question Answering,MS MARCO,Masque Q&A Style,Rouge-L,TRUE,23.96,,,,23.96,23.96,52.01,52.2,4,0,0,0,1,0,2,1,1,0,0,0,1,0,0,0
+Natural Language Processing,Question Answering,Question Answering,NewsQA,DecaProp,F1,TRUE,56.1,,,,,56.1,66.3,66.3,4,0,0,0,0,1,3,0,3,0,0,0,0,1,2,0
+Natural Language Processing,Question Answering,Question Answering,TrecQA,HyperQA,MAP,TRUE,0.711,,0.711,0.711,0.7588,0.77,0.77,0.77,4,0,1,0,1,1,1,0,2,0,1,0,0,1,0,0
+Natural Language Processing,Question Answering,Question Answering,WikiHop,CFC,Test,TRUE,42.9,,,,,42.9,59.3,70.6,4,0,0,0,0,1,2,1,1,0,0,0,0,0,1,0
+Natural Language Processing,Question Answering,Question Answering,Story Cloze Test,Finetuned Transformer LM,Accuracy,TRUE,78.7,,,,78.7,78.7,78.7,78.7,3,0,0,0,1,1,1,0,1,0,0,0,1,0,0,0
+Natural Language Processing,Question Answering,Question Answering,WebQuestions,Memory Networks (ensemble),F1,TRUE,29.70%,,39.20%,42.20%,42.20%,42.20%,42.20%,42.20%,3,0,2,1,0,0,0,0,1,0,0,1,0,0,0,0
+Natural Language Processing,Question Answering,Question Answering,CliCR,Gated-Attention Reader,F1,TRUE,33.9,,,,,,33.9,33.9,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+Natural Language Processing,Question Answering,Question Answering,RACE,Finetuned Transformer LM,RACE-m,TRUE,60.2,,,,,,60.2,60.2,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+Natural Language Processing,Question Answering,Question Answering,Reverb,Weakly Supervised Embeddings,Accuracy,TRUE,73%,,73%,73%,73%,73%,73%,73%,2,0,1,1,0,0,0,0,1,0,0,1,0,0,0,0
+Natural Language Processing,Question Answering,Question Answering,MCTest-500,Parallel-Hierarchical,Accuracy,TRUE,71%,,,,71%,71%,71%,71%,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0
+Natural Language Processing,Question Answering,Question Answering,Quora Question Pairs,BERT (single model),Accuracy,TRUE,72.10%,,,,,,72.10%,72.10%,1,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0
+Natural Language Processing,Question Answering,Question Answering,COMPLEXQUESTIONS,WebQA,F1,FALSE,53.6,,,,,53.6,53.6,53.6,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+Natural Language Processing,Question Answering,Question Answering,QuAC,FlowQA (single model),F1,TRUE,64.1,,,,,,64.1,64.1,1,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0
+Natural Language Processing,Question Answering,Question Answering,Natural Questions,BERT-joint,F1 (Long),TRUE,66.2,,,,,,,66.2,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
+Natural Language Processing,Question Answering,Question Answering,SimpleQuestions,Memory Networks (ensemble),F1,TRUE,63.90%,,,63.90%,63.90%,63.90%,63.90%,63.90%,1,0,0,1,0,0,0,0,1,0,0,1,0,0,0,0
+Natural Language Processing,Question Answering,Question Answering,MCTest-160,"syntax, frame, coreference, and word embedding features",Accuracy,TRUE,75.27%,,,,75.27%,75.27%,75.27%,75.27%,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0
+Natural Language Processing,Sentiment Analysis,Sentiment Analysis,SST-2 Binary classification,MT-DNN,Accuracy,TRUE,85.4,85.4,85.4,87.8,89.7,93.2,93.2,95.6,21,1,0,1,2,5,10,2,15,0,0,1,1,4,8,1
+Natural Language Processing,Sentiment Analysis,Sentiment Analysis,SST-5 Fine-grained classification,EDD-LG (shared),Accuracy,TRUE,45.7,45.7,49.6,49.6,49.6,53.7,64.4,64.4,16,1,1,1,0,3,10,0,9,0,1,1,0,2,5,0
+Natural Language Processing,Sentiment Analysis,Sentiment Analysis,Yelp Binary classification,ULMFiT,Error,FALSE,4.88,,,4.88,2.9,2.64,2.16,2.16,13,0,0,1,2,3,6,1,10,0,0,1,1,2,5,1
+Natural Language Processing,Sentiment Analysis,Sentiment Analysis,IMDb,ULMFiT,Accuracy,TRUE,92.33,,92.33,92.33,94.1,94.99,95.4,95.4,11,0,1,0,2,3,5,0,10,0,1,0,1,3,5,0
+Natural Language Processing,Sentiment Analysis,Sentiment Analysis,Yelp Fine-grained classification,ULMFiT,Error,FALSE,37.95,,,37.95,32.39,30.58,29.98,29.98,11,0,0,1,2,1,6,1,9,0,0,1,1,1,5,1
+Natural Language Processing,Sentiment Analysis,Sentiment Analysis,MR,MEAN,Accuracy,TRUE,78.26,,,,,78.26,84.5,84.5,9,0,0,0,0,1,7,1,7,0,0,0,0,1,5,1
+Natural Language Processing,Sentiment Analysis,Sentiment Analysis,Amazon Review Full,DRNN,Accuracy,TRUE,60.2,,,,60.2,60.2,64.43,64.43,6,0,0,0,1,0,5,0,5,0,0,0,1,0,4,0
+Natural Language Processing,Sentiment Analysis,Sentiment Analysis,Amazon Review Polarity,DRNN,Accuracy,TRUE,94.6,,,,94.6,94.6,96.49,96.49,6,0,0,0,1,0,5,0,5,0,0,0,1,0,4,0
+Natural Language Processing,Sentiment Analysis,Sentiment Analysis,Multi-Domain Sentiment Dataset,Distributional Correspondence Indexing,DVD,TRUE,75.4,,,76.57,76.57,76.57,81,81,5,0,0,2,0,1,2,0,2,0,0,1,0,0,1,0
+Natural Language Processing,Sentiment Analysis,Sentiment Analysis,CR,Block-sparse LSTM,Accuracy,TRUE,92.2,,,,,92.2,92.2,92.2,3,0,0,0,0,1,2,0,3,0,0,0,0,1,2,0
+Natural Language Processing,Sentiment Analysis,Sentiment Analysis,SemEval,LSTMs+CNNs ensemble with multiple conv. ops ,F1-score,TRUE,0.685,,,,,0.685,0.685,0.685,2,0,0,0,0,2,0,0,2,0,0,0,0,2,0,0
+Natural Language Processing,Sentiment Analysis,Sentiment Analysis,MPQA,USE_T+DAN (w2v w.e.) ,Accuracy,TRUE,88.14,,,,,,88.14,88.14,1,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0
+Natural Language Processing,Sentiment Analysis,Sentiment Analysis,Sogou News,fastText,Accuracy,TRUE,96.8,,,,96.8,96.8,96.8,96.8,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0
+Natural Language Processing,Text Classification,Text Classification,AG News,L MIXED,Error,FALSE,9.51,,,9.51,6.57,6.57,5.01,4.95,17,0,0,1,3,1,10,2,15,0,0,1,2,1,9,2
+Natural Language Processing,Text Classification,Text Classification,DBpedia,L MIXED,Error,FALSE,1.55,,,1.55,0.84,0.84,0.8,0.7,15,0,0,1,3,2,8,1,12,0,0,1,2,1,7,1
+Natural Language Processing,Text Classification,Text Classification,TREC-6,USE_T+CNN,Error,FALSE,4,,,4,3.9,3.9,1.93,1.93,10,0,0,2,1,2,5,0,8,0,0,1,0,2,5,0
+Natural Language Processing,Text Classification,Text Classification,Yahoo! Answers,DRNN,Accuracy,TRUE,72.3,,,,72.3,72.3,76.26,76.26,6,0,0,0,1,0,5,0,5,0,0,0,1,0,4,0
+Natural Language Processing,Text Classification,Text Classification,Ohsumed,SGCN,Accuracy,TRUE,36.2,,,,,36.2,68.36,68.5,3,0,0,0,0,1,1,1,3,0,0,0,0,1,1,1
+Natural Language Processing,Text Classification,Text Classification,R52,SGCN,Accuracy,TRUE,93.56,,,,,,93.56,94,2,0,0,0,0,0,1,1,2,0,0,0,0,0,1,1
+Natural Language Processing,Text Classification,Text Classification,20NEWS,SGCN,Accuracy,TRUE,86.34,,,,,,86.34,88.5,2,0,0,0,0,0,1,1,2,0,0,0,0,0,1,1
+Natural Language Processing,Text Classification,Text Classification,R8,SGCN,Accuracy,TRUE,97.07,,,,,,97.07,97.2,2,0,0,0,0,0,1,1,2,0,0,0,0,0,1,1
+Natural Language Processing,Text Classification,Text Classification,TREC-50,Rules,Error,FALSE,2.8,,,,2.8,2.8,2.8,2.8,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0
+Natural Language Processing,Text Classification,Text Classification,Sogou News,CCCapsNet,Accuracy,TRUE,97.25,,,,,,97.25,97.25,1,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0
+Natural Language Processing,Text Classification,Text Classification,IMDb,L MIXED,Accuracy,TRUE,95.68,,,,,,,95.68,1,0,0,0,0,0,0,1,1,0,0,0,0,0,0,1
+Natural Language Processing,Natural Language Inference,Natural Language Inference,SNLI,MT-DNN,% Test Accuracy,TRUE,78.2,,,86.1,88.6,89.3,90.1,91.1,42,0,0,5,9,11,16,1,25,0,0,3,6,8,7,1
+Natural Language Processing,Natural Language Inference,Natural Language Inference,MultiNLI,MT-DNN,Matched,TRUE,71.4,,,,,,73.9,86.7,4,0,0,0,0,0,3,1,3,0,0,0,0,0,2,1
+Natural Language Processing,Natural Language Inference,Natural Language Inference,SciTail,MT-DNN,Accuracy,TRUE,83.3,,,,,83.3,92,94.1,4,0,0,0,0,1,2,1,3,0,0,0,0,0,2,1
+Natural Language Processing,Natural Language Inference,Natural Language Inference,V-SNLI,V-BiMPM,Accuracy,TRUE,86.99,,,,,,86.99,86.99,1,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0
+Natural Language Processing,Natural Language Inference,Natural Language Inference,Quora Question Pairs,aESIM,Accuracy,TRUE,88.01,,,,,,88.01,88.01,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+Natural Language Processing,Named Entity Recognition (NER),Named Entity Recognition (NER),CoNLL 2003 (English),CNN Large + fine-tune,F1,TRUE,91.21,,,,91.21,91.93,93.09,93.5,18,0,0,0,2,3,12,1,15,0,0,0,2,2,11,0
+Natural Language Processing,Named Entity Recognition (NER),Named Entity Recognition (NER),Ontonotes v5 (English),Flair embeddings,F1,TRUE,86.99,,,,,86.99,89.71,89.71,4,0,0,0,0,1,3,0,3,0,0,0,0,1,2,0
+Natural Language Processing,Named Entity Recognition (NER),Named Entity Recognition (NER),JNLPBA,CollaboNet,F1,TRUE,78.58,,,,,,78.58,78.58,2,0,0,0,0,0,1,1,2,0,0,0,0,0,1,1
+Natural Language Processing,Named Entity Recognition (NER),Named Entity Recognition (NER),BC5CDR,SciBERT (SciVocab),F1,TRUE,87.12,,,,,,87.12,88.94,2,0,0,0,0,0,1,1,2,0,0,0,0,0,1,1
+Natural Language Processing,Named Entity Recognition (NER),Named Entity Recognition (NER),Long-tail emerging entities,Flair embeddings,F1,TRUE,40.78,,,,,40.78,50.2,50.2,3,0,0,0,0,1,2,0,1,0,0,0,0,0,1,0
+Natural Language Processing,Named Entity Recognition (NER),Named Entity Recognition (NER),SciERC,SciBERT (SciVocab),F1,TRUE,64.2,,,,,,64.2,65.5,2,0,0,0,0,0,1,1,2,0,0,0,0,0,1,1
+Natural Language Processing,Named Entity Recognition (NER),Named Entity Recognition (NER),NCBI-disease,SciBERT (Base Vocab),F1,TRUE,86.91,,,,,,,86.91,1,0,0,0,0,0,0,1,1,0,0,0,0,0,0,1
+Natural Language Processing,Text Generation,Text Generation,EMNLP2017 WMT,LeakGAN,BLEU-2,TRUE,0.859,,,,0.859,0.956,0.956,0.956,3,0,0,0,1,2,0,0,2,0,0,0,1,1,0,0
+Natural Language Processing,Text Generation,Text Generation,COCO Captions,LeakGAN,BLEU-2,TRUE,0.831,,,,0.831,0.95,0.95,0.95,3,0,0,0,1,2,0,0,2,0,0,0,1,1,0,0
+Natural Language Processing,Text Generation,Text Generation,Chinese Poems,LeakGAN,BLEU-2,TRUE,0.738,,,,0.738,0.881,0.881,0.881,3,0,0,0,1,2,0,0,2,0,0,0,1,1,0,0
+Natural Language Processing,Text Generation,Text Generation,Yahoo Questions,Aggressive VAE,NLL,FALSE,332.1,,,,,332.1,327.5,326.7,3,0,0,0,0,1,1,1,3,0,0,0,0,1,1,1
+Natural Language Processing,Text Generation,Text Generation,CMU-SE,STWGAN-GP,BLEU-3,TRUE,0.617,,,,,,0.617,0.617,1,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0
+Natural Language Processing,Text Generation,Text Generation,DailyDialog,AEM+Attention,BLEU-1,TRUE,14.17,,,,,,14.17,14.17,1,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0
+Natural Language Processing,Text Generation,Text Generation,LDC2016E25,Graph2Seq,BLEU,TRUE,22,,,,,,22,22,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+Natural Language Processing,Dependency Parsing,Dependency Parsing,Penn Treebank,CVT + Multi-Task,UAS,TRUE,93.99,,,93.99,95.44,95.44,96.61,96.61,8,0,0,1,5,0,2,0,5,0,0,0,3,0,2,0
+Natural Language Processing,Dependency Parsing,Dependency Parsing,GENIA - LAS,BiLSTM-CRF,F1,TRUE,91.92,,,,,,91.92,91.92,2,0,0,0,0,0,1,1,2,0,0,0,0,0,1,1
+Natural Language Processing,Dependency Parsing,Dependency Parsing,GENIA - UAS,BiLSTM-CRF,F1,TRUE,92.84,,,,,,92.84,92.84,2,0,0,0,0,0,1,1,2,0,0,0,0,0,1,1
+Natural Language Processing,Relation Extraction,Relation Extraction,TACRED,TRE,F1,TRUE,65.1,,,,,65.1,66.4,67.4,4,0,0,0,0,1,1,2,4,0,0,0,0,1,1,2
+Natural Language Processing,Relation Extraction,Relation Extraction,ChemProt,SciBERT (SciVocab),F1,TRUE,76.12,,,,,,,76.12,1,0,0,0,0,0,0,1,1,0,0,0,0,0,0,1
+Natural Language Processing,Relation Extraction,Relation Extraction,SciERC,SciBERT (SciVocab),F1,TRUE,74.64,,,,,,,74.64,1,0,0,0,0,0,0,1,1,0,0,0,0,0,0,1
+Natural Language Processing,Semantic Textual Similarity,Semantic Textual Similarity,SentEval,GenSen,MRPC,TRUE,76.2/83.1,,,,,76.2/83.1,78.6/84.4,78.6/84.4,2,0,0,0,0,1,1,0,2,0,0,0,0,1,1,0
+Natural Language Processing,Semantic Textual Similarity,Semantic Textual Similarity,STS Benchmark,USE_T,Pearson Correlation,TRUE,0.782,,,,,,0.782,0.782,1,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0
+Natural Language Processing,Part-Of-Speech Tagging,Part-Of-Speech Tagging,Penn Treebank,Meta BiLSTM,Accuracy,TRUE,97.78,,,97.78,97.78,97.78,97.96,97.96,13,0,0,1,4,4,4,0,10,0,0,1,2,3,4,0
+Natural Language Processing,Part-Of-Speech Tagging,Part-Of-Speech Tagging,UD,Adversarial Bi-LSTM,Avg accuracy,TRUE,96.4,,,,96.4,96.73,96.73,96.73,3,0,0,0,1,2,0,0,2,0,0,0,1,1,0,0
+Natural Language Processing,Part-Of-Speech Tagging,Part-Of-Speech Tagging,Social media,GATE,Accuracy,TRUE,,,,,,,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Natural Language Processing,Semantic Parsing,Semantic Parsing,spider,Exact Set Matching,Accuracy,TRUE,19.7,,,,,,19.7,19.7,1,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0
+Natural Language Processing,Text Classification,Document Classification,WOS-11967,RMDL,Accuracy,TRUE,86.07,,,,,86.07,91.59,91.59,2,0,0,0,0,1,1,0,2,0,0,0,0,1,1,0
+Natural Language Processing,Text Classification,Document Classification,WOS-46985,RMDL,Accuracy,TRUE,76.58,,,,,76.58,90.69,90.69,2,0,0,0,0,1,1,0,2,0,0,0,0,1,1,0
+Natural Language Processing,Text Classification,Document Classification,WOS-5736,RMDL,Accuracy,TRUE,90.93,,,,,90.93,93.57,93.57,2,0,0,0,0,1,1,0,2,0,0,0,0,1,1,0
+Natural Language Processing,Text Classification,Document Classification,Reuters-21578,RMDL,Accuracy,TRUE,90.69,,,,,,90.69,90.69,1,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0
+Natural Language Processing,Text Classification,Document Classification,IMDb,RMDL,Accuracy,TRUE,90.79,,,,,,90.79,90.79,1,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0
+Natural Language Processing,Text Classification,Document Classification,20NEWS,RMDL,Accuracy,TRUE,87.91,,,,,,87.91,87.91,1,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0
+Natural Language Processing,Semantic Role Labeling,Semantic Role Labeling,OntoNotes,BiLSTM-Span (Ensemble),F1,TRUE,81.7,,,,,82.7,87,87,6,0,0,0,0,2,3,1,5,0,0,0,0,2,2,1
+Natural Language Processing,Semantic Role Labeling,Semantic Role Labeling,CoNLL 2005,BiLSTM-Span (Ensemble),F1,TRUE,86.04,,,,,,88.5,88.5,3,0,0,0,0,0,2,1,3,0,0,0,0,0,2,1
+Natural Language Processing,Coreference Resolution,Coreference Resolution,CoNLL 2012,"(Lee et al., 2017)+ELMo",Avg F1,TRUE,67.2,,,,,67.2,73,73,3,0,0,0,0,1,2,0,2,0,0,0,0,1,1,0
+Natural Language Processing,Text Summarization,Text Summarization,GigaWord,FTSum_g,ROUGE-1,TRUE,36.4,,,,36.4,37.27,37.27,37.27,12,0,0,0,2,4,6,0,1,0,0,0,1,0,0,0
+Natural Language Processing,Text Summarization,Text Summarization,DUC 2004 Task 1,EndDec+WFE,ROUGE-1,TRUE,28.61,,,,28.97,32.28,32.28,32.28,6,0,0,0,2,3,1,0,1,0,0,0,1,0,0,0
+Natural Language Processing,Word Sense Disambiguation,Word Sense Disambiguation,Supervised:,MFS baseline,Senseval 2,FALSE,72,,,,,72,71.6,71.6,4,0,0,0,0,1,3,0,1,0,0,0,0,0,1,0
+Natural Language Processing,Word Sense Disambiguation,Word Sense Disambiguation,SensEval 2,"SemCor+WNGT, vocabulary reduced, ensemble",F1,TRUE,74.4,,,,74.4,74.4,75.15,75.15,3,0,0,0,1,0,2,0,2,0,0,0,0,0,2,0
+Natural Language Processing,Word Sense Disambiguation,Word Sense Disambiguation,SemEval 2013 Task 12,"SemCor+WNGT, vocabulary reduced, ensemble",F1,TRUE,69.5,,,,69.5,69.5,72.63,72.63,3,0,0,0,1,0,2,0,2,0,0,0,0,0,2,0
+Natural Language Processing,Word Sense Disambiguation,Word Sense Disambiguation,SensEval 3 Task 1,"LSTMLP (T:SemCor, U:1K)",F1,TRUE,71.8,,,,71.8,71.8,71.8,71.8,3,0,0,0,1,0,2,0,2,0,0,0,0,0,2,0
+Natural Language Processing,Word Sense Disambiguation,Word Sense Disambiguation,SemEval 2007 Task 7,"SemCor+WNGT, vocabulary reduced, ensemble",F1,TRUE,84.3,,,,84.3,84.3,86.02,86.02,2,0,0,0,1,0,1,0,1,0,0,0,0,0,1,0
+Natural Language Processing,Word Sense Disambiguation,Word Sense Disambiguation,SemEval 2007 Task 17,"SemCor+WNGT, vocabulary reduced, ensemble",F1,TRUE,64.2,,,,64.2,64.2,66.81,66.81,2,0,0,0,1,0,1,0,1,0,0,0,0,0,1,0
+Natural Language Processing,Word Sense Disambiguation,Word Sense Disambiguation,Knowledge-based:,WSD-TM,All,TRUE,66.9,,,,,,66.9,66.9,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
+Natural Language Processing,Word Sense Disambiguation,Word Sense Disambiguation,SemEval 2015 Task 13,"SemCor+WNGT, vocabulary reduced, ensemble",F1,TRUE,72.6,,,,,,74.46,74.46,2,0,0,0,0,0,2,0,2,0,0,0,0,0,2,0
+Natural Language Processing,Entity Linking,Entity Linking,WebQSP-WD,VCG,F1,TRUE,0.73,,,,,,0.73,0.73,1,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0
+Natural Language Processing,Text Summarization,Document Summarization,CNN / Daily Mail,BERTSUM+Transformer,ROUGE-1,TRUE,31.1,,,,,31.1,41.22,43.25,4,0,0,0,0,1,1,2,3,0,0,0,0,0,1,2
+Natural Language Processing,Relation Classification,Relation Classification,SemEval-2010 Task 8,TRE,F1,TRUE,87.1,,,,,,,87.1,1,0,0,0,0,0,0,1,1,0,0,0,0,0,0,1
+Natural Language Processing,Text Classification,Sentence Classification,SciCite,SciBERT,F1,TRUE,77.2,,,,,77.2,82.6,84.9,4,0,0,0,0,0,1,3,4,0,0,0,0,0,1,3
+Natural Language Processing,Text Classification,Sentence Classification,ACL-ARC,Structural-scaffolds,F1,TRUE,53,,,,,,53,67.9,3,0,0,0,0,0,1,2,3,0,0,0,0,0,1,2
+Natural Language Processing,Text Classification,Sentence Classification,PubMed 20k RCT,Hierarchical Neural Networks,F1,TRUE,92.6,,,,,,92.6,92.6,2,0,0,0,0,0,1,1,2,0,0,0,0,0,1,1
+Natural Language Processing,Text Classification,Sentence Classification,Paper Field,SciBERT (SciVocab),F1,TRUE,64.07,,,,,,,64.07,1,0,0,0,0,0,0,1,1,0,0,0,0,0,0,1
+Natural Language Processing,Text Classification,Sentence Classification,ScienceCite,SciBERT (SciVocab),F1,TRUE,84.99,,,,,,,84.99,1,0,0,0,0,0,0,1,1,0,0,0,0,0,0,1
+Natural Language Processing,Dialogue,Dialogue Generation,Ubuntu Dialogue (Activity),MrRNN Act.-Ent.,F1,TRUE,11.43,,,,11.43,11.43,11.43,11.43,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0
+Natural Language Processing,Dialogue,Dialogue Generation,Ubuntu Dialogue (Entity),MrRNN Act.-Ent.,F1,TRUE,3.72,,,,3.72,3.72,3.72,3.72,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0
+Natural Language Processing,Dialogue,Dialogue Generation,Ubuntu Dialogue (Tense),MrRNN Act.-Ent.,Accuracy,TRUE,29.01%,,,,29.01%,29.01%,29.01%,29.01%,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0
+Natural Language Processing,Dialogue,Dialogue Generation,Ubuntu Dialogue (Cmd),MrRNN Act.-Ent.,Accuracy,TRUE,95.04%,,,,95.04%,95.04%,95.04%,95.04%,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0
+Natural Language Processing,Dialogue,Dialogue Generation,Twitter Dialogue (Noun),MrRNN Act.-Ent.,F1,TRUE,4.63,,,,4.63,4.63,4.63,4.63,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0
+Natural Language Processing,Dialogue,Dialogue Generation,Twitter Dialogue (Tense),MrRNN Act.-Ent.,Accuracy,TRUE,34.48%,,,,34.48%,34.48%,34.48%,34.48%,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0
+Natural Language Processing,Chunking,Chunking,Penn Treebank,Flair embeddings,F1 score,TRUE,95.57,,,,95.77,95.77,96.72,96.72,4,0,0,0,2,0,2,0,3,0,0,0,1,0,2,0
+Natural Language Processing,Paraphrase Identification,Paraphrase Identification,Quora Question Pairs,MT-DNN,Accuracy,TRUE,88.17,,,,,89.06,89.06,89.6,6,0,0,0,0,3,2,1,4,0,0,0,0,2,1,1
+Natural Language Processing,Sentiment Analysis,Aspect-Based Sentiment Analysis,SemEval 2014 Task 4 Sub Task 2,HAPN,Restaurant (Acc),TRUE,75.63,,,75.63,80.95,80.95,82.23,82.23,22,0,0,1,2,2,16,1,12,0,0,1,2,2,7,0
+Natural Language Processing,Sentiment Analysis,Aspect-Based Sentiment Analysis,Sentihood,Liu et al.,Aspect,TRUE,69.3,,,,69.3,69.3,78.5,78.5,3,0,0,0,1,0,2,0,1,0,0,0,0,0,1,0
+Natural Language Processing,Constituency Parsing,Constituency Parsing,Penn Treebank,CNN Large + fine-tune,F1 score,TRUE,92.1,,92.1,92.1,93.8,94.66,95.13,95.6,11,0,1,0,3,3,3,1,7,0,1,0,2,1,3,0
+Natural Language Processing,Language Acquisition,Language Acquisition,SLAM 2018,Context Based Model,AUC,TRUE,0.821,,,,,,0.821,0.821,1,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0
+Natural Language Processing,Ad-Hoc Information Retrieval,Ad-Hoc Information Retrieval,TREC Robust04,Anserini BM25+RM3,MAP,TRUE,0.2837,,,,,0.2837,0.302,0.302,6,0,0,0,0,2,4,0,6,0,0,0,0,2,4,0
+Natural Language Processing,Chinese,Chinese Word Segmentation,MSRA,Pre-trained+bigram+ LSTM+CRF,F1,TRUE,97.4,,,97.4,97.4,97.4,97.4,97.4,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0
+Natural Language Processing,Grammatical Error Correction,Grammatical Error Correction,Restricted,SMT + BiGRU,F0.5,TRUE,54.79,,,,,,72.04,72.04,4,0,0,0,0,0,4,0,2,0,0,0,0,0,2,0
+Natural Language Processing,Grammatical Error Correction,Grammatical Error Correction,Unrestricted,CNN Seq2Seq + Fluency Boost,F0.5,TRUE,76.88,,,,,,76.88,76.88,1,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0
+Natural Language Processing,Grammatical Error Correction,Grammatical Error Correction,_Restricted_,SMT + BiGRU,GLEU,TRUE,57.47,,,,,,61.5,61.5,3,0,0,0,0,0,3,0,1,0,0,0,0,0,1,0
+Natural Language Processing,Question Answering,Open-Domain Question Answering,SearchQA,DecaProp,N-gram F1,TRUE,22.8,,,,22.8,22.8,70.8,70.8,6,0,0,0,1,0,5,0,4,0,0,0,1,0,3,0
+Natural Language Processing,Question Answering,Open-Domain Question Answering,Quasar,Denoising QA,EM (Quasar-T),TRUE,26.4,,,,26.4,26.4,42.2,42.2,4,0,0,0,2,0,2,0,4,0,0,0,2,0,2,0
+Natural Language Processing,Dialogue,Dialogue State Tracking,Second dialogue state tracking challenge,StateNet,Joint,TRUE,73.4,,,,73.4,73.4,75.5,75.5,4,0,0,0,1,0,3,0,3,0,0,0,0,0,3,0
+Natural Language Processing,Dialogue,Dialogue State Tracking,Wizard-of-Oz,StateNet,Joint,TRUE,84.4,,,,84.4,84.4,88.9,88.9,3,0,0,0,1,0,2,0,2,0,0,0,0,0,2,0
+Natural Language Processing,Text Classification,Emotion Classification,SemEval 2018 Task 1E-c,Transformer (finetune),Macro-F1,TRUE,56.1,,,,,,56.1,56.1,1,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0
+Natural Language Processing,Sentiment Analysis,Multimodal Sentiment Analysis,MOSI,MMMU-BA,Accuracy,TRUE,80.30%,,,,,80.30%,82.31%,82.31%,4,0,0,0,0,1,3,0,4,0,0,0,0,1,3,0
+Natural Language Processing,Amr Parsing,Amr Parsing,LDC2014T12:,Transition-based+improved aligner+ensemble,F1 Newswire,TRUE,0.7,,,,0.71,0.71,0.73,0.73,3,0,0,0,2,0,1,0,1,0,0,0,0,0,1,0
+Natural Language Processing,Subjectivity Analysis,Subjectivity Analysis,SUBJ,AdaSent,Accuracy,TRUE,95.5,,,95.5,95.5,95.5,95.5,95.5,7,0,0,1,0,2,4,0,6,0,0,0,0,2,4,0
+Natural Language Processing,Text Generation,Data-to-Text Generation,E2E NLG Challenge,S_1^R,BLEU,TRUE,64.22,,,,,64.22,66.19,68.6,7,0,0,0,0,1,5,1,3,0,0,0,0,0,2,1
+Natural Language Processing,Text Generation,Data-to-Text Generation,Rotowire (Content Selection),Neural Content Planning + conditional copy,Precision,TRUE,29.49%,,,,,29.49%,34.18%,34.18%,2,0,0,0,0,1,1,0,2,0,0,0,0,1,1,0
+Natural Language Processing,Text Generation,Data-to-Text Generation,RotoWire (Content Ordering),Neural Content Planning + conditional copy,DLD,TRUE,15.42%,,,,,15.42%,18.58%,18.58%,2,0,0,0,0,1,1,0,2,0,0,0,0,1,1,0
+Natural Language Processing,Text Generation,Data-to-Text Generation,RotoWire (Relation Generation),Neural Content Planning + conditional copy,Precision,TRUE,74.80%,,,,,74.80%,87.47%,87.47%,2,0,0,0,0,1,1,0,2,0,0,0,0,1,1,0
+Natural Language Processing,Text Generation,Data-to-Text Generation,RotoWire,Neural Content Planning + conditional copy,BLEU,TRUE,14.19,,,,,14.19,16.5,16.5,2,0,0,0,0,1,1,0,2,0,0,0,0,1,1,0
+Natural Language Processing,Text Generation,Data-to-Text Generation,SR11Deep,GCN + feat,BLEU,TRUE,0.666,,,,,,0.666,0.666,1,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0
+Natural Language Processing,Text Generation,Data-to-Text Generation,WebNLG,GCN EC,BLEU,TRUE,0.559,,,,,,0.559,0.559,1,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0
+Natural Language Processing,Sarcasm Detection,Sarcasm Detection,SARC (all-bal),CASCADE,Accuracy,TRUE,75.8,,,,,75.8,77,77,2,0,0,0,0,1,1,0,2,0,0,0,0,1,1,0
+Natural Language Processing,Sarcasm Detection,Sarcasm Detection,SARC (pol-bal),Bag-of-Bigrams,Accuracy,TRUE,76.5,,,,,76.5,76.5,76.5,2,0,0,0,0,1,1,0,2,0,0,0,0,1,1,0
+Natural Language Processing,Sarcasm Detection,Sarcasm Detection,SARC (pol-unbal),Bag-of-Words,Avg F1,TRUE,27,,,,,27,27,27,1,0,0,0,0,1,0,0,1,0,0,0,0,1,0,0
+Natural Language Processing,Stance Detection,Stance Detection,RumourEval,Kochkina et al. 2017,Accuracy,TRUE,0.784,,,,,0.784,0.784,0.784,2,0,0,0,0,2,0,0,1,0,0,0,0,1,0,0
+Natural Language Processing,Sentence Embeddings,Sentence Compression,Google Dataset,BiLSTM,CR,TRUE,0.43,,,,,0.43,0.43,0.43,2,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0
+Natural Language Processing,Machine Translation,Unsupervised Machine Translation,WMT2014 French-English,SMT + NMT (tuning and joint refinement),BLEU,TRUE,27.7,,,,,,27.7,33.5,5,0,0,0,0,0,2,3,4,0,0,0,0,0,2,2
+Natural Language Processing,Machine Translation,Unsupervised Machine Translation,WMT2016 English-German,SMT + NMT (tuning and joint refinement),BLEU,TRUE,20.2,,,,,,20.2,26.9,5,0,0,0,0,0,2,3,3,0,0,0,0,0,1,2
+Natural Language Processing,Machine Translation,Unsupervised Machine Translation,WMT2016 German-English,SMT + NMT (tuning and joint refinement),BLEU,TRUE,25.2,,,,,,26.7,34.4,5,0,0,0,0,0,2,3,3,0,0,0,0,0,1,2
+Natural Language Processing,Machine Translation,Unsupervised Machine Translation,WMT2014 English-French,SMT + NMT (tuning and joint refinement),BLEU,TRUE,27.6,,,,,,27.6,36.2,4,0,0,0,0,0,1,3,3,0,0,0,0,0,1,2
+Natural Language Processing,Machine Translation,Unsupervised Machine Translation,WMT2014 German-English,SMT + NMT (tuning and joint refinement),BLEU,TRUE,20.4,,,,,,,27,2,0,0,0,0,0,0,2,1,0,0,0,0,0,0,1
+Natural Language Processing,Machine Translation,Unsupervised Machine Translation,WMT2014 English-German,SMT + NMT (tuning and joint refinement),BLEU,TRUE,17,,,,,,,22.5,2,0,0,0,0,0,0,2,1,0,0,0,0,0,0,1
+Natural Language Processing,Machine Translation,Unsupervised Machine Translation,WMT2016 English-Romanian,MLM pretraining for encoder and decoder,BLEU,FALSE,33.3,,,,,,,33.3,1,0,0,0,0,0,0,1,1,0,0,0,0,0,0,1
+Natural Language Processing,Machine Translation,Unsupervised Machine Translation,WMT2016 Romanian-English,MLM pretraining for encoder and decoder,BLEU,TRUE,31.8,,,,,,,31.8,1,0,0,0,0,0,0,1,1,0,0,0,0,0,0,1
+Natural Language Processing,Information Extraction,Temporal Information Extraction,TimeBank,Catena,F1 score,TRUE,0.511,,,,0.511,0.511,0.511,0.511,1,0,0,0,1,0,0,0,1,0,0,0,1,0,0,0
+Natural Language Processing,Information Extraction,Temporal Information Extraction,TempEval-3,Ning et al.,Temporal awareness,TRUE,67.2,,,,,67.2,67.2,67.2,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+Natural Language Processing,Graph-to-Sequence,Graph-to-Sequence,LDC2015E86:,GCNSEQ,BLEU,TRUE,23.95,,,,,,,23.95,1,0,0,0,0,0,0,1,1,0,0,0,0,0,0,1
+Natural Language Processing,Cross-Lingual,Cross-Lingual Document Classification,MLDoc Zero-Shot English-to-Spanish,Massively Multilingual Sentence Embeddings,Accuracy,TRUE,72.50%,,,,,,77.33%,77.33%,2,0,0,0,0,0,2,0,2,0,0,0,0,0,2,0
+Natural Language Processing,Cross-Lingual,Cross-Lingual Document Classification,MLDoc Zero-Shot English-to-French,Massively Multilingual Sentence Embeddings,Accuracy,TRUE,74.52%,,,,,,77.95%,77.95%,2,0,0,0,0,0,2,0,2,0,0,0,0,0,2,0
+Natural Language Processing,Cross-Lingual,Cross-Lingual Document Classification,MLDoc Zero-Shot English-to-German,Massively Multilingual Sentence Embeddings,Accuracy,TRUE,81.20%,,,,,,84.78%,84.78%,2,0,0,0,0,0,2,0,2,0,0,0,0,0,2,0
+Natural Language Processing,Text Summarization,Extractive Document Summarization,CNN / Daily Mail,BERTSUM,ROUGE-2,TRUE,20.24,,,,,,,20.24,1,0,0,0,0,0,0,1,1,0,0,0,0,0,0,1
+Natural Language Processing,Grammatical Error Correction,Grammatical Error Detection,CoNLL-2014 A1,Bi-LSTM + POS (unrestricted data),F0.5,TRUE,34.3,,,,34.3,36.1,36.1,36.1,5,0,0,0,1,3,1,0,2,0,0,0,0,1,1,0
+Natural Language Processing,Grammatical Error Correction,Grammatical Error Detection,CoNLL-2014 A2,Bi-LSTM + POS (unrestricted data),F0.5,TRUE,44,,,,44,45.1,45.1,45.1,5,0,0,0,1,3,1,0,2,0,0,0,0,1,1,0
+Natural Language Processing,Grammatical Error Correction,Grammatical Error Detection,FCE,BiLSTM-JOINT,F0.5,TRUE,41.1,,,,41.88,49.11,52.07,52.07,6,0,0,0,2,3,1,0,2,0,0,0,0,1,1,0
+Natural Language Processing,Grammatical Error Correction,Grammatical Error Detection,JFLEG,BiLSTM-JOINT (trained on FCE),F0.5,TRUE,52.52,,,,,,52.52,52.52,1,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0
+Natural Language Processing,Natural Language Inference,Cross-Lingual Natural Language Inference,XNLI Zero-Shot English-to-Spanish,BERT,Accuracy,TRUE,68.70%,,,,,68.70%,74.30%,74.30%,3,0,0,0,0,1,2,0,3,0,0,0,0,1,2,0
+Natural Language Processing,Natural Language Inference,Cross-Lingual Natural Language Inference,XNLI Zero-Shot English-to-German,BiLSTM,Accuracy,TRUE,67.70%,,,,,67.70%,72.60%,72.60%,3,0,0,0,0,1,2,0,3,0,0,0,0,1,2,0
+Natural Language Processing,Natural Language Inference,Cross-Lingual Natural Language Inference,XNLI Zero-Shot English-to-French,BiLSTM,Accuracy,TRUE,67.70%,,,,,67.70%,71.90%,71.90%,2,0,0,0,0,1,1,0,2,0,0,0,0,1,1,0
+Natural Language Processing,Text Classification,Citation Intent Classification,ACL-ARC,Structural-scaffolds,F1,TRUE,41,41,41,41,51.8,51.8,54.6,67.9,6,1,0,0,1,0,2,2,4,0,0,0,0,0,2,2
+Natural Language Processing,Text Classification,Citation Intent Classification,SciCite,SciBERT,F1,TRUE,79.6,,,,,,82.6,84.99,3,0,0,0,0,0,1,2,3,0,0,0,0,0,1,2
+Natural Language Processing,Question Answering,Knowledge Base Question Answering,WebQSP-WD,GGNN,Avg F1,TRUE,0.2588,,,,,,0.2588,0.2588,1,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0
+Natural Language Processing,Relationship Extraction (Distant Supervised),Relationship Extraction (Distant Supervised),New York Times Corpus,RESIDE,P@10%,TRUE,69.4,,,,69.4,69.4,73.6,73.6,2,0,0,0,1,0,1,0,2,0,0,0,1,0,1,0
+Natural Language Processing,CCG Supertagging,CCG Supertagging,CCGBank,Clark et al.,Accuracy,TRUE,94.7,,,,94.7,94.7,96.1,96.1,4,0,0,0,3,0,1,0,1,0,0,0,0,0,1,0
+Natural Language Processing,Text Generation,Table-to-text Generation,WikiBio,Field-gating Seq2seq + dual attention,BLEU,TRUE,34.7,,,,34.7,44.89,44.89,44.89,2,0,0,0,1,1,0,0,2,0,0,0,1,1,0,0
+Natural Language Processing,Passage Re-Ranking,Passage Re-Ranking,MS MARCO,BERT + Small Training,MRR,TRUE,0.359,,,,,,,0.359,2,0,0,0,0,0,0,2,2,0,0,0,0,0,0,2
+Natural Language Processing,Named Entity Recognition (NER),Chinese Named Entity Recognition,Weibo NER,Lattice,F1,TRUE,58.79,,,,,,58.79,58.79,2,0,0,0,0,0,2,0,2,0,0,0,0,0,2,0
+Natural Language Processing,Named Entity Recognition (NER),Chinese Named Entity Recognition,MSRA,Lattice,F1,TRUE,93.18,,,,,,93.18,93.18,1,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0
+Natural Language Processing,Named Entity Recognition (NER),Chinese Named Entity Recognition,OntoNotes 4,Lattice,F1,TRUE,73.88,,,,,,73.88,73.88,1,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0
+Natural Language Processing,Named Entity Recognition (NER),Chinese Named Entity Recognition,Resume NER,Lattice,F1,TRUE,94.46,,,,,,94.46,94.46,1,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0
+Natural Language Processing,Named Entity Recognition (NER),Chinese Named Entity Recognition,SighanNER,BiLSTM+CRF+adversarial+self-attention,F1,TRUE,90.64,,,,,,90.64,90.64,1,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0
+Natural Language Processing,Emotion Recognition,Emotion Recognition in Conversation,IEMOCAP,DialogueRNN,F1,TRUE,56.13%,,,,,,64.50%,64.50%,3,0,0,0,0,0,3,0,3,0,0,0,0,0,3,0
+Natural Language Processing,Hypernym Discovery,Hypernym Discovery,General,CRIM,MAP,TRUE,10.6,,,,10.6,10.6,19.78,19.78,7,0,0,0,2,0,5,0,1,0,0,0,1,0,0,0
+Natural Language Processing,Hypernym Discovery,Hypernym Discovery,Medical domain,CRIM,MAP,TRUE,18.84,,,,18.84,18.84,34.05,34.05,7,0,0,0,2,0,5,0,1,0,0,0,1,0,0,0
+Natural Language Processing,Hypernym Discovery,Hypernym Discovery,Music domain,CRIM,MAP,TRUE,12.99,,,,12.99,12.99,40.97,40.97,6,0,0,0,2,0,4,0,1,0,0,0,1,0,0,0
+Natural Language Processing,Cross-Lingual Bitext Mining,Cross-Lingual Bitext Mining,BUCC German-to-English,Massively Multilingual Sentence Embeddings,F1 score,TRUE,76.9,,,76.9,76.9,76.9,96.19,96.19,3,0,0,1,0,0,2,0,2,0,0,0,0,0,2,0
+Natural Language Processing,Cross-Lingual Bitext Mining,Cross-Lingual Bitext Mining,BUCC French-to-English,Massively Multilingual Sentence Embeddings,F1 score,TRUE,75.8,,,75.8,75.8,75.8,93.91,93.91,3,0,0,1,0,0,2,0,2,0,0,0,0,0,2,0
+Natural Language Processing,Semantic Role Labeling,Predicate Detection,CoNLL 2005,LISA,F1,TRUE,96.4,,,,,96.4,98.4,98.4,2,0,0,0,0,1,1,0,2,0,0,0,0,1,1,0
+Natural Language Processing,Semantic Role Labeling,Predicate Detection,CoNLL 2012,LISA,F1,TRUE,97.2,,,,,,97.2,97.2,1,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0
+Natural Language Processing,Named Entity Recognition (NER),Nested Named Entity Recognition,ACE 2004,Neural transition-based model,F1,FALSE,73.3,,,,,,73.3,73.3,1,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0
+Natural Language Processing,Dialogue,Dialogue Act Classification,Switchboard corpus,CRF-ASN,Accuracy,TRUE,79.2,,,,,81.3,81.3,81.3,3,0,0,0,0,2,1,0,1,0,0,0,0,1,0,0
+Natural Language Processing,Dialogue,Dialogue Act Classification,ICSI Meeting Recorder Dialog Act (MRDA) corpus,CRF-ASN,Accuracy,TRUE,90.9,,,,,91.7,91.7,91.7,2,0,0,0,0,2,0,0,1,0,0,0,0,1,0,0
+Natural Language Processing,Nested Mention Recognition,Nested Mention Recognition,ACE 2004,Neural transition-based model,F1,FALSE,73.3,,,,,,73.3,73.3,1,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0
+Natural Language Processing,Nested Mention Recognition,Nested Mention Recognition,ACE 2005,Neural transition-based model,F1,FALSE,73,,,,,,73,73,1,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0
+Natural Language Processing,Entity Resolution,Entity Resolution,CoNLL 2003 (English),deep joint entity disambiguation w/ neural attention,Accuracy,TRUE,92.22,,,,,92.22,92.22,92.22,1,0,0,0,0,1,0,0,1,0,0,0,0,1,0,0
+Natural Language Processing,Semantic Role Labeling,Semantic Role Labeling (predicted predicates),CoNLL 2005,LISA + ELMo,F1,TRUE,86.9,,,,,,86.9,86.9,2,0,0,0,0,0,2,0,1,0,0,0,0,0,1,0
+Natural Language Processing,Semantic Role Labeling,Semantic Role Labeling (predicted predicates),CoNLL 2012,LISA + ELMo,F1,TRUE,83.38,,,,,,83.38,83.38,2,0,0,0,0,0,2,0,1,0,0,0,0,0,1,0
+Natural Language Processing,Anaphora Resolution,Abstract Anaphora Resolution,The ARRAU Corpus,MR-LSTM,Average Precision,TRUE,43.83,,,,,43.83,43.83,43.83,1,0,0,0,0,1,0,0,1,0,0,0,0,1,0,0
+Natural Language Processing,Query Wellformedness,Query Wellformedness,Query Wellformedness,"word-1, 2 POS-1, 2, 3",Accuracy,TRUE,70.7,,,,,,70.7,70.7,1,0,0,0,0,0,1,0,1,0,0,0,0,0,1,0
+Natural Language Processing,Lexical Normalization,Lexical Normalization,LexNorm,MoNoise,Accuracy,TRUE,87.63,,,,,87.63,87.63,87.63,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
