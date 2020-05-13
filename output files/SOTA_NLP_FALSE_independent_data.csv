@@ -1,0 +1,23 @@
+Area,Parent Task,Task,Dataset,Best method name,Primary metric
+Natural Language Processing,Language Modelling,Language Modelling,Penn Treebank (Word Level),GPT-2,Test perplexity
+Natural Language Processing,Language Modelling,Language Modelling,One Billion Word,Transformer-XL Large,PPL
+Natural Language Processing,Language Modelling,Language Modelling,WikiText-103,GPT-2,Test perplexity
+Natural Language Processing,Language Modelling,Language Modelling,WikiText-2,GPT-2,Test perplexity
+Natural Language Processing,Language Modelling,Language Modelling,Hutter Prize,24-layer Transformer-XL,Bit per Character (BPC)
+Natural Language Processing,Language Modelling,Language Modelling,enwiki8,GPT-2,Bit per Character (BPC)
+Natural Language Processing,Language Modelling,Language Modelling,Text8,GPT-2,Bit per Character (BPC)
+Natural Language Processing,Language Modelling,Language Modelling,Penn Treebank (Character Level),Trellis Network,Bit per Character (BPC)
+Natural Language Processing,Question Answering,Question Answering,AI2 Kaggle Dataset,IR Baseline,P@1
+Natural Language Processing,Question Answering,Question Answering,COMPLEXQUESTIONS,WebQA,F1
+Natural Language Processing,Sentiment Analysis,Sentiment Analysis,Yelp Binary classification,ULMFiT,Error
+Natural Language Processing,Sentiment Analysis,Sentiment Analysis,Yelp Fine-grained classification,ULMFiT,Error
+Natural Language Processing,Text Classification,Text Classification,AG News,L MIXED,Error
+Natural Language Processing,Text Classification,Text Classification,DBpedia,L MIXED,Error
+Natural Language Processing,Text Classification,Text Classification,TREC-6,USE_T+CNN,Error
+Natural Language Processing,Text Classification,Text Classification,TREC-50,Rules,Error
+Natural Language Processing,Text Generation,Text Generation,Yahoo Questions,Aggressive VAE,NLL
+Natural Language Processing,Word Sense Disambiguation,Word Sense Disambiguation,Supervised:,MFS baseline,Senseval 2
+Natural Language Processing,Machine Translation,Unsupervised Machine Translation,WMT2016 English-Romanian,MLM pretraining for encoder and decoder,BLEU
+Natural Language Processing,Named Entity Recognition (NER),Nested Named Entity Recognition,ACE 2004,Neural transition-based model,F1
+Natural Language Processing,Nested Mention Recognition,Nested Mention Recognition,ACE 2004,Neural transition-based model,F1
+Natural Language Processing,Nested Mention Recognition,Nested Mention Recognition,ACE 2005,Neural transition-based model,F1

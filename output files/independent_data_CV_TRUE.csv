@@ -1,0 +1,246 @@
+Area,Parent Task,Task,Dataset,Best method name,Primary metric
+Computer Vision,Semantic Segmentation,Semantic Segmentation,PASCAL VOC 2012,DeepLabv3+ (Xception-JFT),Mean IoU
+Computer Vision,Semantic Segmentation,Semantic Segmentation,Cityscapes,DeepLabv3+ (Xception-JFT),Mean IoU
+Computer Vision,Semantic Segmentation,Semantic Segmentation,PASCAL Context,Joint Pyramid Upsampling + EncNet,mIoU
+Computer Vision,Semantic Segmentation,Semantic Segmentation,ADE20K,PSPNet,Validation mIoU
+Computer Vision,Semantic Segmentation,Semantic Segmentation,CamVid,PSPNet,Mean IoU
+Computer Vision,Semantic Segmentation,Semantic Segmentation,ShapeNet,SGPN,Mean IoU
+Computer Vision,Semantic Segmentation,Semantic Segmentation,NYU Depth v2,Dilated FCN-2s RGB,Mean IoU
+Computer Vision,Image Classification,Image Classification,CIFAR-10,GPIPE + transfer learning,Percentage correct
+Computer Vision,Image Classification,Image Classification,CIFAR-100,GPIPE,Percentage correct
+Computer Vision,Image Classification,Image Classification,ImageNet,GPIPE,Top 1 Accuracy
+Computer Vision,Image Classification,Image Classification,STL-10,IIC,Percentage correct
+Computer Vision,Image Classification,Image Classification,MSRC-21 (per-class),Large FC CRF,Percentage correct
+Computer Vision,Image Classification,Image Classification,MSRC-21 (per-pixel),HCRF+CO,Percentage correct
+Computer Vision,Image Classification,Image Classification,iNaturalist,IncResNetV2 SE,Top 1 Accuracy
+Computer Vision,Object Detection,Object Detection,COCO,SNIPER,Bounding Box AP
+Computer Vision,Object Detection,Object Detection,PASCAL VOC 2007,SNIPER,MAP
+Computer Vision,Object Detection,Object Detection,ImageNet Detection,Inception V1,MAP
+Computer Vision,Image Generation,Image Generation,CIFAR-10,PGGAN,Inception score
+Computer Vision,Pose Estimation,Pose Estimation,MPII Human Pose,HRNet-32,PCKh-0.5
+Computer Vision,Pose Estimation,Pose Estimation,Leeds Sports Poses,Pyramid Residual Modules (PRMs),PCK
+Computer Vision,Pose Estimation,Pose Estimation,FLIC Elbows,Stacked Hourglass Networks,PCK@0.2
+Computer Vision,Pose Estimation,Pose Estimation,FLIC Wrists,Stacked Hourglass Networks,PCK@0.2
+Computer Vision,Pose Estimation,Pose Estimation,DensePose-COCO,Parsing R-CNN + ResNext101,AP
+Computer Vision,Pose Estimation,Pose Estimation,ITOP top-view,V2V-PoseNet,Mean mAP
+Computer Vision,Pose Estimation,Pose Estimation,COCO,HRNet-48,Mean mAP
+Computer Vision,Pose Estimation,Pose Estimation, ITOP front-view,V2V-PoseNet,Mean mAP
+Computer Vision,Super Resolution,Super Resolution,Set5-2x,FALSR-A ,PSNR
+Computer Vision,Image Retrieval,Image Retrieval,Par106k,DELF+FT+ATT+DIR+QE,Accuracy
+Computer Vision,Image Retrieval,Image Retrieval,Oxf105k,DELF+FT+ATT+DIR+QE,MAP
+Computer Vision,Image Retrieval,Image Retrieval,Par6k,DELF+FT+ATT+DIR+QE,Accuracy
+Computer Vision,Image Retrieval,Image Retrieval,Oxf5k,DELF+FT+ATT+DIR+QE,MAP
+Computer Vision,Image Retrieval,Image Retrieval,street2shop - topwear,Ranknet,Accuracy
+Computer Vision,Image Retrieval,Image Retrieval,INRIA Holidays,MultiGrain R50 @ 800,Mean mAP
+Computer Vision,Image Retrieval,Image Retrieval,Stanford Cars,ABE-8-512,Recall@8
+Computer Vision,Action Recognition,Action Recognition,UCF101,Two-Stream I3D,Accuracy
+Computer Vision,Action Recognition,Action Recognition,HMDB51,Two-Stream I3D,Accuracy
+Computer Vision,Visual Question Answering,Visual Question Answering,COCO Visual Question Answering (VQA) real images 1.0 open ended,MCB 7 att.,Percentage correct
+Computer Vision,Visual Question Answering,Visual Question Answering,VQA v2,"Image features from bottom-up attention, adaptive K, ensemble",Accuracy
+Computer Vision,Visual Question Answering,Visual Question Answering,COCO Visual Question Answering (VQA) real images 1.0 multiple choice,MCB 7 att.,Percentage correct
+Computer Vision,Visual Question Answering,Visual Question Answering,COCO Visual Question Answering (VQA) real images 2.0 open ended,Up-Down,Percentage correct
+Computer Vision,Visual Question Answering,Visual Question Answering,COCO Visual Question Answering (VQA) abstract 1.0 multiple choice,Graph VQA,Percentage correct
+Computer Vision,Visual Question Answering,Visual Question Answering,COCO Visual Question Answering (VQA) abstract images 1.0 open ended,Graph VQA,Percentage correct
+Computer Vision,Visual Question Answering,Visual Question Answering,Visual7W,CMN,Percentage correct
+Computer Vision,Visual Question Answering,Visual Question Answering,Visual Genome (subjects),CMN,Percentage correct
+Computer Vision,Visual Question Answering,Visual Question Answering,Visual Genome (pairs),CMN,Percentage correct
+Computer Vision,Super Resolution,Image Super-Resolution,Set5 - 4x upscaling,PFF,PSNR
+Computer Vision,Super Resolution,Image Super-Resolution,Set14 - 4x upscaling,SRGAN + Residual-in-Residual Dense Block,PSNR
+Computer Vision,Super Resolution,Image Super-Resolution,BSD100 - 4x upscaling,SRGAN + Residual-in-Residual Dense Block,PSNR
+Computer Vision,Super Resolution,Image Super-Resolution,Urban100 - 4x upscaling,SRGAN + Residual-in-Residual Dense Block,PSNR
+Computer Vision,Super Resolution,Image Super-Resolution,Manga109 - 4x upscaling,SRGAN + Residual-in-Residual Dense Block,SSIM
+Computer Vision,Person Re-Identification,Person Re-Identification,Market-1501,Parameter-Free Spatial Attention,MAP
+Computer Vision,Person Re-Identification,Person Re-Identification,DukeMTMC-reID,Parameter-Free Spatial Attention,MAP
+Computer Vision,Instance Segmentation,Instance Segmentation,COCO,PANet,Average Precision
+Computer Vision,Instance Segmentation,Instance Segmentation,NYU Depth v2,SGPN-CNN,MAP
+Computer Vision,Facial Recognition and Modelling,Face Recognition,Olivetti Faces 5 Image,RMDL,Accuracy
+Computer Vision,Facial Recognition and Modelling,Face Recognition,IJB-A,SE-GV-3,TAR @ FAR=0.01
+Computer Vision,Facial Recognition and Modelling,Face Recognition,IJB-B,"GhostVLAD, SE-GV-3",TAR @ FAR=0.01
+Computer Vision,Image Generation,Image-to-Image Translation,Cityscapes Labels-to-Photo,pix2pix,Class IOU
+Computer Vision,Image Generation,Image-to-Image Translation,Cityscapes Photo-to-Labels,pix2pix,Class IOU
+Computer Vision,Image Generation,Image-to-Image Translation,ADE20K-Outdoor Labels-to-Photos,SPADE,mIoU
+Computer Vision,Image Generation,Image-to-Image Translation,COCO-Stuff Labels-to-Photos,SPADE,mIoU
+Computer Vision,Image Generation,Image-to-Image Translation,ADE20K Labels-to-Photos,SPADE,mIoU
+Computer Vision,Image Generation,Image-to-Image Translation,Aerial-to-Map,cGAN,Class IOU
+Computer Vision,Image Generation,Image-to-Image Translation,SYNTHIA-to-Cityscapes,superpixel + color constancy,mIoU
+Computer Vision,Image Generation,Image-to-Image Translation,SYNTHIA Fall-to-Winter,CyCADA,mIoU
+Computer Vision,Denoising,Image Denoising,BSD68 sigma50,MWCNN,PSNR
+Computer Vision,Denoising,Image Denoising,BSD68 sigma25,NLRN,PSNR
+Computer Vision,Denoising,Image Denoising,Urban100 sigma50,Residual Dense Network +,PSNR
+Computer Vision,Denoising,Image Denoising,BSD68 sigma15,NLRN,PSNR
+Computer Vision,Denoising,Image Denoising,Urban100 sigma70,Residual Dense Network +,PSNR
+Computer Vision,Denoising,Image Denoising,BSD68 sigma70,Residual Dense Network +,PSNR
+Computer Vision,Denoising,Image Denoising,BSD68 sigma30,Residual Dense Network +,PSNR
+Computer Vision,Denoising,Image Denoising,Urban100 sigma30,Residual Dense Network +,PSNR
+Computer Vision,Denoising,Image Denoising,BSD68 sigma10,Residual Dense Network +,PSNR
+Computer Vision,Denoising,Image Denoising,BSD200 sigma50,RED30,PSNR
+Computer Vision,Denoising,Image Denoising,BSD200 sigma30,RED30,PSNR
+Computer Vision,Denoising,Image Denoising,BSD200 sigma70,RED30,PSNR
+Computer Vision,Denoising,Image Denoising,BSD200 sigma10,RED30,PSNR
+Computer Vision,Facial Recognition and Modelling,Face Detection,WIDER Face (Hard),DSFD,AP
+Computer Vision,Facial Recognition and Modelling,Face Detection,WIDER Face (Easy),DSFD,AP
+Computer Vision,Facial Recognition and Modelling,Face Detection,WIDER Face (Medium),DSFD,AP
+Computer Vision,Facial Recognition and Modelling,Face Detection,Annotated Faces in the Wild,SRN,AP
+Computer Vision,Facial Recognition and Modelling,Face Detection,FDDB,DSFD,AP
+Computer Vision,Facial Recognition and Modelling,Face Detection,PASCAL Face,SRN,AP
+Computer Vision,Object Localization,Object Localization,KITTI Cyclists Easy,Frustum PointNets,AP
+Computer Vision,Object Localization,Object Localization,KITTI Pedestrians Easy,Frustum PointNets,AP
+Computer Vision,Object Localization,Object Localization,KITTI Cars Moderate,Frustum PointNets,AP
+Computer Vision,Object Localization,Object Localization,KITTI Cyclists Hard,Frustum PointNets,AP
+Computer Vision,Object Localization,Object Localization,KITTI Cyclists Moderate,Frustum PointNets,AP
+Computer Vision,Object Localization,Object Localization,KITTI Cars Hard,VoxelNet,AP
+Computer Vision,Object Localization,Object Localization,KITTI Cars Easy,VoxelNet,AP
+Computer Vision,Object Localization,Object Localization,KITTI Pedestrians Hard,Frustum PointNets,AP
+Computer Vision,Object Localization,Object Localization,KITTI Pedestrians Moderate,Frustum PointNets,AP
+Computer Vision,3D,3D Reconstruction,Scan2CAD,Scan2CAD,Average Accuracy
+Computer Vision,Facial Recognition and Modelling,Face Verification,Labeled Faces in the Wild,"ArcFace + MS1MV2 + R100, ",Accuracy
+Computer Vision,Facial Recognition and Modelling,Face Verification,IJB-A,Dual-Agent GANs,TAR @ FAR=0.01
+Computer Vision,Facial Recognition and Modelling,Face Verification,YouTube Faces DB,"SeqFace, 1 ResNet-64",Accuracy
+Computer Vision,Facial Recognition and Modelling,Face Verification,MegaFace,ArcFace + MS1MV2 + R100 + R,Accuracy
+Computer Vision,Facial Recognition and Modelling,Face Verification,IJB-C,AIM,TAR @ FAR=0.01
+Computer Vision,Facial Recognition and Modelling,Face Verification,IJB-B,FPN,TAR @ FAR=0.01
+Computer Vision,Image Generation,Conditional Image Generation,CIFAR-10,Splitting GAN,Inception score
+Computer Vision,Image Generation,Conditional Image Generation,ImageNet 128x128,BigGAN-deep,Inception score
+Computer Vision,Scene Text Detection,Scene Text Detection,IC15,FOTS,F-Measure
+Computer Vision,Scene Text Detection,Scene Text Detection,IC17-MLT,PSENet-1s,F-Measure
+Computer Vision,Object Detection,3D Object Detection,KITTI Cars Moderate,PointRCNN,AP
+Computer Vision,Object Detection,3D Object Detection,KITTI Cars Hard,PointRCNN,AP
+Computer Vision,Object Detection,3D Object Detection,KITTI Cars Easy,PC-CNN-V2,AP
+Computer Vision,Object Detection,3D Object Detection,KITTI Pedestrians Moderate,Frustum PointNets,AP
+Computer Vision,Object Detection,3D Object Detection,KITTI Cyclists Moderate,PointPillars,AP
+Computer Vision,Object Detection,3D Object Detection,KITTI Cyclists Easy,Frustum PointNets,AP
+Computer Vision,Object Detection,3D Object Detection,KITTI Pedestrians Hard,IPOD,AP
+Computer Vision,Object Detection,3D Object Detection,KITTI Pedestrians Easy,IPOD,AP
+Computer Vision,Object Detection,3D Object Detection,KITTI Cyclists Hard,Frustum PointNets,AP
+Computer Vision,Object Detection,3D Object Detection,SUN-RGBD,Frustum PointNets,MAP
+Computer Vision,Object Detection,3D Object Detection,NYU Depth v2,SGPN-CNN,MAP
+Computer Vision,Semantic Segmentation,Real-Time Semantic Segmentation,Cityscapes,PSPNet,mIoU
+Computer Vision,Semantic Segmentation,Real-Time Semantic Segmentation,CamVid,PSPNet,mIoU
+Computer Vision,Image-to-Image Translation,Unsupervised Image-To-Image Translation,SVNH-to-MNIST,CyCADA pixel+feat,Classification Accuracy
+Computer Vision,Object Detection,Real-Time Object Detection,PASCAL VOC 2007,YOLO,FPS
+Computer Vision,Object Detection,Real-Time Object Detection,COCO,YOLOv3-tiny,FPS
+Computer Vision,Facial Recognition and Modelling,Facial Expression Recognition, Static Facial Expressions in the Wild,Covariance Pooling,Accuracy
+Computer Vision,Facial Recognition and Modelling,Facial Expression Recognition,Real-World Affective Faces,Covariance Pooling,Accuracy
+Computer Vision,Facial Recognition and Modelling,Facial Expression Recognition,Cohn-Kanade,Sequential forward selection,Accuracy
+Computer Vision,Facial Recognition and Modelling,Facial Expression Recognition,MMI,DeXpression,Accuracy
+Computer Vision,Pose Estimation,Multi-Person Pose Estimation,MPII Multi-Person,Regional Multi-Person Pose Estimation,AP
+Computer Vision,Pose Estimation,Multi-Person Pose Estimation,WAF,DeeperCut,AOP
+Computer Vision,Pose Estimation,Multi-Person Pose Estimation,COCO,HRNet-48,AP
+Computer Vision,Edge Detection,Edge Detection,SBD,CASENet,Maximum F-measure
+Computer Vision,Edge Detection,Edge Detection,Cityscapes,CASENet,AP
+Computer Vision,Video,Visual Object Tracking,VOT2017/18,SiamMask,Expected Average Overlap (EAO)
+Computer Vision,Pose Estimation,Keypoint Detection,COCO,HRNet-48,Validation AP
+Computer Vision,Pose Estimation,Keypoint Detection, Pascal3D+,ConvNet + deformable shape model,Mean PCK
+Computer Vision,Facial Recognition and Modelling,Face Identification,MegaFace,ArcFace + MS1MV2 + R100 + R,Accuracy
+Computer Vision,Facial Recognition and Modelling,Face Identification,IJB-A,Deep Residual Equivariant Mapping,Accuracy
+Computer Vision,Facial Recognition and Modelling,Face Identification,IJB-B,FPN,Accuracy
+Computer Vision,Object Reconstruction,3D Object Reconstruction,Data3D‚àíR2N2,MVD,Avg F1
+Computer Vision,Image Classification,Few-Shot Image Classification,Mini-ImageNet - 5-Shot Learning,MetaOptNet-SVM,Accuracy
+Computer Vision,Image Classification,Few-Shot Image Classification,Mini-ImageNet - 1-Shot Learning,MetaOptNet-SVM,Accuracy
+Computer Vision,Image Classification,Few-Shot Image Classification,OMNIGLOT - 1-Shot Learning,Prototypical-Nets,Accuracy
+Computer Vision,Image Classification,Few-Shot Image Classification,OMNIGLOT - 5-Shot Learning,MAML,Accuracy
+Computer Vision,Image Classification,Few-Shot Image Classification,CUB-200 - 0-Shot Learning,Prototypical-Nets,Accuracy
+Computer Vision,Video,Video Super-Resolution,Vid4 - 4x upscaling,VSR-DUF,PSNR
+Computer Vision,Video,Video Super-Resolution,Xiph HD - 4x upscaling,ESPCN,Average PSNR
+Computer Vision,Video,Video Super-Resolution,Ultra Video Group HD - 4x upscaling,ESPCN,Average PSNR
+Computer Vision,Video,Action Recognition In Videos,Charades,LFB NL,MAP
+Computer Vision,Object Detection,Weakly Supervised Object Detection,PASCAL VOC 2007,pipeline method,MAP
+Computer Vision,Object Detection,Weakly Supervised Object Detection,PASCAL VOC 2012,PCL-OB-G-Ens + FRCNN,MAP
+Computer Vision,Object Detection,Weakly Supervised Object Detection,ImageNet,PCL-OB-G-Ens + FRCNN,MAP
+Computer Vision,Object Detection,Weakly Supervised Object Detection,COCO,MSLPD,MAP
+Computer Vision,Semantic Segmentation,Scene Segmentation,SUN-RGBD,DeepLab-LargeFOV,Mean IoU
+Computer Vision,Semantic Segmentation,Scene Segmentation,ScanNet,3DMV,Average Accuracy
+Computer Vision,Pose Estimation,6D Pose Estimation,LineMOD,PoseCNN + DeepIM,Accuracy
+Computer Vision,Pose Estimation,6D Pose Estimation,OccludedLINEMOD,PoseCNN + ICP,Accuracy
+Computer Vision,Pose Estimation,6D Pose Estimation,YCB-Video,DenseFusion,Mean AUC
+Computer Vision,Pose Estimation,6D Pose Estimation,OCCLUSION,Single-shot deep CNN,MAP
+Computer Vision,Pose Estimation,6D Pose Estimation,T-LESS,RetinaNet+Augmented Autoencoders+ICP,Accuracy
+Computer Vision,Image Classification,Semi-Supervised Image Classification,"CIFAR-10, 4000 Labels",SWSA,Accuracy
+Computer Vision,Image Classification,Semi-Supervised Image Classification,"SVHN, 1000 labels",VAT+EntMin,Accuracy
+Computer Vision,Image Classification,Semi-Supervised Image Classification,STL-10,IIC,Accuracy
+Computer Vision,Emotion Recognition,Multimodal Emotion Recognition,IEMOCAP,CHFusion,F1
+Computer Vision,Emotion Recognition,Multimodal Emotion Recognition,Monologue,bc-LSTM,Accuracy
+Computer Vision,Image-to-Image Translation,Synthetic-to-Real Translation,GTAV-to-Cityscapes Labels,Domain adaptation + ResNet-101,mIoU
+Computer Vision,Image Classification,Fine-Grained Image Classification, CUB-200-2011,Inception-V3,Accuracy
+Computer Vision,Image Classification,Fine-Grained Image Classification,Stanford Cars,WS-DAN,Accuracy
+Computer Vision,Image Classification,Fine-Grained Image Classification,FGVC Aircraft,WS-DAN,Accuracy
+Computer Vision,Image Classification,Fine-Grained Image Classification,CompCars,A3M,Accuracy
+Computer Vision,Image Classification,Fine-Grained Image Classification,Stanford Dogs,WS-DAN,Accuracy
+Computer Vision,Image Classification,Fine-Grained Image Classification,Oxford 102 Flowers,PC Bilinear CNN,Accuracy
+Computer Vision,Image Classification,Fine-Grained Image Classification,NABirds,PC-DenseNet-161,Accuracy
+Computer Vision,Hyperspectral,Hyperspectral Image Classification,Indian Pines,BASSNet,Overall Accuracy
+Computer Vision,Hyperspectral,Hyperspectral Image Classification,Pavia University,St-SS-pGRU,Overall Accuracy
+Computer Vision,Autonomous Vehicles,Lane Detection,TuSimple,Spatial CNN,Accuracy
+Computer Vision,Autonomous Vehicles,Lane Detection,Caltech Lanes Washington,VPGNet,F1
+Computer Vision,Autonomous Vehicles,Lane Detection,Caltech Lanes Cordova,VPGNet,F1
+Computer Vision,Image Generation,Text-to-Image Generation,COCO,AttnGAN,Inception score
+Computer Vision,Image Generation,Text-to-Image Generation,CUB,AttnGAN,Inception score
+Computer Vision,Image Generation,Text-to-Image Generation,MS-COCO,AttnGAN+OP,Inception score
+Computer Vision,Autonomous Vehicles,Traffic Sign Recognition,Tsinghua-Tencent 100K,Background Threshold Model,MAP
+Computer Vision,Autonomous Vehicles,Traffic Sign Recognition,Bosch Small Traffic Lights,Hierarchical + Background Threshold Model,MAP
+Computer Vision,Autonomous Vehicles,Traffic Sign Recognition,GTSRB,MCDNN,Accuracy
+Computer Vision,Trajectory Prediction,Trajectory Prediction,GPS,Support Vector Machines,Accuracy
+Computer Vision,Object Detection,Object Proposal Generation,"PASCAL VOC 2012, 60 proposals per image",Recurrent Pixel Embedding,Average Recall
+Computer Vision,Object Recognition,3D Object Recognition,ModelNet40,MVCNN-MultiRes,Accuracy
+Computer Vision,Human Part Segmentation,Human Part Segmentation,CIHP,Parsing R-CNN + ResNext101,Mean IoU
+Computer Vision,Human Part Segmentation,Human Part Segmentation,MHP v2.0,Parsing R-CNN + ResNext101,Mean IoU
+Computer Vision,Image Classification,Sequential Image Classification,Sequential MNIST,BN LSTM,Permuted Accuracy
+Computer Vision,Human Parsing,Multi-Human Parsing,MHP v1.0,NAN,AP 0.5
+Computer Vision,Human Parsing,Multi-Human Parsing,MHP v2.0,NAN,AP 0.5
+Computer Vision,Human Parsing,Multi-Human Parsing,PASCAL-Person-Part,NAN,AP 0.5
+Computer Vision,3D,3D Object Classification,ModelNet40,3D-PointCapsNet,Classification Accuracy
+Computer Vision,Image-to-Image Translation,Multimodal Unsupervised Image-To-Image Translation,Edge-to-Shoes,MUNIT,Diversity
+Computer Vision,Image-to-Image Translation,Multimodal Unsupervised Image-To-Image Translation,Edge-to-Handbags,MUNIT,Diversity
+Computer Vision,Image-to-Image Translation,Multimodal Unsupervised Image-To-Image Translation,Cats-and-Dogs,MUNIT,CIS
+Computer Vision,Facial Recognition and Modelling,Age Estimation,MORPH Album2,CORAL,MAE
+Computer Vision,Facial Recognition and Modelling,Age Estimation,AFAD,CORAL,MAE
+Computer Vision,Facial Recognition and Modelling,Age Estimation,CACD,CORAL,MAE
+Computer Vision,Facial Recognition and Modelling,Age Estimation,UTKFace,CORAL,MAE
+Computer Vision,Object Detection,Medical Object Detection,Barrett‚Äôs Esophagus,Attention-based model,Mean Accuracy
+Computer Vision,Line segment detection,Line segment detection,wireframe dataset,atrous Residual U-Net,F1 score
+Computer Vision,Scene Text Detection,Curved Text Detection,SCUT-CTW1500,PSENet-1s,F-Measure
+Computer Vision,3D Reconstruction,3D Room Layouts From A Single Rgb Panorama,PanoContext,HorizonNet,3DIoU
+Computer Vision,3D Reconstruction,3D Room Layouts From A Single Rgb Panorama,Stanford 2D-3D,HorizonNet,3DIoU
+Computer Vision,3D Reconstruction,3D Room Layouts From A Single Rgb Panorama,Realtor360,DuLa-Net,3DIoU
+Computer Vision,Facial Recognition and Modelling,Facial Inpainting,VggFace2,SymmFCNet (Full),PSNR
+Computer Vision,Facial Recognition and Modelling,Facial Inpainting,WebFace,SymmFCNet (Full),PSNR
+Computer Vision,Object Detection,Video Object Detection,ImageNet VID,FGFA + Seq-NMS,MAP
+Computer Vision,Face Detection,Occluded Face Detection,MAFA,FAN,MAP
+Computer Vision,Sketch,Face Sketch Synthesis,CUHK,Residual net + Pseudo Sketch Feature Loss + LSGAN,FSIM
+Computer Vision,Sketch,Face Sketch Synthesis,CUFS,Residual net + Pseudo Sketch Feature Loss + LSGAN,FSIM
+Computer Vision,Sketch,Face Sketch Synthesis,CUFSF,Residual net + Pseudo Sketch Feature Loss + LSGAN,FSIM
+Computer Vision,Facial Recognition and Modelling,Facial Action Unit Detection,BP4D,Multi-View,Average Accuracy
+Computer Vision,Facial Recognition and Modelling,Facial Beauty Prediction,ECCV HotOrNot,CNN features + Bayesian ridge regression,Pearson Correlation
+Computer Vision,Facial Recognition and Modelling,Age-Invariant Face Recognition,CACDVS,AIM + CAFR,Accuracy
+Computer Vision,Facial Recognition and Modelling,Age-Invariant Face Recognition,MORPH Album2,AIM + CAFR,Rank-1 Recognition Rate
+Computer Vision,Facial Recognition and Modelling,Age-Invariant Face Recognition,CAFR,AIM,Accuracy
+Computer Vision,Facial Recognition and Modelling,Age-Invariant Face Recognition,FG-NET,AIM,Accuracy
+Computer Vision,Autonomous Vehicles,Pedestrian Attribute Recognition,PA-100K,HP-net,Accuracy
+Computer Vision,Autonomous Vehicles,Pedestrian Attribute Recognition,PETA,HP-net,Accuracy
+Computer Vision,Autonomous Vehicles,Pedestrian Attribute Recognition,RAP,HP-net,Accuracy
+Computer Vision,Object Detection,Object Skeleton Detection,SK-LARGE,DeepFlux,F-Measure
+Computer Vision,Face Verification,Disguised Face Verification,Disguised Faces in the Wild,DisguiseNet,GAR @0.1% FAR
+Computer Vision,Object Recognition,Depiction Invariant Object Recognition,Photo-Art-50,SwiDeN,Overall Accuracy
+Computer Vision,Birds Eye View Object Detection,Birds Eye View Object Detection,KITTI Cars Moderate,PointPillars,AP
+Computer Vision,Birds Eye View Object Detection,Birds Eye View Object Detection,KITTI Cyclists Moderate,PointPillars,AP
+Computer Vision,Birds Eye View Object Detection,Birds Eye View Object Detection,KITTI Pedestrians Moderate,PointPillars,AP
+Computer Vision,Safety Perception Recognition,Safety Perception Recognition,Google Street Images,CNN,Accuracy
+Computer Vision,Image Classification,Unsupervised image classification,STL-10,IIC,Accuracy
+Computer Vision,Image Classification,Unsupervised image classification,CIFAR-10,IIC,Accuracy
+Computer Vision,Image Classification,Unsupervised image classification,CIFAR-20,IIC,Accuracy
+Computer Vision,Image Classification,Unsupervised image classification,MNIST,IIC,Accuracy
+Computer Vision,Semantic Segmentation,Unsupervised semantic segmentation,COCO-Stuff-15,IIC,Accuracy
+Computer Vision,Semantic Segmentation,Unsupervised semantic segmentation,COCO-Stuff-3,IIC,Accuracy
+Computer Vision,Semantic Segmentation,Unsupervised semantic segmentation,Potsdam,IIC,Accuracy
+Computer Vision,Semantic Segmentation,Unsupervised semantic segmentation,Potsdam-3,IIC,Accuracy
+Computer Vision,Instance Segmentation,Human Instance Segmentation,OCHuman,Pose2Seg (plus ground-truth keypoints),AP
+Computer Vision,Image Recognition,License Plate Recognition,Chinese License Plates,LPRNet basic,Accuracy
+Computer Vision,Novel View Synthesis,Novel View Synthesis,KITTI Novel View Synthesis,Multi-view to Novel View,SSIM
+Computer Vision,Novel View Synthesis,Novel View Synthesis,ShapeNet Car,Multi-view to Novel View,SSIM
+Computer Vision,Novel View Synthesis,Novel View Synthesis,ShapeNet Chair,Multi-view to Novel View,SSIM
+Computer Vision,Novel View Synthesis,Novel View Synthesis,Synthia Novel View Synthesis,Multi-view to Novel View,SSIM
+Computer Vision,Object Detection,One-Shot Object Detection,COCO,Siamese Mask R-CNN,AP 0.5
+Computer Vision,3D,3D Part Segmentation,ShapeNet-Part,3D-PointCapsNet,Accuracy
+Computer Vision,Instance Segmentation,Real-time Instance Segmentation,MSCOCO,YOLACT,MAP
+Computer Vision,Facial Recognition and Modelling,Smile Recognition,DISFA,Deep CNN,Accuracy
+Computer Vision,Image Classification,Document Image Classification,RVL-CDIP,Transfer Learning from VGG16 trained on Imagenet,Accuracy

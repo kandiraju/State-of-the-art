@@ -1,0 +1,54 @@
+Area,Parent Task,Task,Dataset,Best method name,Primary metric
+Computer Vision,Image Classification,Image Classification,MNIST,RMDL,Percentage error
+Computer Vision,Image Classification,Image Classification,SVHN,WRN + fixup init + mixup + cutout,Percentage error
+Computer Vision,Image Classification,Image Classification,Fashion-MNIST,Random Erasing,Percentage error
+Computer Vision,Image Classification,Image Classification,MultiMNIST,CapsNet,Percentage error
+Computer Vision,Image Generation,Image Generation,LSUN Bedroom 256 x 256,COCO-GAN,FID
+Computer Vision,Image Generation,Image Generation,CelebA-HQ 1024x1024,StyleGAN,FID
+Computer Vision,Image Generation,Image Generation,CAT 256x256,RaSGAN,FID
+Computer Vision,Image Generation,Image Generation,FFHQ,StyleGAN,FID
+Computer Vision,Optical Flow Estimation,Optical Flow Estimation,Sintel-clean,PWC-Net,Average End-Point Error
+Computer Vision,Optical Flow Estimation,Optical Flow Estimation,Sintel-final,PWC-Net,Average End-Point Error
+Computer Vision,Image Generation,Image-to-Image Translation,RaFD,StarGAN,Classification Error
+Computer Vision,Image Reconstruction,Image Reconstruction,Edge-to-Shoes,PI-REC,FID
+Computer Vision,Image Reconstruction,Image Reconstruction,Edge-to-Handbags,PI-REC,FID
+Computer Vision,Pose Estimation,3D Human Pose Estimation,Human3.6M,Fully supervised EpipolarPose,Average 3D Error
+Computer Vision,Pose Estimation,3D Human Pose Estimation,CHALL H80K,ResNet,MPJPE
+Computer Vision,Facial Recognition and Modelling,Face Alignment,AFLW2000-3D,2DASL,Mean NME 
+Computer Vision,Facial Recognition and Modelling,Face Alignment,300W,DAN-Menpo + bounding box diagonal normalization,Mean Error Rate
+Computer Vision,Facial Recognition and Modelling,Face Alignment,AFLW2000,Nonlinear 3D Face Morphable Model,Error rate
+Computer Vision,Facial Recognition and Modelling,Face Alignment,AFLW-LFPA,FPN,Mean NME 
+Computer Vision,Autonomous Vehicles,Pedestrian Detection,Caltech,CSP + CityPersons dataset,Reasonable Miss Rate
+Computer Vision,Autonomous Vehicles,Pedestrian Detection,CityPersons,CSP (with offset) + ResNet-50,Reasonable MR^-2
+Computer Vision,Video,Video Generation,TrailerFaces,PG-SWGAN-3D,FID
+Computer Vision,Hand,Hand Pose Estimation,NYU Hands,V2V-PoseNet,Average 3D Error
+Computer Vision,Hand,Hand Pose Estimation,MSRA Hands,Dense Pixel-wise Estimation,Average 3D Error
+Computer Vision,Hand,Hand Pose Estimation,ICVL Hands,V2V-PoseNet,Average 3D Error
+Computer Vision,Hand,Hand Pose Estimation,HANDS 2017,V2V-PoseNet,Average 3D Error
+Computer Vision,Crowds,Crowd Counting,UCF CC 50,Cascaded-MTL,MAE
+Computer Vision,Crowds,Crowd Counting,ShanghaiTech A,Cascaded-MTL,MAE
+Computer Vision,Crowds,Crowd Counting,ShanghaiTech B,Cascaded-MTL,MAE
+Computer Vision,Facial Recognition and Modelling,3D Face Reconstruction,Florence,PRN,Mean NME 
+Computer Vision,Facial Recognition and Modelling,3D Face Reconstruction,AFLW2000-3D,PRN,Mean NME 
+Computer Vision,Facial Recognition and Modelling,Face Generation,CelebA,COCO-GAN,FID
+Computer Vision,Gaze Estimation,Gaze Estimation,MPII Gaze,RT-GENE 4 model ensemble,Angular Error
+Computer Vision,Gaze Estimation,Gaze Estimation,RT-GENE,RT-GENE 4 model ensemble,Angular Error
+Computer Vision,Gaze Estimation,Gaze Estimation,UT Multi-view,RT-GENE 4 model ensemble,Angular Error
+Computer Vision,Facial Recognition and Modelling,Facial Landmark Detection,300W,SAN GT,NME
+Computer Vision,Facial Recognition and Modelling,Facial Landmark Detection,AFLW-Full,SAN,Mean NME 
+Computer Vision,Facial Recognition and Modelling,Facial Landmark Detection,AFLW-Front,SAN,Mean NME 
+Computer Vision,Object Localization,Weakly-Supervised Object Localization, CUB-200-2011,SPG,Top-1 Error Rate
+Computer Vision,Object Localization,Weakly-Supervised Object Localization,ILSVRC 2015,SPG,Top-1 Error Rate
+Computer Vision,Object Localization,Weakly-Supervised Object Localization,ILSVRC 2016,SPG,Top-5 Error
+Computer Vision,Image Classification,Fine-Grained Image Classification,Caltech-101,AutoAugment,Top-1 Error Rate
+Computer Vision,Image Classification,Fine-Grained Image Classification,Oxford-IIIT Pets,AutoAugment,Top-1 Error Rate
+Computer Vision,Image Generation,Text-to-Image Generation,Oxford 102 Flowers,StackGAN-v2,FID
+Computer Vision,Pose Estimation,Head Pose Estimation,BIWI,Multi-Loss ResNet50,MAE
+Computer Vision,Pose Estimation,Head Pose Estimation,AFLW2000,Multi-Loss ResNet50,MAE
+Computer Vision,Facial Recognition and Modelling,Age Estimation,FGNET,CMAAE-OR,MAE
+Computer Vision,Facial Recognition and Modelling,Age Estimation,MORPH,CMAAE-OR,MAE
+Computer Vision,Facial Recognition and Modelling,Age Estimation,ChaLearn 2015,DLDL+VGG-Face,MAE
+Computer Vision,Dense Pixel Correspondence Estimation,Dense Pixel Correspondence Estimation,HPatches,DGC-Net aff+tps+homo,Viewpoint I AEPE
+Computer Vision,Facial Recognition and Modelling,Face Anti-Spoofing,MSU-MFSD,GFA-CNN,Equal Error Rate
+Computer Vision,Facial Recognition and Modelling,Facial Beauty Prediction,SCUT-FBP,CNN features + Bayesian ridge regression,MAE
+Computer Vision,Instance Segmentation,One-Shot Instance Segmentation,COCO,Siamese Mask R-CNN,AP 0.5
