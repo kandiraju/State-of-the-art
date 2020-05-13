@@ -1,0 +1,23 @@
+Area,Parent Task,Task,Dataset,Best method name,Primary metric,Metric first reported value,2013,2014,2015,2016,2017,2018,2019,Metric first reported value scaled,2013 scaled,2014 scaled,2015 scaled,2016 scaled,2017 scaled,2018 scaled,2019 scaled
+Natural Language Processing,Language Modelling,Language Modelling,Penn Treebank (Word Level),GPT-2,Test perplexity,65.4,,,,64,47.69,46.54,35.76,19.39700376,,,,100,14.14296927,14.00061218,10.75460123
+Natural Language Processing,Language Modelling,Language Modelling,One Billion Word,Transformer-XL Large,PPL,51.3,51.3,51.3,51.3,30,28,23.02,21.8,15.135653,,,100,46.16846105,8.198997766,6.801346801,6.472392638
+Natural Language Processing,Language Modelling,Language Modelling,WikiText-103,GPT-2,Test perplexity,40.8,,,,37.2,37.2,18.7,17.48,11.96230669,,,,57.56808106,10.97627241,5.479032752,5.147239264
+Natural Language Processing,Language Modelling,Language Modelling,WikiText-2,GPT-2,Test perplexity,52,,,,,40.68,39.14,18.34,15.34720942,,,,,12.02680674,11.73553719,5.411042945
+Natural Language Processing,Language Modelling,Language Modelling,Hutter Prize,24-layer Transformer-XL,Bit per Character (BPC),1.27,,,,1.24,1.08,1.06,0.99,0.015413396,,,,0.633312223,0.072450643,0.079583716,0.088957055
+Natural Language Processing,Language Modelling,Language Modelling,enwiki8,GPT-2,Bit per Character (BPC),1.27,,,,1.24,1.24,1.06,0.93,0.015413396,,,,0.633312223,0.120751072,0.079583716,0.070552147
+Natural Language Processing,Language Modelling,Language Modelling,Text8,GPT-2,Bit per Character (BPC),1.36,,,,1.27,1.19,1.13,0.98,0.042613508,,,,0.68081064,0.105657188,0.101010101,0.085889571
+Natural Language Processing,Language Modelling,Language Modelling,Penn Treebank (Character Level),Trellis Network,Bit per Character (BPC),1.219,,,,1.214,1.19,1.158,1.158,0,,,,0.592146928,0.105657188,0.109580655,0.140490798
+Natural Language Processing,Question Answering,Question Answering,AI2 Kaggle Dataset,IR Baseline,P@1,47.2,,,,,47.2,47.2,47.2,13.89653682,,,,,13.99504921,14.20263238,14.26380368
+Natural Language Processing,Question Answering,Question Answering,COMPLEXQUESTIONS,WebQA,F1,53.6,,,,,53.6,53.6,53.6,15.83076695,,,,,15.92706635,16.16161616,16.22699387
+Natural Language Processing,Sentiment Analysis,Sentiment Analysis,Yelp Binary classification,ULMFiT,Error,4.88,,,4.88,2.9,2.64,2.16,2.16,1.10644008,,,6.693467337,3.261557948,0.543379822,0.416284053,0.447852761
+Natural Language Processing,Sentiment Analysis,Sentiment Analysis,Yelp Fine-grained classification,ULMFiT,Error,37.95,,,37.95,32.39,30.58,29.98,29.98,11.10096984,,,73.16582915,49.95250158,8.977842178,8.931741659,8.981595092
+Natural Language Processing,Text Classification,Text Classification,AG News,L MIXED,Error,9.51,,,9.51,6.57,6.57,5.01,4.95,2.50573469,,,16,9.072197593,1.729759102,1.288644016,1.303680982
+Natural Language Processing,Text Classification,Text Classification,DBpedia,L MIXED,Error,1.55,,,1.55,0.84,0.84,0.8,0.7,0.100035965,,,0,0,0,0,0
+Natural Language Processing,Text Classification,Text Classification,TREC-6,USE_T+CNN,Error,4,,,4,3.9,3.9,1.93,1.93,0.840483437,,,4.924623116,4.844838505,0.923745698,0.345883073,0.377300613
+Natural Language Processing,Text Classification,Text Classification,TREC-50,Rules,Error,2.8,,,,2.8,2.8,2.8,2.8,0.477815287,,,,3.103229892,0.591680251,0.61218243,0.644171779
+Natural Language Processing,Text Generation,Text Generation,Yahoo Questions,Aggressive VAE,NLL,332.1,,,,,332.1,327.5,326.7,100,,,,,100,100,100
+Natural Language Processing,Word Sense Disambiguation,Word Sense Disambiguation,Supervised:,MFS baseline,Senseval 2,72,,,,,72,71.6,71.6,21.39167858,,,,,21.48161565,21.67125803,21.74846626
+Natural Language Processing,Machine Translation,Unsupervised Machine Translation,WMT2016 English-Romanian,MLM pretraining for encoder and decoder,BLEU,33.3,,,,,,,33.3,9.695630755,,,,,,,10
+Natural Language Processing,Named Entity Recognition (NER),Nested Named Entity Recognition,ACE 2004,Neural transition-based model,F1,73.3,,,,,,73.3,73.3,21.78456907,,,,,,22.1916131,22.26993865
+Natural Language Processing,Nested Mention Recognition,Nested Mention Recognition,ACE 2004,Neural transition-based model,F1,73.3,,,,,,73.3,73.3,21.78456907,,,,,,22.1916131,22.26993865
+Natural Language Processing,Nested Mention Recognition,Nested Mention Recognition,ACE 2005,Neural transition-based model,F1,73,,,,,,73,73,21.69390204,,,,,,22.09978574,22.17791411
